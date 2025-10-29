@@ -1,0 +1,118 @@
+{
+  "id": "js-basics",
+  "title": "JavaScript Basics",
+  "description": "Test your knowledge of fundamental JavaScript concepts",
+  "duration": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+      "options": [
+        "<script href='app.js'>",
+        "<script name='app.js'>",
+        "<script src='app.js'>",
+        "<script file='app.js'>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "Which company developed JavaScript?",
+      "options": [
+        "Microsoft",
+        "Netscape",
+        "Sun Microsystems",
+        "Oracle"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the output of: typeof null?",
+      "options": [
+        "null",
+        "undefined",
+        "object",
+        "number"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is not a JavaScript data type?",
+      "options": [
+        "String",
+        "Boolean",
+        "Float",
+        "Number"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "How do you declare a JavaScript variable?",
+      "options": [
+        "variable myVar",
+        "var myVar",
+        "v myVar",
+        "declare myVar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "Which operator is used to assign a value to a variable?",
+      "options": [
+        "x",
+        "==",
+        "=",
+        "-"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "What is the correct way to write an array in JavaScript?",
+      "options": [
+        "var colors = 'red', 'green', 'blue'",
+        "var colors = (1:'red', 2:'green', 3:'blue')",
+        "var colors = ['red', 'green', 'blue']",
+        "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "question": "How do you create a function in JavaScript?",
+      "options": [
+        "function = myFunction()",
+        "function:myFunction()",
+        "function myFunction()",
+        "create myFunction()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "question": "How do you call a function named 'myFunction'?",
+      "options": [
+        "call myFunction()",
+        "myFunction()",
+        "call function myFunction()",
+        "execute myFunction()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "options": [
+        "onchange",
+        "onclick",
+        "onmouseclick",
+        "onmouseover"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

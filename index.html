@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Online Exam System</h1>
+        </header>
+        
+        <div id="exam-selection" class="section">
+            <h2>Select an Exam</h2>
+            <div id="exam-list"></div>
+        </div>
+        
+        <div id="exam-intro" class="section hidden">
+            <h2 id="exam-title"></h2>
+            <p id="exam-description"></p>
+            <p><strong>Total Questions:</strong> <span id="total-questions"></span></p>
+            <p><strong>Duration:</strong> <span id="exam-duration"></span> minutes</p>
+            <button id="start-exam-btn" class="btn btn-primary">Start Exam</button>
+            <button id="back-to-selection-btn" class="btn btn-secondary">Back</button>
+        </div>
+        
+        <div id="exam-container" class="section hidden">
+            <div id="exam-header">
+                <h2 id="exam-name"></h2>
+                <div id="timer"></div>
+            </div>
+            
+            <div id="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+            
+            <div id="questions-container"></div>
+            
+            <div class="exam-controls">
+                <button id="prev-btn" class="btn btn-secondary">Previous</button>
+                <button id="next-btn" class="btn btn-primary">Next</button>
+                <button id="submit-btn" class="btn btn-success hidden">Submit Exam</button>
+            </div>
+        </div>
+        
+        <div id="results-container" class="section hidden">
+            <h2>Exam Results</h2>
+            <div id="score-display"></div>
+            <div id="answers-review"></div>
+            <button id="restart-btn" class="btn btn-primary">Take Another Exam</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

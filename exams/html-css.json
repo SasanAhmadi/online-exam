@@ -1,0 +1,96 @@
+{
+  "id": "html-css",
+  "title": "HTML & CSS Fundamentals",
+  "description": "Test your understanding of HTML and CSS basics",
+  "duration": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "options": [
+        "<css>",
+        "<script>",
+        "<style>",
+        "<styles>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "question": "Which HTML attribute specifies an alternate text for an image?",
+      "options": [
+        "title",
+        "alt",
+        "src",
+        "longdesc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is the correct CSS syntax for making all <p> elements bold?",
+      "options": [
+        "p {font-weight:bold;}",
+        "<p style='font-size:bold;'>",
+        "p {text-size:bold;}",
+        "<p style='text-size:bold;'>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "How do you insert a comment in a CSS file?",
+      "options": [
+        "// this is a comment",
+        "<!-- this is a comment -->",
+        "/* this is a comment */",
+        "' this is a comment"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "question": "Which property is used to change the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "bg-color"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "What is the correct HTML for creating a hyperlink?",
+      "options": [
+        "<a url='http://example.com'>Example</a>",
+        "<a href='http://example.com'>Example</a>",
+        "<a>http://example.com</a>",
+        "<link>http://example.com</link>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "Which CSS property controls the text size?",
+      "options": [
+        "font-style",
+        "text-size",
+        "font-size",
+        "text-style"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}
