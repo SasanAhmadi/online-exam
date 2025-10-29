@@ -1,0 +1,63 @@
+{
+  "id": "python-basics",
+  "title": "Python Programming Basics",
+  "description": "Test your Python programming fundamentals",
+  "duration": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is the correct extension of Python files?",
+      "options": [
+        ".python",
+        ".pl",
+        ".py",
+        ".p"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "What is the output of: print(2 ** 3)?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used for function in Python?",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "Which of these is NOT a Python data type?",
+      "options": [
+        "List",
+        "Dictionary",
+        "Tuple",
+        "Array"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 5,
+      "question": "What is the correct way to create a list in Python?",
+      "options": [
+        "list = (1, 2, 3)",
+        "list = {1, 2, 3}",
+        "list = [1, 2, 3]",
+        "list = <1, 2, 3>"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}
