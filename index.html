@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam - Practice Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Online Exam Practice</h1>
+            <div class="exam-info" id="examInfo" style="display: none;">
+                <div class="exam-title" id="examTitle"></div>
+                <div class="progress-info">
+                    <span id="questionProgress">Question 1 of 10</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Welcome Screen -->
+            <div class="welcome-screen" id="welcomeScreen">
+                <h2>Welcome to the Online Exam Practice</h2>
+                <p>Select an exam to begin your practice session.</p>
+                <div class="exam-selector">
+                    <label for="examSelect">Choose an exam:</label>
+                    <select id="examSelect">
+                        <option value="">-- Select an exam --</option>
+                    </select>
+                </div>
+                <button id="startExam" class="btn btn-primary" disabled>Start Exam</button>
+            </div>
+
+            <!-- Question Screen -->
+            <div class="question-screen" id="questionScreen" style="display: none;">
+                <div class="question-container">
+                    <div class="question-header">
+                        <span class="question-number" id="questionNumber">Question 1</span>
+                        <span class="question-type" id="questionType">Multiple Choice</span>
+                    </div>
+                    <div class="question-text" id="questionText"></div>
+                    <div class="answers-container" id="answersContainer"></div>
+                </div>
+
+                <div class="navigation-container">
+                    <button id="prevQuestion" class="btn btn-secondary" style="display: none;">Previous</button>
+                    <button id="nextQuestion" class="btn btn-primary" disabled>Next</button>
+                    <button id="submitExam" class="btn btn-success" style="display: none;">Submit Exam</button>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div class="results-screen" id="resultsScreen" style="display: none;">
+                <h2>Exam Results</h2>
+                <div class="score-summary">
+                    <div class="score-circle">
+                        <span class="score-percentage" id="scorePercentage">0%</span>
+                        <span class="score-text">Score</span>
+                    </div>
+                    <div class="score-details">
+                        <div class="score-item">
+                            <span class="label">Correct Answers:</span>
+                            <span class="value" id="correctAnswers">0</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="label">Total Questions:</span>
+                            <span class="value" id="totalQuestions">0</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="label">Percentage:</span>
+                            <span class="value" id="percentageText">0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question-review" id="questionReview"></div>
+
+                <div class="actions">
+                    <button id="retakeExam" class="btn btn-primary">Retake Exam</button>
+                    <button id="backToHome" class="btn btn-secondary">Back to Home</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

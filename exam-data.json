@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Canadian Conversion PPL - Unit 4 - 14 CFR Part 1: Definitions and Abbreviations",
+    "description": "Aircraft Certification and Categories - Practice Questions",
+    "category": "Aviation",
+    "difficulty": "Intermediate",
+    "timeLimit": 60,
+    "questions": [
+      {
+        "id": 1,
+        "question": "With respect to the certification of airmen, which are categories of aircraft?",
+        "type": "multiple-choice",
+        "answers": [
+          "Gyroplane, helicopter, airship, free balloon.",
+          "Airplane, rotorcraft, glider, lighter-than-air.",
+          "Single-engine land and sea, multiengine land and sea."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Category of aircraft, as used with respect to the certification, ratings, privileges, and limitations of airmen, means a broad classification of aircraft. Examples include airplane, rotorcraft, glider, and lighter-than-air. (14 CFR 1.1)"
+      },
+      {
+        "id": 2,
+        "question": "With respect to the certification of airmen, which is a class of aircraft?",
+        "type": "multiple-choice",
+        "answers": [
+          "Airplane, rotorcraft, glider, lighter-than-air.",
+          "Single-engine land and sea, multiengine land and sea.",
+          "Lighter-than-air, airship, hot air balloon, gas balloon."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Class of aircraft, as used with respect to the certification, ratings, privileges, and limitations of airmen, means a classification of aircraft within a category having similar operating characteristics. Examples include single engine, multiengine, land, water, gyroplane, helicopter, airship, and free balloon. (14 CFR 1.1)"
+      },
+      {
+        "id": 3,
+        "question": "The definition of nighttime is",
+        "type": "multiple-choice",
+        "answers": [
+          "sunset to sunrise.",
+          "1 hour after sunset to 1 hour before sunrise.",
+          "the time between the end of evening civil twilight and the beginning of morning civil twilight."
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Night\" means the time between the end of evening civil twilight and the beginning of morning civil twilight (as published in The Air Almanac) converted to local time. (14 CFR 1.1)"
+      },
+      {
+        "id": 4,
+        "question": "With respect to the certification of aircraft, which is a category of aircraft?",
+        "type": "multiple-choice",
+        "answers": [
+          "Normal, utility, acrobatic.",
+          "Airplane, rotorcraft, glider.",
+          "Landplane, seaplane."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Category of aircraft, as used with respect to the certification of aircraft, means a grouping of aircraft based upon intended use or operating limitations. Examples include transport, normal, utility, acrobatic, limited, restricted, and provisional. (14 CFR 1.1)"
+      },
+      {
+        "id": 5,
+        "question": "With respect to the certification of aircraft, which is a class of aircraft?",
+        "type": "multiple-choice",
+        "answers": [
+          "Airplane, rotorcraft, glider, balloon.",
+          "Normal, utility, acrobatic, limited.",
+          "Transport, restricted, provisional."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Class of aircraft, as used with respect to the certification of aircraft, means a broad grouping of aircraft having similar characteristics of propulsion, flight, or landing. Examples include airplane, rotorcraft, glider, balloon, landplane, and seaplane. (14 CFR 1.1)"
+      },
+      {
+        "id": 6,
+        "question": "An ATC clearance provides",
+        "type": "multiple-choice",
+        "answers": [
+          "priority over all other traffic.",
+          "adequate separation from all traffic.",
+          "authorization to proceed under specified traffic conditions in controlled airspace."
+        ],
+        "correctAnswer": 2,
+        "explanation": "A clearance issued by ATC is predicated on known traffic and known physical airport conditions. An ATC clearance means an authorization by ATC, for the purpose of preventing collision between known airplanes, for an airplane to proceed under specified conditions within controlled airspace. (14 CFR 1.1)"
+      },
+      {
+        "id": 7,
+        "question": "Which V-speed represents maximum flap extended speed?",
+        "type": "multiple-choice",
+        "answers": [
+          "VFE.",
+          "VLOF.",
+          "VFC."
+        ],
+        "correctAnswer": 0,
+        "explanation": "VFE means the maximum flap extended speed. (14 CFR 1.2)"
+      },
+      {
+        "id": 8,
+        "question": "Which V-speed represents maximum landing gear extended speed?",
+        "type": "multiple-choice",
+        "answers": [
+          "VLE.",
+          "VLO.",
+          "VFE."
+        ],
+        "correctAnswer": 0,
+        "explanation": "VLE means the maximum landing gear extended speed. (14 CFR 1.2)"
+      },
+      {
+        "id": 9,
+        "question": "VNO is defined as the",
+        "type": "multiple-choice",
+        "answers": [
+          "normal operating range.",
+          "never-exceed speed.",
+          "maximum structural cruising speed."
+        ],
+        "correctAnswer": 2,
+        "explanation": "VNO is defined as the maximum structural cruising speed. (14 CFR 1.2)"
+      },
+      {
+        "id": 10,
+        "question": "Which V-speed represents maneuvering speed?",
+        "type": "multiple-choice",
+        "answers": [
+          "VA.",
+          "VLO.",
+          "VNE."
+        ],
+        "correctAnswer": 0,
+        "explanation": "VA means design maneuvering speed. (14 CFR 1.2)"
+      },
+      {
+        "id": 11,
+        "question": "Which would provide the greatest gain in altitude in the shortest distance during climb after takeoff?",
+        "type": "multiple-choice",
+        "answers": [
+          "VY.",
+          "VA.",
+          "VX."
+        ],
+        "correctAnswer": 2,
+        "explanation": "VX means the best angle of climb airspeed (i.e., the airspeed which will provide the greatest gain in altitude in the shortest distance). (14 CFR 1.2 and FAA-H-8083-3C Chap 3)"
+      },
+      {
+        "id": 12,
+        "question": "VS0 is defined as the",
+        "type": "multiple-choice",
+        "answers": [
+          "stalling speed or minimum steady flight speed in the landing configuration.",
+          "stalling speed or minimum steady flight speed in a specified configuration.",
+          "stalling speed or minimum takeoff safety speed."
+        ],
+        "correctAnswer": 0,
+        "explanation": "VS0 is defined as the stalling speed or minimum steady flight speed in the landing configuration. (14 CFR 1.2)"
+      },
+      {
+        "id": 13,
+        "question": "After takeoff, which airspeed would the pilot use to gain the most altitude in a given period of time?",
+        "type": "multiple-choice",
+        "answers": [
+          "VY.",
+          "VX.",
+          "VA."
+        ],
+        "correctAnswer": 0,
+        "explanation": "VY means the airspeed for the best rate of climb (i.e., the airspeed that you use to gain the most altitude in a given period of time). (14 CFR 1.2 and FAA-H-8083-3C Chap 3)"
+      }
+    ]
+  }
+]
