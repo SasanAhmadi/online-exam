@@ -1,167 +1,328 @@
-[
-  {
-    "title": "Canadian Conversion PPL - Unit 4 - 14 CFR Part 1: Definitions and Abbreviations",
-    "description": "Aircraft Certification and Categories - Practice Questions",
-    "category": "Aviation",
-    "difficulty": "Intermediate",
-    "timeLimit": 60,
-    "questions": [
-      {
-        "id": 1,
-        "question": "With respect to the certification of airmen, which are categories of aircraft?",
-        "type": "multiple-choice",
-        "answers": [
-          "Gyroplane, helicopter, airship, free balloon.",
-          "Airplane, rotorcraft, glider, lighter-than-air.",
-          "Single-engine land and sea, multiengine land and sea."
-        ],
-        "correctAnswer": 1,
-        "explanation": "Category of aircraft, as used with respect to the certification, ratings, privileges, and limitations of airmen, means a broad classification of aircraft. Examples include airplane, rotorcraft, glider, and lighter-than-air. (14 CFR 1.1)"
-      },
-      {
-        "id": 2,
-        "question": "With respect to the certification of airmen, which is a class of aircraft?",
-        "type": "multiple-choice",
-        "answers": [
-          "Airplane, rotorcraft, glider, lighter-than-air.",
-          "Single-engine land and sea, multiengine land and sea.",
-          "Lighter-than-air, airship, hot air balloon, gas balloon."
-        ],
-        "correctAnswer": 1,
-        "explanation": "Class of aircraft, as used with respect to the certification, ratings, privileges, and limitations of airmen, means a classification of aircraft within a category having similar operating characteristics. Examples include single engine, multiengine, land, water, gyroplane, helicopter, airship, and free balloon. (14 CFR 1.1)"
-      },
-      {
-        "id": 3,
-        "question": "The definition of nighttime is",
-        "type": "multiple-choice",
-        "answers": [
-          "sunset to sunrise.",
-          "1 hour after sunset to 1 hour before sunrise.",
-          "the time between the end of evening civil twilight and the beginning of morning civil twilight."
-        ],
-        "correctAnswer": 2,
-        "explanation": "\"Night\" means the time between the end of evening civil twilight and the beginning of morning civil twilight (as published in The Air Almanac) converted to local time. (14 CFR 1.1)"
-      },
-      {
-        "id": 4,
-        "question": "With respect to the certification of aircraft, which is a category of aircraft?",
-        "type": "multiple-choice",
-        "answers": [
-          "Normal, utility, acrobatic.",
-          "Airplane, rotorcraft, glider.",
-          "Landplane, seaplane."
-        ],
-        "correctAnswer": 0,
-        "explanation": "Category of aircraft, as used with respect to the certification of aircraft, means a grouping of aircraft based upon intended use or operating limitations. Examples include transport, normal, utility, acrobatic, limited, restricted, and provisional. (14 CFR 1.1)"
-      },
-      {
-        "id": 5,
-        "question": "With respect to the certification of aircraft, which is a class of aircraft?",
-        "type": "multiple-choice",
-        "answers": [
-          "Airplane, rotorcraft, glider, balloon.",
-          "Normal, utility, acrobatic, limited.",
-          "Transport, restricted, provisional."
-        ],
-        "correctAnswer": 0,
-        "explanation": "Class of aircraft, as used with respect to the certification of aircraft, means a broad grouping of aircraft having similar characteristics of propulsion, flight, or landing. Examples include airplane, rotorcraft, glider, balloon, landplane, and seaplane. (14 CFR 1.1)"
-      },
-      {
-        "id": 6,
-        "question": "An ATC clearance provides",
-        "type": "multiple-choice",
-        "answers": [
-          "priority over all other traffic.",
-          "adequate separation from all traffic.",
-          "authorization to proceed under specified traffic conditions in controlled airspace."
-        ],
-        "correctAnswer": 2,
-        "explanation": "A clearance issued by ATC is predicated on known traffic and known physical airport conditions. An ATC clearance means an authorization by ATC, for the purpose of preventing collision between known airplanes, for an airplane to proceed under specified conditions within controlled airspace. (14 CFR 1.1)"
-      },
-      {
-        "id": 7,
-        "question": "Which V-speed represents maximum flap extended speed?",
-        "type": "multiple-choice",
-        "answers": [
-          "VFE.",
-          "VLOF.",
-          "VFC."
-        ],
-        "correctAnswer": 0,
-        "explanation": "VFE means the maximum flap extended speed. (14 CFR 1.2)"
-      },
-      {
-        "id": 8,
-        "question": "Which V-speed represents maximum landing gear extended speed?",
-        "type": "multiple-choice",
-        "answers": [
-          "VLE.",
-          "VLO.",
-          "VFE."
-        ],
-        "correctAnswer": 0,
-        "explanation": "VLE means the maximum landing gear extended speed. (14 CFR 1.2)"
-      },
-      {
-        "id": 9,
-        "question": "VNO is defined as the",
-        "type": "multiple-choice",
-        "answers": [
-          "normal operating range.",
-          "never-exceed speed.",
-          "maximum structural cruising speed."
-        ],
-        "correctAnswer": 2,
-        "explanation": "VNO is defined as the maximum structural cruising speed. (14 CFR 1.2)"
-      },
-      {
-        "id": 10,
-        "question": "Which V-speed represents maneuvering speed?",
-        "type": "multiple-choice",
-        "answers": [
-          "VA.",
-          "VLO.",
-          "VNE."
-        ],
-        "correctAnswer": 0,
-        "explanation": "VA means design maneuvering speed. (14 CFR 1.2)"
-      },
-      {
-        "id": 11,
-        "question": "Which would provide the greatest gain in altitude in the shortest distance during climb after takeoff?",
-        "type": "multiple-choice",
-        "answers": [
-          "VY.",
-          "VA.",
-          "VX."
-        ],
-        "correctAnswer": 2,
-        "explanation": "VX means the best angle of climb airspeed (i.e., the airspeed which will provide the greatest gain in altitude in the shortest distance). (14 CFR 1.2 and FAA-H-8083-3C Chap 3)"
-      },
-      {
-        "id": 12,
-        "question": "VS0 is defined as the",
-        "type": "multiple-choice",
-        "answers": [
-          "stalling speed or minimum steady flight speed in the landing configuration.",
-          "stalling speed or minimum steady flight speed in a specified configuration.",
-          "stalling speed or minimum takeoff safety speed."
-        ],
-        "correctAnswer": 0,
-        "explanation": "VS0 is defined as the stalling speed or minimum steady flight speed in the landing configuration. (14 CFR 1.2)"
-      },
-      {
-        "id": 13,
-        "question": "After takeoff, which airspeed would the pilot use to gain the most altitude in a given period of time?",
-        "type": "multiple-choice",
-        "answers": [
-          "VY.",
-          "VX.",
-          "VA."
-        ],
-        "correctAnswer": 0,
-        "explanation": "VY means the airspeed for the best rate of climb (i.e., the airspeed that you use to gain the most altitude in a given period of time). (14 CFR 1.2 and FAA-H-8083-3C Chap 3)"
-      }
-    ]
-  }
-]
+{
+  "examTitle": "Canadian Conversion PPL - Unit 4",
+  "examDescription": "14 CFR Regulations - Practice Questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "With respect to the certification of airmen, which are categories of aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Gyroplane, helicopter, airship, free balloon.",
+        "Airplane, rotorcraft, glider, lighter-than-air.",
+        "Single-engine land and sea, multiengine land and sea."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Category of aircraft, as used with respect to the certification, ratings, privileges, and limitations of airmen, means a broad classification of aircraft. Examples include airplane, rotorcraft, glider, and lighter-than-air. (14 CFR 1.1)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 2,
+      "question": "With respect to the certification of airmen, which is a class of aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Airplane, rotorcraft, glider, lighter-than-air.",
+        "Single-engine land and sea, multiengine land and sea.",
+        "Lighter-than-air, airship, hot air balloon, gas balloon."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Class of aircraft, as used with respect to the certification, ratings, privileges, and limitations of airmen, means a classification of aircraft within a category having similar operating characteristics. Examples include single engine, multiengine, land, water, gyroplane, helicopter, airship, and free balloon. (14 CFR 1.1)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 3,
+      "question": "The definition of nighttime is",
+      "type": "multiple-choice",
+      "answers": [
+        "sunset to sunrise.",
+        "1 hour after sunset to 1 hour before sunrise.",
+        "the time between the end of evening civil twilight and the beginning of morning civil twilight."
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Night\" means the time between the end of evening civil twilight and the beginning of morning civil twilight (as published in The Air Almanac) converted to local time. (14 CFR 1.1)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 4,
+      "question": "With respect to the certification of aircraft, which is a category of aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Normal, utility, acrobatic.",
+        "Airplane, rotorcraft, glider.",
+        "Landplane, seaplane."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Category of aircraft, as used with respect to the certification of aircraft, means a grouping of aircraft based upon intended use or operating limitations. Examples include transport, normal, utility, acrobatic, limited, restricted, and provisional. (14 CFR 1.1)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 5,
+      "question": "With respect to the certification of aircraft, which is a class of aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Airplane, rotorcraft, glider, balloon.",
+        "Normal, utility, acrobatic, limited.",
+        "Transport, restricted, provisional."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class of aircraft, as used with respect to the certification of aircraft, means a broad grouping of aircraft having similar characteristics of propulsion, flight, or landing. Examples include airplane, rotorcraft, glider, balloon, landplane, and seaplane. (14 CFR 1.1)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 6,
+      "question": "An ATC clearance provides",
+      "type": "multiple-choice",
+      "answers": [
+        "priority over all other traffic.",
+        "adequate separation from all traffic.",
+        "authorization to proceed under specified traffic conditions in controlled airspace."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A clearance issued by ATC is predicated on known traffic and known physical airport conditions. An ATC clearance means an authorization by ATC, for the purpose of preventing collision between known airplanes, for an airplane to proceed under specified conditions within controlled airspace. (14 CFR 1.1)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 7,
+      "question": "Which V-speed represents maximum flap extended speed?",
+      "type": "multiple-choice",
+      "answers": [
+        "VFE.",
+        "VLOF.",
+        "VFC."
+      ],
+      "correctAnswer": 0,
+      "explanation": "VFE means the maximum flap extended speed. (14 CFR 1.2)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 8,
+      "question": "Which V-speed represents maximum landing gear extended speed?",
+      "type": "multiple-choice",
+      "answers": [
+        "VLE.",
+        "VLO.",
+        "VFE."
+      ],
+      "correctAnswer": 0,
+      "explanation": "VLE means the maximum landing gear extended speed. (14 CFR 1.2)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 9,
+      "question": "VNO is defined as the",
+      "type": "multiple-choice",
+      "answers": [
+        "normal operating range.",
+        "never-exceed speed.",
+        "maximum structural cruising speed."
+      ],
+      "correctAnswer": 2,
+      "explanation": "VNO is defined as the maximum structural cruising speed. (14 CFR 1.2)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 10,
+      "question": "Which V-speed represents maneuvering speed?",
+      "type": "multiple-choice",
+      "answers": [
+        "VA.",
+        "VLO.",
+        "VNE."
+      ],
+      "correctAnswer": 0,
+      "explanation": "VA means design maneuvering speed. (14 CFR 1.2)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 11,
+      "question": "Which would provide the greatest gain in altitude in the shortest distance during climb after takeoff?",
+      "type": "multiple-choice",
+      "answers": [
+        "VY.",
+        "VA.",
+        "VX."
+      ],
+      "correctAnswer": 2,
+      "explanation": "VX means the best angle of climb airspeed (i.e., the airspeed which will provide the greatest gain in altitude in the shortest distance). (14 CFR 1.2 and FAA-H-8083-3C Chap 3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 12,
+      "question": "VS0 is defined as the",
+      "type": "multiple-choice",
+      "answers": [
+        "stalling speed or minimum steady flight speed in the landing configuration.",
+        "stalling speed or minimum steady flight speed in a specified configuration.",
+        "stalling speed or minimum takeoff safety speed."
+      ],
+      "correctAnswer": 0,
+      "explanation": "VS0 is defined as the stalling speed or minimum steady flight speed in the landing configuration. (14 CFR 1.2)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 13,
+      "question": "After takeoff, which airspeed would the pilot use to gain the most altitude in a given period of time?",
+      "type": "multiple-choice",
+      "answers": [
+        "VY.",
+        "VX.",
+        "VA."
+      ],
+      "correctAnswer": 0,
+      "explanation": "VY means the airspeed for the best rate of climb (i.e., the airspeed that you use to gain the most altitude in a given period of time). (14 CFR 1.2 and FAA-H-8083-3C Chap 3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
+    },
+    {
+      "id": 14,
+      "question": "How long does the Airworthiness Certificate of an aircraft remain valid?",
+      "type": "multiple-choice",
+      "answers": [
+        "As long as the aircraft has a current Registration Certificate.",
+        "Indefinitely, unless the aircraft suffers major damage.",
+        "As long as the aircraft is maintained and operated as required by Federal Aviation Regulations."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The airworthiness certificate of an airplane remains valid as long as the airplane is in an airworthy condition, i.e., operated and maintained as required by Federal Aviation Regulations. (14 CFR 21.181)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 21: Certification Procedures for Products and Articles"
+    },
+    {
+      "id": 15,
+      "question": "What should an owner or operator know about Airworthiness Directives (ADs)?",
+      "type": "multiple-choice",
+      "answers": [
+        "For informational purposes only.",
+        "They are mandatory.",
+        "They are voluntary."
+      ],
+      "correctAnswer": 1,
+      "explanation": "ADs are issued under 14 CFR Part 39 by the FAA to require correction of unsafe conditions found in an airplane, an airplane engine, a propeller, or an appliance when such conditions exist and are likely to exist or develop in other products of the same design. Since ADs are issued under 14 CFR Part 39, they are regulatory and must be complied with, unless a specific exemption is granted. (14 CFR 39.3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 39: Airworthiness Directives"
+    },
+    {
+      "id": 16,
+      "question": "May a pilot operate an aircraft that is not in compliance with an Airworthiness Directive (AD)?",
+      "type": "multiple-choice",
+      "answers": [
+        "Yes, under VFR conditions only.",
+        "Yes, ADs are only voluntary.",
+        "Yes, if allowed by the AD."
+      ],
+      "correctAnswer": 2,
+      "explanation": "An AD is used to notify aircraft owners and other interested persons of unsafe conditions and prescribe the conditions under which the product (e.g., an aircraft) may continue to be operated. An AD may be one of an emergency nature requiring immediate compliance upon receipt or one of a less urgent nature requiring compliance within a relatively longer period of time. You may operate an airplane that is not in compliance with an AD, if such operation is allowed by the AD. (14 CFR Part 39)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 39: Airworthiness Directives"
+    },
+    {
+      "id": 17,
+      "question": "What regulation allows a private pilot to perform preventive maintenance?",
+      "type": "multiple-choice",
+      "answers": [
+        "14 CFR 91.403.",
+        "14 CFR 43.3.",
+        "14 CFR 61.113."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Preventive maintenance means simple or minor preservation operations and the replacement of small standard parts not involving complex assembly operations. Appendix A to Part 43 provides a list of work that is considered preventive maintenance. Part 43 allows a person who holds a pilot certificate to perform preventive maintenance on any aircraft owned or operated by that pilot that is not used in air carrier service. (14 CFR 43.3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 43: Maintenance, Preventive Maintenance, Rebuilding, and Alteration"
+    },
+    {
+      "id": 18,
+      "question": "Who may perform preventive maintenance on an aircraft and approve it for return to service?",
+      "type": "multiple-choice",
+      "answers": [
+        "Student or Recreational pilot.",
+        "Private or Commercial pilot.",
+        "None of the answers are correct."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A person who holds a pilot certificate issued under Part 61 may perform preventive maintenance on any airplane owned or operated by that pilot that is not used in air carrier service. To approve the airplane for return to service after preventive maintenance is performed by a pilot, the pilot must hold at least a private pilot certificate. (14 CFR 43.7)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 43: Maintenance, Preventive Maintenance, Rebuilding, and Alteration"
+    },
+    {
+      "id": 19,
+      "question": "When preventive maintenance is performed on an aircraft, what paperwork is required?",
+      "type": "multiple-choice",
+      "answers": [
+        "A full, detailed description of the work done must be entered in the airframe logbook.",
+        "The date the work was completed, and the name of the person who did the work must be entered in the airframe and engine logbook.",
+        "The signature, certificate number, and kind of certificate held by the person approving the work, and a description of the work must be entered in the aircraft maintenance records."
+      ],
+      "correctAnswer": 2,
+      "explanation": "After preventive maintenance has been performed, the signature, certificate number, and kind of certificate held by the person approving the work and a description of the work must be entered in the aircraft maintenance records. (14 CFR 43.9)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 43: Maintenance, Preventive Maintenance, Rebuilding, and Alteration"
+    },
+    {
+      "id": 20,
+      "question": "What documentation is required when a pilot has performed preventive maintenance on an aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Pilot performed maintenance does not need to be documented.",
+        "Only major repairs and alterations need to be documented.",
+        "The pilot is to make an entry in the aircraft's maintenance records."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A pilot who performs preventive maintenance must make an entry in the maintenance record containing the pilot's signature, certificate number, kind of certificate held, date of completion, and a description of the work performed. (14 CFR 43.9)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 43: Maintenance, Preventive Maintenance, Rebuilding, and Alteration"
+    },
+    {
+      "id": 21,
+      "question": "Which operation would be described as preventive maintenance?",
+      "type": "multiple-choice",
+      "answers": [
+        "Servicing landing gear wheel bearings.",
+        "Alteration of main seat support brackets.",
+        "Engine adjustments to allow automotive gas to be used."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Appendix A to Part 43 provides a list of work that is considered preventive maintenance. Preventive maintenance means simple or minor preservation operations and the replacement of small standard parts not involving complex assembly operations. Servicing landing gear wheel bearings, such as cleaning and greasing, is considered preventive maintenance. (14 CFR Part 43 App A)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 43: Maintenance, Preventive Maintenance, Rebuilding, and Alteration"
+    },
+    {
+      "id": 22,
+      "question": "Which operation would be described as preventive maintenance?",
+      "type": "multiple-choice",
+      "answers": [
+        "Repair of landing gear brace struts.",
+        "Replenishing hydraulic fluid.",
+        "Repair of portions of skin sheets by making additional seams."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Appendix A to Part 43 provides a list of work that is considered preventive maintenance. Preventive maintenance means simple or minor preservation operations and the replacement of small standard parts not involving complex assembly operations. An example of preventive maintenance is replenishing hydraulic fluid. (14 CFR Part 43 App A)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 43: Maintenance, Preventive Maintenance, Rebuilding, and Alteration"
+    },
+    {
+      "id": 23,
+      "question": "Is it legal to fly on the dealer's registration after a buyer purchased an airplane from that dealer?",
+      "type": "multiple-choice",
+      "answers": [
+        "Yes, the airplane can be flown by the buyer for 30 days.",
+        "No, the airplane cannot be flown by the buyer and has to be registered.",
+        "Yes, the airplane can be flown by the buyer for 120 days."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Dealer's Aircraft Registration Certificate is another form of registration. It is valid only for flights within the United States by the manufacturer or a dealer for flight testing or demonstration for sale and must be removed by the dealer when the aircraft is sold. The back side of the registration is filled out with the appropriate information from the sale as well as the new owner's name. The certificate must then be mailed back to the FAA registry in Oklahoma City. Doing so protects the buyer and seller. This requirement is law under 14 CFR 47.41(b), which became effective March 31, 2008. (14 CFR Part 47)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 47: Aircraft Registration"
+    }
+  ]
+}

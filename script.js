@@ -1,6 +1,8 @@
 class ExamApp {
     constructor() {
-        this.exams = [];
+        this.examData = null;
+        this.categories = [];
+        this.subcategories = [];
         this.currentExam = null;
         this.currentQuestionIndex = 0;
         this.userAnswers = [];
@@ -20,7 +22,17 @@ class ExamApp {
         this.examInfo = document.getElementById('examInfo');
 
         // Welcome screen elements
-        this.examSelect = document.getElementById('examSelect');
+        this.categorySelect = document.getElementById('examSelect'); // Reusing existing select element
+
+        // Create subcategory container for checkboxes
+        this.subcategoryContainer = document.createElement('div');
+        this.subcategoryContainer.id = 'subcategoryContainer';
+        this.subcategoryContainer.className = 'subcategory-container';
+        this.subcategoryContainer.style.display = 'none';
+
+        // Insert subcategory container after category select
+        this.categorySelect.parentNode.insertBefore(this.subcategoryContainer, this.categorySelect.nextSibling);
+
         this.startExamBtn = document.getElementById('startExam');
 
         // Question screen elements
@@ -33,6 +45,7 @@ class ExamApp {
         this.answersContainer = document.getElementById('answersContainer');
         this.prevQuestionBtn = document.getElementById('prevQuestion');
         this.nextQuestionBtn = document.getElementById('nextQuestion');
+        this.finishExamBtn = document.getElementById('finishExam');
         this.submitExamBtn = document.getElementById('submitExam');
 
         // Results screen elements
@@ -46,10 +59,13 @@ class ExamApp {
     }
 
     attachEventListeners() {
-        this.examSelect.addEventListener('change', () => this.onExamSelected());
+        this.categorySelect.addEventListener('change', () => this.onCategorySelected());
         this.startExamBtn.addEventListener('click', () => this.startExam());
         this.prevQuestionBtn.addEventListener('click', () => this.previousQuestion());
         this.nextQuestionBtn.addEventListener('click', () => this.nextQuestion());
+        this.finishExamBtn.addEventListener('click', () => {
+            this.finishExam();
+        });
         this.submitExamBtn.addEventListener('click', () => this.submitExam());
         this.retakeExamBtn.addEventListener('click', () => this.retakeExam());
         this.backToHomeBtn.addEventListener('click', () => this.backToHome());
@@ -65,9 +81,19 @@ class ExamApp {
                     const response = await fetch(file);
                     if (response.ok) {
                         const data = await response.json();
-                        this.exams = Array.isArray(data) ? data : [data];
-                        this.populateExamSelector();
-                        return;
+
+                        // Check if it's the new flat structure with questions array
+                        if (data.questions && Array.isArray(data.questions)) {
+                            this.examData = data;
+                            this.processQuestionData();
+                            this.populateCategorySelector();
+                            return;
+                        } else {
+                            // Handle old format as fallback
+                            this.exams = Array.isArray(data) ? data : [data];
+                            this.populateExamSelector();
+                            return;
+                        }
                     }
                 } catch (error) {
                     console.log(`Could not load ${file}:`, error.message);
@@ -81,6 +107,27 @@ class ExamApp {
             console.error('Error loading exams:', error);
             this.loadSampleData();
         }
+    }
+
+    processQuestionData() {
+        // Extract unique categories and subcategories
+        const categorySet = new Set();
+        const subcategoryMap = new Map();
+
+        this.examData.questions.forEach(question => {
+            const category = question.category;
+            const subcategory = question.subcategory;
+
+            categorySet.add(category);
+
+            if (!subcategoryMap.has(category)) {
+                subcategoryMap.set(category, new Set());
+            }
+            subcategoryMap.get(category).add(subcategory);
+        });
+
+        this.categories = Array.from(categorySet);
+        this.subcategoryMap = subcategoryMap;
     }
 
     loadSampleData() {
@@ -152,38 +199,173 @@ class ExamApp {
         this.populateExamSelector();
     }
 
-    populateExamSelector() {
-        this.examSelect.innerHTML = '<option value="">-- Select an exam --</option>';
+    populateCategorySelector() {
+        this.categorySelect.innerHTML = '<option value="">-- Select a category --</option>';
 
-        this.exams.forEach((exam, index) => {
+        this.categories.forEach(category => {
             const option = document.createElement('option');
-            option.value = index;
-            option.textContent = `${exam.title} (${exam.questions.length} questions)`;
-            this.examSelect.appendChild(option);
+            option.value = category;
+            option.textContent = category;
+            this.categorySelect.appendChild(option);
         });
     }
 
+    populateSubcategorySelector(selectedCategory) {
+        this.subcategoryContainer.innerHTML = '';
+
+        if (selectedCategory && this.subcategoryMap.has(selectedCategory)) {
+            // Create header
+            const header = document.createElement('div');
+            header.className = 'subcategory-header';
+            header.innerHTML = '<h4>Select subcategories (leave blank for all):</h4>';
+            this.subcategoryContainer.appendChild(header);
+
+            // Create checkbox container
+            const checkboxContainer = document.createElement('div');
+            checkboxContainer.className = 'checkbox-container';
+
+            const subcategories = Array.from(this.subcategoryMap.get(selectedCategory));
+            subcategories.forEach((subcategory, index) => {
+                const checkboxDiv = document.createElement('div');
+                checkboxDiv.className = 'checkbox-item';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `subcategory-${index}`;
+                checkbox.value = subcategory;
+                checkbox.addEventListener('change', () => this.onSubcategorySelectionChanged());
+
+                const label = document.createElement('label');
+                label.htmlFor = `subcategory-${index}`;
+                label.textContent = subcategory;
+
+                // Count questions for this subcategory
+                const questionCount = this.examData.questions.filter(q =>
+                    q.category === selectedCategory && q.subcategory === subcategory
+                ).length;
+
+                const countSpan = document.createElement('span');
+                countSpan.className = 'question-count';
+                countSpan.textContent = ` (${questionCount} questions)`;
+                label.appendChild(countSpan);
+
+                checkboxDiv.appendChild(checkbox);
+                checkboxDiv.appendChild(label);
+                checkboxContainer.appendChild(checkboxDiv);
+            });
+
+            this.subcategoryContainer.appendChild(checkboxContainer);
+            this.subcategoryContainer.style.display = 'block';
+        } else {
+            this.subcategoryContainer.style.display = 'none';
+        }
+    }
+
+    onSubcategorySelectionChanged() {
+        // Enable start button whenever a category is selected (subcategories are optional)
+        this.startExamBtn.disabled = this.categorySelect.value === '';
+    }
+
+    populateExamSelector() {
+        // This function is for backward compatibility with old exam format
+        this.categorySelect.innerHTML = '<option value="">-- Select an exam --</option>';
+
+        if (this.exams && this.exams.length > 0) {
+            this.exams.forEach((exam, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = `${exam.title} (${exam.questions.length} questions)`;
+                this.categorySelect.appendChild(option);
+            });
+        }
+    }
+
     onExamSelected() {
-        this.startExamBtn.disabled = this.examSelect.value === '';
+        // This function is for backward compatibility with old exam format
+        this.startExamBtn.disabled = this.categorySelect.value === '';
+    }
+
+    onCategorySelected() {
+        const selectedCategory = this.categorySelect.value;
+        this.populateSubcategorySelector(selectedCategory);
+        this.startExamBtn.disabled = selectedCategory === '';
+    }
+
+    getSelectedSubcategories() {
+        const checkboxes = this.subcategoryContainer.querySelectorAll('input[type="checkbox"]:checked');
+        return Array.from(checkboxes).map(checkbox => checkbox.value);
     }
 
     startExam() {
-        const examIndex = parseInt(this.examSelect.value);
-        if (examIndex >= 0 && examIndex < this.exams.length) {
-            this.currentExam = this.exams[examIndex];
-            this.currentQuestionIndex = 0;
-            this.userAnswers = new Array(this.currentExam.questions.length).fill(null);
-            this.startTime = new Date();
+        if (this.examData && this.examData.questions) {
+            // New category/subcategory based selection
+            const selectedCategory = this.categorySelect.value;
 
-            // Create shuffled versions of questions with answer mapping
-            this.shuffledQuestions = this.currentExam.questions.map(question => {
-                return this.shuffleAnswers(question);
-            });
+            if (!selectedCategory) {
+                alert('Please select a category.');
+                return;
+            }
 
-            this.showScreen('question');
-            this.updateExamInfo();
-            this.displayQuestion();
+            const selectedSubcategories = this.getSelectedSubcategories();
+            let filteredQuestions;
+            let examTitle;
+
+            if (selectedSubcategories.length === 0) {
+                // No subcategories selected - use all questions from the category
+                filteredQuestions = this.examData.questions.filter(question =>
+                    question.category === selectedCategory
+                );
+                examTitle = `${selectedCategory} - All Topics`;
+            } else {
+                // Filter by selected subcategories
+                filteredQuestions = this.examData.questions.filter(question =>
+                    question.category === selectedCategory &&
+                    selectedSubcategories.includes(question.subcategory)
+                );
+
+                if (selectedSubcategories.length === 1) {
+                    examTitle = `${selectedCategory} - ${selectedSubcategories[0]}`;
+                } else {
+                    examTitle = `${selectedCategory} - ${selectedSubcategories.length} Topics`;
+                }
+            }
+
+            if (filteredQuestions.length === 0) {
+                alert('No questions found for the selected criteria.');
+                return;
+            }
+
+            // Create a virtual exam object
+            this.currentExam = {
+                title: examTitle,
+                description: selectedSubcategories.length === 0
+                    ? `All questions from ${selectedCategory}`
+                    : `Questions from selected topics in ${selectedCategory}`,
+                questions: filteredQuestions
+            };
+        } else {
+            // Old exam-based selection (fallback)
+            const examIndex = parseInt(this.categorySelect.value);
+            if (examIndex >= 0 && examIndex < this.exams.length) {
+                this.currentExam = this.exams[examIndex];
+            } else {
+                alert('Please select a valid exam.');
+                return;
+            }
         }
+
+        this.currentQuestionIndex = 0;
+        this.userAnswers = new Array(this.currentExam.questions.length).fill(null);
+        this.startTime = new Date();
+
+        // Create shuffled versions of questions with answer mapping
+        this.shuffledQuestions = this.currentExam.questions.map(question => {
+            return this.shuffleAnswers(question);
+        });
+
+        this.showScreen('question');
+        this.updateExamInfo();
+        this.displayQuestion();
     }
 
     shuffleAnswers(originalQuestion) {
@@ -299,10 +481,14 @@ class ExamApp {
         const hasAnswer = this.userAnswers[this.currentQuestionIndex] !== null;
         const isFirstQuestion = this.currentQuestionIndex === 0;
         const isLastQuestion = this.currentQuestionIndex === this.currentExam.questions.length - 1;
+        const hasAnsweredAtLeastOne = this.userAnswers.some(answer => answer !== null);
 
         this.prevQuestionBtn.style.display = isFirstQuestion ? 'none' : 'inline-block';
         this.nextQuestionBtn.disabled = !hasAnswer;
 
+        // Show finish exam button if user has answered at least one question and it's not the last question
+        this.finishExamBtn.style.display = (hasAnsweredAtLeastOne && !isLastQuestion) ? 'inline-block' : 'none';
+        
         if (isLastQuestion) {
             this.nextQuestionBtn.style.display = 'none';
             this.submitExamBtn.style.display = 'inline-block';
@@ -330,6 +516,19 @@ class ExamApp {
             this.currentQuestionIndex++;
             this.displayQuestion();
             this.updateProgress();
+        }
+    }
+
+    finishExam() {
+        const answeredCount = this.userAnswers.filter(answer => answer !== null).length;
+        const totalCount = this.currentExam.questions.length;
+
+        const confirmMessage = `You have answered ${answeredCount} out of ${totalCount} questions.\n\nAre you sure you want to finish the exam now? Unanswered questions will be marked as incorrect.`;
+
+        if (confirm(confirmMessage)) {
+            this.endTime = new Date();
+            this.calculateResults();
+            this.showResults();
         }
     }
 
@@ -451,7 +650,13 @@ class ExamApp {
         this.currentExam = null;
         this.currentQuestionIndex = 0;
         this.userAnswers = [];
-        this.examSelect.value = '';
+        this.categorySelect.value = '';
+
+        // Reset subcategory checkboxes
+        const checkboxes = this.subcategoryContainer.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(checkbox => checkbox.checked = false);
+        this.subcategoryContainer.style.display = 'none';
+
         this.startExamBtn.disabled = true;
 
         this.showScreen('welcome');

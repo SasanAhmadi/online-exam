@@ -84,50 +84,80 @@
             <h2>Key Features</h2>
             <div class="feature-list">
                 <div class="feature-item">
-                    <strong>📚 Multiple Exams</strong><br>
-                    Support for loading different exams from JSON files
+                    <strong>📚 Flexible Practice Options</strong><br>
+                    Practice all questions or select specific subcategories
+                </div>
+                <div class="feature-item">
+                    <strong>☑️ Multi-Selection</strong><br>
+                    Choose multiple subcategories for combined practice sessions
                 </div>
                 <div class="feature-item">
                     <strong>🎯 Interactive Interface</strong><br>
                     Clean, user-friendly quiz interface
                 </div>
                 <div class="feature-item">
-                    <strong>📊 Progress Tracking</strong><br>
+                    <strong>� Answer Shuffling</strong><br>
+                    Answer options are randomized for each question
+                </div>
+                <div class="feature-item">
+                    <strong>�📊 Progress Tracking</strong><br>
                     Visual progress bar and question navigation
                 </div>
                 <div class="feature-item">
                     <strong>🏆 Instant Results</strong><br>
-                    Comprehensive results with score breakdown
+                    Comprehensive results with score breakdown and explanations
                 </div>
                 <div class="feature-item">
                     <strong>📱 Responsive Design</strong><br>
                     Works on desktop, tablet, and mobile
                 </div>
                 <div class="feature-item">
+                    <strong>⏭️ Early Finish Option</strong><br>
+                    Finish exam early without answering all questions
+                </div>
+                <div class="feature-item">
                     <strong>🔄 Retake Option</strong><br>
                     Users can retake exams multiple times
+                </div>
+                <div class="feature-item">
+                    <strong>✈️ Aviation Focus</strong><br>
+                    Specialized for Canadian PPL conversion training
                 </div>
             </div>
         </div>
 
         <div class="demo-section">
-            <h2>Sample Exams Included</h2>
-            <ul>
-                <li><strong>JavaScript Fundamentals</strong> - 5 questions covering basic JavaScript concepts</li>
-                <li><strong>HTML Fundamentals</strong> - 4 questions about HTML structure and elements</li>
-                <li><strong>CSS Basics</strong> - 3 questions on CSS styling and selectors</li>
-            </ul>
+            <h2>📚 Available Question Bank</h2>
+            <p>Currently loaded with Canadian Conversion PPL Unit 4 practice questions covering Federal Aviation Regulations:</p>
+
+            <div class="feature-list">
+                <div class="feature-item">
+                    <strong>Category:</strong> Federal Aviation Regulations<br>
+                    <strong>Total Questions:</strong> 23<br>
+                    <strong>Subcategories:</strong>
+                    <ul style="margin-top: 10px;">
+                        <li>14 CFR Part 1: Definitions and Abbreviations (13 questions)</li>
+                        <li>14 CFR Part 21: Certification Procedures (1 question)</li>
+                        <li>14 CFR Part 39: Airworthiness Directives (2 questions)</li>
+                        <li>14 CFR Part 43: Maintenance & Preventive Maintenance (6 questions)</li>
+                        <li>14 CFR Part 47: Aircraft Registration (1 question)</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div class="instructions">
             <h3>🚀 Getting Started</h3>
             <ol>
                 <li>Click the "Launch Application" button below</li>
-                <li>Select an exam from the dropdown menu</li>
-                <li>Click "Start Exam" to begin</li>
+                <li>Select a category from the dropdown menu</li>
+                <li><strong>Option A:</strong> Click "Start Exam" to practice ALL questions from the category</li>
+                <li><strong>Option B:</strong> Select specific subcategories (one or multiple) for targeted practice</li>
                 <li>Answer questions and navigate through the exam</li>
-                <li>Submit and view your results</li>
+                <li><strong>Optional:</strong> Click "Finish Exam" to end early, or continue to answer all questions</li>
+                <li>Submit and view your results with detailed explanations</li>
             </ol>
+            <p><strong>💡 Pro Tips:</strong> Leave subcategories unselected to practice the entire question bank, or check specific ones to focus on particular topics! You can finish the exam early at any time after answering at least one question.</p>
         </div>
 
         <div class="demo-section">
@@ -148,15 +178,22 @@
             <h2>JSON Data Format Example</h2>
             <div class="code-block">
 {
-  "title": "Sample Exam",
-  "description": "Test description",
+  "examTitle": "Canadian Conversion PPL - Unit 4",
+  "examDescription": "14 CFR Regulations - Practice Questions",
   "questions": [
     {
       "id": 1,
-      "question": "What is 2 + 2?",
-      "answers": ["3", "4", "5", "6"],
+      "question": "With respect to the certification of airmen, which are categories of aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Gyroplane, helicopter, airship, free balloon.",
+        "Airplane, rotorcraft, glider, lighter-than-air.",
+        "Single-engine land and sea, multiengine land and sea."
+      ],
       "correctAnswer": 1,
-      "explanation": "2 + 2 equals 4"
+      "explanation": "Category of aircraft, as used with respect to the certification, ratings, privileges, and limitations of airmen, means a broad classification of aircraft...",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 1: Definitions and Abbreviations"
     }
   ]
 }
