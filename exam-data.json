@@ -855,6 +855,720 @@
       "explanation": "If you are operating under BasicMed, you may only fly aircraft that are authorized under federal law to carry no more than 7 occupants. Aircraft may only be operated under BasicMed pursuant to their type certificate data sheet (TCDS) or supplemental type certificate (STC). (14 CFR 61.113)",
       "category": "Federal Aviation Regulations",
       "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 62,
+      "question": "The final authority as to the operation of an aircraft is the",
+      "type": "multiple-choice",
+      "answers": [
+        "Federal Aviation Administration.",
+        "pilot in command.",
+        "aircraft manufacturer."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The final authority as to the operation of an aircraft is the pilot in command. (14 CFR 91.3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 63,
+      "question": "When must a pilot who deviates from a regulation during an emergency send a written report of that deviation to the Administrator?",
+      "type": "multiple-choice",
+      "answers": [
+        "Within 7 days.",
+        "Within 10 days.",
+        "Upon request."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A pilot who deviates from a regulation during an emergency must send a written report of that deviation to the Administrator of the FAA only upon request. (14 CFR 91.3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 64,
+      "question": "Who is responsible for determining if an aircraft is in condition for safe flight?",
+      "type": "multiple-choice",
+      "answers": [
+        "A certificated aircraft mechanic.",
+        "The pilot in command.",
+        "The owner or operator."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pilot in command of an aircraft is directly responsible for, and is the final authority for, determining whether the airplane is in condition for safe flight. (14 CFR 91.7)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 65,
+      "question": "You are PIC of a flight. During your preflight, you notice a mechanical discrepancy that you think makes the aircraft unairworthy. Who is responsible for this determination?",
+      "type": "multiple-choice",
+      "answers": [
+        "A certificated aircraft mechanic.",
+        "The pilot-in-command.",
+        "The owner or operator."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pilot in command is responsible for ensuring the aircraft is in an airworthy condition before each flight. (14 CFR 91.7)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 66,
+      "question": "Where may an aircraft's operating limitations be found?",
+      "type": "multiple-choice",
+      "answers": [
+        "On the airworthiness certificate.",
+        "In the current, FAA-approved flight manual, approved manual material, markings, and placards, or any combination thereof.",
+        "In the aircraft airframe and engine logbooks."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An aircraft's operating limitations may be found in the current, FAA-approved flight manual, approved manual material, markings, and placards, or any combination thereof. (14 CFR 91.9)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 67,
+      "question": "Where may an aircraft's operating limitations be found if the aircraft has an Experimental or Special light-sport airworthiness certificate?",
+      "type": "multiple-choice",
+      "answers": [
+        "Attached to the Airworthiness Certificate.",
+        "In the current, FAA-approved flight manual.",
+        "In the aircraft airframe and engine logbooks."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The operating limitations for experimental aircraft and aircraft issued a special light-sport airworthiness certificate are a permanent part of the aircraft's airworthiness certificate and must remain in the aircraft during operation. (14 CFR 91.9 and AC 65-32A)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 68,
+      "question": "Under what conditions may objects be dropped from an aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Only in an emergency.",
+        "If precautions are taken to avoid injury or damage to persons or property on the surface.",
+        "If prior permission is received from the Federal Aviation Administration."
+      ],
+      "correctAnswer": 1,
+      "explanation": "No pilot in command of a civil aircraft may allow any object to be dropped from that aircraft in flight that creates a hazard to persons or property. However, this section does not prohibit the dropping of any object if reasonable precautions are taken to avoid injury or damage to persons or property. (14 CFR 91.15)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 69,
+      "question": "No person may attempt to act as a crewmember of a civil aircraft with",
+      "type": "multiple-choice",
+      "answers": [
+        ".008 percent by weight or more alcohol in the blood.",
+        ".004 percent by weight or more alcohol in the blood.",
+        ".04 percent by weight or more alcohol in the blood."
+      ],
+      "correctAnswer": 2,
+      "explanation": "No person may act or attempt to act as a crewmember of a civil aircraft while having a .04% by weight or more alcohol in the blood. (14 CFR 91.17)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 70,
+      "question": "Under what condition, if any, may a pilot allow a person who is obviously under the influence of drugs to be carried aboard an aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "In an emergency or if the person is a medical patient under proper care.",
+        "Only if the person does not have access to the flight deck or pilot's compartment.",
+        "Under no condition."
+      ],
+      "correctAnswer": 0,
+      "explanation": "No pilot of a civil aircraft may allow a person who demonstrates by manner or physical indications that the individual is under the influence of drugs to be carried in that aircraft, except in an emergency or if the person is a medical patient under proper care. (14 CFR 91.17)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 71,
+      "question": "You attended a party last night, and you consumed several glasses of wine. You are planning to fly your aircraft home and have been careful to make sure 8 hours have passed since your last alcoholic drink. You can make the flight now only if you are not under the influence of alcohol and your blood alcohol level is",
+      "type": "multiple-choice",
+      "answers": [
+        "below .04%.",
+        "below .08%.",
+        "0.0%."
+      ],
+      "correctAnswer": 0,
+      "explanation": "14 CFR Part 91 requires that the blood alcohol level be less than .04% and that 8 hr. pass between drinking alcohol and piloting an aircraft. A pilot with a blood alcohol level of .04% or greater after 8 hr. cannot fly until the blood alcohol falls below that amount. Even though blood alcohol may be well below .04%, a pilot cannot fly sooner than 8 hr. after drinking alcohol. (14 CFR 91.17)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 72,
+      "question": "A person may not act as a crewmember of a civil aircraft if alcoholic beverages have been consumed by that person within the preceding",
+      "type": "multiple-choice",
+      "answers": [
+        "8 hours.",
+        "12 hours.",
+        "24 hours."
+      ],
+      "correctAnswer": 0,
+      "explanation": "No person may act as a crewmember of a civil aircraft if alcoholic beverages have been consumed by that person within the preceding 8 hours. (14 CFR 91.17)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 73,
+      "question": "While experiencing a hangover, a pilot",
+      "type": "multiple-choice",
+      "answers": [
+        "will have impaired motor and mental responses.",
+        "is no longer under the influence of alcohol.",
+        "may experience discomfort, but no impairment."
+      ],
+      "correctAnswer": 0,
+      "explanation": "While experiencing a hangover, a pilot is still under the influence of alcohol. Although a pilot may think they are functioning normally, motor and mental response impairment is still present. (14 CFR 91.17, FAA-H-8083-25B Chap 17)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 74,
+      "question": "Preflight action, as required for all flights away from the vicinity of an airport, shall include",
+      "type": "multiple-choice",
+      "answers": [
+        "the designation of an alternate airport.",
+        "a study of arrival procedures at airports/heliports of intended use.",
+        "an alternate course of action if the flight cannot be completed as planned."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Preflight actions for flights not in the vicinity of an airport include checking weather reports and forecasts, fuel requirements, alternatives available if the planned flight cannot be completed, and any known traffic delays. (14 CFR 91.103)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 75,
+      "question": "In addition to other preflight actions for a VFR flight away from the vicinity of the departure airport, regulations specifically require the pilot in command to",
+      "type": "multiple-choice",
+      "answers": [
+        "review traffic control light signal procedures.",
+        "check the accuracy of the navigation equipment and the emergency locator transmitter (ELT).",
+        "determine runway lengths at airports of intended use and the aircraft's takeoff and landing distance data."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Preflight actions for a VFR flight away from the vicinity of the departure airport specifically require the pilot in command to determine runway lengths at airports of intended use and the aircraft's takeoff and landing distance data. (14 CFR 91.103)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 76,
+      "question": "Which preflight action is specifically required of the pilot prior to each flight?",
+      "type": "multiple-choice",
+      "answers": [
+        "Check the aircraft logbooks for appropriate entries.",
+        "Become familiar with all available information concerning the flight.",
+        "Review wake turbulence avoidance procedures."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each pilot in command will, before beginning a flight, become familiar with all available information concerning that flight. (14 CFR 91.103)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 77,
+      "question": "You are pilot-in-command of a VFR flight that you think will be within the fuel range of your aircraft. As part of your preflight planning you must",
+      "type": "multiple-choice",
+      "answers": [
+        "be familiar with all instrument approaches at the destination airport.",
+        "list an alternate airport on the flight plan, and confirm adequate takeoff and landing performance at the destination airport.",
+        "obtain weather reports, forecasts, and fuel requirements for the flight."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A required preflight action by the pilot in command of a flight not in the vicinity of an airport or a flight under IFR is to become familiar with all available information concerning that flight, including weather reports, forecasts, and fuel requirements. Additional preflight information for the flight includes alternatives available, runway length at airports of intended use, and takeoff and landing distance information. (14 CFR 91.103)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 78,
+      "question": "Flight crewmembers are required to keep their safety belts and shoulder harnesses fastened during",
+      "type": "multiple-choice",
+      "answers": [
+        "takeoffs and landings.",
+        "all flight conditions.",
+        "flight in turbulent air."
+      ],
+      "correctAnswer": 0,
+      "explanation": "During takeoff and landing and while en route, each required flight crewmember shall keep his or her safety belt fastened while at the crewmember station. If shoulder harnesses are available, they must be used by crewmembers during takeoff and landing. (14 CFR 91.105)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 79,
+      "question": "Which best describes the flight conditions under which flight crewmembers are specifically required to keep their safety belts and shoulder harnesses fastened?",
+      "type": "multiple-choice",
+      "answers": [
+        "Safety belts during takeoff and landing; shoulder harnesses during takeoff and landing.",
+        "Safety belts during takeoff and landing; shoulder harnesses during takeoff and landing and while en route.",
+        "Safety belts during takeoff and landing and while en route; shoulder harnesses during takeoff and landing."
+      ],
+      "correctAnswer": 2,
+      "explanation": "During takeoff and landing and while en route, each required flight crewmember shall keep his or her safety belt fastened while at the crewmember station. If shoulder harnesses are available, they must be used by crewmembers during takeoff and landing. (14 CFR 91.105)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 80,
+      "question": "With respect to passengers, what obligation, if any, does a pilot in command have concerning the use of safety belts?",
+      "type": "multiple-choice",
+      "answers": [
+        "The pilot in command must instruct the passengers to keep their safety belts fastened for the entire flight.",
+        "The pilot in command must brief the passengers on the use of safety belts and notify them to fasten their safety belts during taxi, takeoff, and landing.",
+        "The pilot in command has no obligation in regard to passengers' use of safety belts."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pilot in command is required to brief the passengers on the use of safety belts and notify them to fasten their safety belts during taxi, takeoff, and landing. (14 CFR 91.107)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 81,
+      "question": "With certain exceptions, safety belts are required to be secured about passengers during",
+      "type": "multiple-choice",
+      "answers": [
+        "taxi, takeoffs, and landings.",
+        "all flight conditions.",
+        "flight in turbulent air."
+      ],
+      "correctAnswer": 0,
+      "explanation": "During the taxi, takeoff, and landing of U.S.-registered civil aircraft, each person on board that aircraft must occupy a seat or berth with a safety belt and shoulder harness, if installed, properly secured about their person. However, a person who has not reached his or her second birthday may be held by an adult who is occupying a seat or berth, and a person on board for the purpose of engaging in sport parachuting may use the floor of the aircraft as a seat (but is still required to use approved safety belts for takeoff). (14 CFR 91.107)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 82,
+      "question": "Safety belts are required to be properly secured about which persons in an aircraft and when?",
+      "type": "multiple-choice",
+      "answers": [
+        "Pilots only, during takeoffs and landings.",
+        "Passengers, during taxi, takeoffs, and landings only.",
+        "Each person on board the aircraft during the entire flight."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Regulations require that safety belts in an airplane be properly secured about all passengers during taxi, takeoffs, and landings. (14 CFR 91.107)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 83,
+      "question": "You are planning a trip and one of your passengers states that he prefers not to use his shoulder harness because it is uncomfortable. You should",
+      "type": "multiple-choice",
+      "answers": [
+        "explain that it is a mandatory requirement and that he must use the shoulder harness during takeoff and landing.",
+        "allow him to use his seat belt for the entire trip without the shoulder harness.",
+        "allow him to use his seat belt for takeoff and landing and the shoulder harness while en route."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each person on board a U.S.-registered civil aircraft must occupy an approved seat with a safety belt and, if installed, a shoulder harness, properly secured during movement on the surface, takeoff, and landing. (14 CFR 91.107)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 84,
+      "question": "No person may operate an aircraft in formation flight",
+      "type": "multiple-choice",
+      "answers": [
+        "over a densely populated area.",
+        "in Class D airspace under special VFR.",
+        "except by prior arrangement with the pilot in command of each aircraft."
+      ],
+      "correctAnswer": 2,
+      "explanation": "No person may operate in formation flight except by arrangement with the pilot in command of each aircraft in formation. (14 CFR 91.111)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 85,
+      "question": "An airplane and an airship are converging. If the airship is left of the airplane's position, which aircraft has the right-of-way?",
+      "type": "multiple-choice",
+      "answers": [
+        "The airship.",
+        "The airplane.",
+        "Each pilot should alter course to the right."
+      ],
+      "correctAnswer": 0,
+      "explanation": "When aircraft of different categories are converging, the less maneuverable aircraft has the right-of-way. Thus, the airship has the right-of-way in this question. (14 CFR 91.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 86,
+      "question": "When two or more aircraft are approaching an airport for the purpose of landing, the right-of-way belongs to the aircraft",
+      "type": "multiple-choice",
+      "answers": [
+        "that has the other to its right.",
+        "that is the least maneuverable.",
+        "at the lower altitude, but it shall not take advantage of this rule to cut in front of or to overtake another."
+      ],
+      "correctAnswer": 2,
+      "explanation": "When two or more aircraft are approaching an airport for the purpose of landing, the aircraft at the lower altitude has the right-of-way, but it shall not take advantage of this rule to cut in front of or overtake another aircraft. (14 CFR 91.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 87,
+      "question": "Which aircraft has the right-of-way over the other aircraft listed?",
+      "type": "multiple-choice",
+      "answers": [
+        "Glider.",
+        "Airship.",
+        "Aircraft refueling other aircraft."
+      ],
+      "correctAnswer": 0,
+      "explanation": "If aircraft of different categories are converging, the right-of-way depends upon who has the least maneuverability. A glider has right-of-way over an airship, airplane, or rotorcraft. (14 CFR 91.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 88,
+      "question": "Which aircraft has the right-of-way over all other air traffic?",
+      "type": "multiple-choice",
+      "answers": [
+        "A balloon.",
+        "An aircraft in distress.",
+        "An aircraft on final approach to land."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An aircraft in distress has the right-of-way over all other aircraft. (14 CFR 91.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 89,
+      "question": "What action should the pilots of a glider and an airplane take if on a head-on collision course?",
+      "type": "multiple-choice",
+      "answers": [
+        "The airplane pilot should give way to the left.",
+        "The glider pilot should give way to the right.",
+        "Both pilots should give way to the right."
+      ],
+      "correctAnswer": 2,
+      "explanation": "When aircraft are approaching head-on, or nearly so (regardless of category), each aircraft shall alter course to the right. (14 CFR 91.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 90,
+      "question": "What action is required when two aircraft of the same category converge, but not head-on?",
+      "type": "multiple-choice",
+      "answers": [
+        "The faster aircraft shall give way.",
+        "The aircraft on the left shall give way.",
+        "Each aircraft shall give way to the right."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When two aircraft of the same category converge (but not head-on), the aircraft to the other's right has the right-of-way. Thus, an airplane on the left gives way to the airplane on the right. (14 CFR 91.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 91,
+      "question": "Which aircraft has the right-of-way over the other aircraft listed?",
+      "type": "multiple-choice",
+      "answers": [
+        "Airship.",
+        "Aircraft towing other aircraft.",
+        "Gyroplane."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An aircraft towing or refueling another aircraft has the right-of-way over all engine-driven aircraft. An airship is an engine-driven, lighter-than-air aircraft that can be steered. (14 CFR 91.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 92,
+      "question": "A seaplane and a motorboat are on crossing courses. If the motorboat is to the left of the seaplane, which has the right-of-way?",
+      "type": "multiple-choice",
+      "answers": [
+        "The motorboat.",
+        "The seaplane.",
+        "Both should alter course to the right."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When aircraft, or an aircraft and a vessel (e.g., a motorboat), are on crossing courses, the aircraft or vessel to the other's right has the right-of-way. Because the seaplane is to the motorboat's right, the seaplane has the right-of-way. (14 CFR 91.115)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 93,
+      "question": "When flying in a VFR corridor designated through Class B airspace, the maximum speed authorized is",
+      "type": "multiple-choice",
+      "answers": [
+        "180 knots.",
+        "200 knots.",
+        "250 knots."
+      ],
+      "correctAnswer": 1,
+      "explanation": "No person may operate an airplane in a VFR corridor designated through Class B airspace at an indicated airspeed of more than 200 knots (230 MPH). (14 CFR 91.117)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 94,
+      "question": "Unless otherwise authorized, what is the maximum indicated airspeed at which a person may operate an aircraft below 10,000 feet MSL?",
+      "type": "multiple-choice",
+      "answers": [
+        "200 knots.",
+        "250 knots.",
+        "288 knots."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Unless otherwise authorized by ATC, no person may operate an aircraft below 10,000 feet MSL at an indicated airspeed of more than 250 knots (288 MPH). (14 CFR 91.117)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 95,
+      "question": "When flying in the airspace underlying Class B airspace, the maximum speed authorized is",
+      "type": "multiple-choice",
+      "answers": [
+        "200 knots.",
+        "230 knots.",
+        "250 knots."
+      ],
+      "correctAnswer": 0,
+      "explanation": "No person may operate an airplane in the airspace underlying Class B airspace at an indicated airspeed of more than 200 knots (230 MPH). (14 CFR 91.117)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 96,
+      "question": "Unless otherwise authorized, the maximum indicated airspeed at which aircraft may be flown when at or below 2,500 feet AGL and within 4 nautical miles of the primary airport of Class C airspace is",
+      "type": "multiple-choice",
+      "answers": [
+        "200 knots.",
+        "230 knots.",
+        "250 knots."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unless otherwise authorized, the maximum indicated airspeed at which an airplane may be flown when at or below 2,500 feet AGL and within 4 nautical miles of the primary airport of Class C airspace is 200 knots (230 MPH). (14 CFR 91.117)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 97,
+      "question": "Except when necessary for takeoff or landing, what is the minimum safe altitude for a pilot to operate an aircraft anywhere?",
+      "type": "multiple-choice",
+      "answers": [
+        "An altitude allowing, if a power unit fails, an emergency landing without undue hazard to persons or property on the surface.",
+        "An altitude of 500 feet above the surface and no closer than 500 feet to any person, vessel, vehicle, or structure.",
+        "An altitude of 500 feet above the highest obstacle within a horizontal radius of 1,000 feet."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Except when necessary for takeoff or landing, an aircraft should always be operated at an altitude high enough to permit an emergency landing without endangering people or property on the ground. (14 CFR 91.119)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 98,
+      "question": "Except when necessary for takeoff or landing, what is the minimum safe altitude required for a pilot to operate an aircraft over congested areas?",
+      "type": "multiple-choice",
+      "answers": [
+        "An altitude of 1,000 feet above any person, vessel, vehicle, or structure.",
+        "An altitude of 500 feet above the highest obstacle within a horizontal radius of 1,000 feet of the aircraft.",
+        "An altitude of 1,000 feet above the highest obstacle within a horizontal radius of 2,000 feet of the aircraft."
+      ],
+      "correctAnswer": 2,
+      "explanation": "When operating an aircraft over any congested area of a city, town, or settlement, or over an open-air assembly of persons, a pilot must remain at an altitude of 1,000 feet above the highest obstacle within a horizontal radius of 2,000 feet of the aircraft. (14 CFR 91.119)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 99,
+      "question": "Except when necessary for takeoff or landing, an aircraft may not be operated closer than what distance from any person, vessel, vehicle, or structure?",
+      "type": "multiple-choice",
+      "answers": [
+        "500 feet.",
+        "700 feet.",
+        "1,000 feet."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Over uncongested areas, an altitude of 500 ft. above the surface is required. Over open water and sparsely populated areas, a distance of 500 ft. from any person, vessel, vehicle, or structure must be maintained. (14 CFR 91.119)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 100,
+      "question": "Except when necessary for takeoff or landing, what is the minimum safe altitude required for a pilot to operate an aircraft over other than a congested area?",
+      "type": "multiple-choice",
+      "answers": [
+        "An altitude allowing, if a power unit fails, an emergency landing without undue hazard to persons or property on the surface.",
+        "An altitude of 500 feet AGL, except over open water or a sparsely populated area, which requires 500 feet from any person, vessel, vehicle, or structure.",
+        "An altitude of 500 feet above the highest obstacle within a horizontal radius of 1,000 feet."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Over uncongested areas, an altitude of 500 ft. above the surface is required. Over open water and sparsely populated areas, a distance of 500 ft. from any person, vessel, vehicle, or structure must be maintained. (14 CFR 91.119)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 101,
+      "question": "According to 14 CFR part 91, at what minimum altitude may an airplane be operated unless necessary for takeoff and landing?",
+      "type": "multiple-choice",
+      "answers": [
+        "In congested areas, you must maintain 500 feet over obstacles, and no closer than 500 feet to any person, vessel, vehicle, or structure.",
+        "In uncongested areas, 1,000 feet over any obstacle within a horizontal radius of 2,000 feet.",
+        "An altitude allowing for an emergency landing without undue hazard, if a power unit fails."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Except when necessary for takeoff or landing, an aircraft should always be operated at an altitude high enough to permit an emergency landing without endangering people or property on the ground. (14 CFR 91.119)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 102,
+      "question": "Prior to takeoff, the altimeter should be set to which altitude or altimeter setting?",
+      "type": "multiple-choice",
+      "answers": [
+        "The current local altimeter setting, if available, or the departure airport elevation.",
+        "The corrected density altitude of the departure airport.",
+        "The corrected pressure altitude for the departure airport."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prior to takeoff, the altimeter should be set to either the local altimeter setting or to the departure airport elevation. (14 CFR 91.121)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 103,
+      "question": "If an altimeter setting is not available before flight, to which altitude should the pilot adjust the altimeter?",
+      "type": "multiple-choice",
+      "answers": [
+        "The elevation of the nearest airport corrected to mean sea level.",
+        "The elevation of the departure area.",
+        "Pressure altitude corrected for nonstandard temperature."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the local altimeter setting is not available at takeoff, the pilot should adjust the altimeter to the elevation of the departure area. (14 CFR 91.121)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 104,
+      "question": "At what altitude shall the altimeter be set to 29.92 when climbing to cruising flight level?",
+      "type": "multiple-choice",
+      "answers": [
+        "14,500 feet MSL.",
+        "18,000 feet MSL.",
+        "24,000 feet MSL."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pressure altitude is the altitude used for all flights at and above 18,000 feet MSL, i.e., in Class A airspace. When climbing to or above 18,000 feet MSL, one does not use local altimeter settings, but rather 29.92\" Hg after reaching 18,000 feet MSL. (14 CFR 91.121)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 105,
+      "question": "When would a pilot be required to submit a detailed report of an emergency which caused the pilot to deviate from an ATC clearance?",
+      "type": "multiple-choice",
+      "answers": [
+        "Within 48 hours if requested by ATC.",
+        "Immediately.",
+        "Within 7 days."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each pilot in command who is given priority by ATC in an emergency shall, if requested by ATC, submit a detailed report within 48 hours to the manager of that ATC facility. (14 CFR 91.123)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 106,
+      "question": "If an in-flight emergency requires immediate action, the pilot in command may",
+      "type": "multiple-choice",
+      "answers": [
+        "deviate from any rule of 14 CFR part 91 to the extent required to meet the emergency, but must submit a written report to the Administrator within 24 hours.",
+        "deviate from any rule of 14 CFR part 91 to the extent required to meet that emergency.",
+        "not deviate from any rule of 14 CFR part 91 unless prior to the deviation approval is granted by the Administrator."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an in-flight emergency requiring immediate action, the pilot in command may deviate from any rule of 14 CFR Part 91 to the extent required to meet that emergency. A written report of the deviation must be sent to the Administrator of the FAA only if requested. (14 CFR 91.123)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 107,
+      "question": "As Pilot in Command of an aircraft, under which situation can you deviate from an ATC clearance?",
+      "type": "multiple-choice",
+      "answers": [
+        "When operating in Class A airspace at night.",
+        "If an ATC clearance is not understood and in VFR conditions.",
+        "In response to a traffic alert and collision avoidance system resolution advisory."
+      ],
+      "correctAnswer": 2,
+      "explanation": "No pilot may deviate from an ATC clearance unless an amended clearance is obtained, an emergency exists, or the deviation is in response to a traffic alert and collision avoidance system resolution advisory. A written report of the deviation must be sent to the Administrator of the FAA only if requested. (14 CFR 91.123)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 108,
+      "question": "When an ATC clearance has been obtained, no pilot in command may deviate from that clearance unless that pilot obtains an amended clearance. The one exception to this regulation is",
+      "type": "multiple-choice",
+      "answers": [
+        "when the clearance states, \"at pilot's discretion.\"",
+        "an emergency.",
+        "if the clearance contains a restriction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When an ATC clearance has been obtained, no pilot in command may deviate from that clearance, except in an emergency, unless an amended clearance is obtained. (14 CFR 91.123)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 109,
+      "question": "What action, if any, is appropriate if the pilot deviates from an ATC instruction during an emergency and is given priority?",
+      "type": "multiple-choice",
+      "answers": [
+        "Take no special action because you are pilot in command.",
+        "File a detailed report within 48 hours to the manager of the appropriate ATC facility, if requested.",
+        "File a report to the FAA Administrator, as soon as possible."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each pilot in command who is given priority by ATC in an emergency shall, if requested by ATC, submit a detailed report within 48 hours to the manager of that ATC facility. (14 CFR 91.123)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 110,
+      "question": "As pilot-in-command of an aircraft, you may deviate from an ATC clearance when",
+      "type": "multiple-choice",
+      "answers": [
+        "flying in the outer ring of Class C airspace.",
+        "operating under VFR in Class B airspace.",
+        "there is an in-flight emergency requiring immediate action."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A pilot may deviate from ATC clearance or instruction only in the case of an in-flight emergency requiring immediate action. In such a case, the pilot should notify ATC of the deviation as soon as possible. (14 CFR 91.123)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 111,
+      "question": "What is the specific fuel requirement for flight under VFR at night in an airplane?",
+      "type": "multiple-choice",
+      "answers": [
+        "Enough to complete the flight at normal cruising speed with adverse wind conditions.",
+        "Enough to fly to the first point of intended landing and to fly after that for 30 minutes at normal cruising speed.",
+        "Enough to fly to the first point of intended landing and to fly after that for 45 minutes at normal cruising speed."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The night VFR requirement is enough fuel to fly to the first point of intended landing and to fly thereafter for 45 minutes at normal cruising speed given forecast conditions. (14 CFR 91.151)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
+    },
+    {
+      "id": 112,
+      "question": "What is the specific fuel requirement for flight under VFR during daylight hours in an airplane?",
+      "type": "multiple-choice",
+      "answers": [
+        "Enough to complete the flight at normal cruising speed with adverse wind conditions.",
+        "Enough to fly to the first point of intended landing and to fly after that for 30 minutes at normal cruising speed.",
+        "Enough to fly to the first point of intended landing and to fly after that for 45 minutes at normal cruising speed."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The day-VFR requirement is enough fuel to fly to the first point of intended landing and thereafter for 30 minutes at normal cruising speed. (14 CFR 91.151)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 91: General Operating and Flight Rules -- 91.3-91.151"
     }
   ]
 }
