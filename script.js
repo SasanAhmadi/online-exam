@@ -82,8 +82,15 @@ class ExamApp {
                     if (response.ok) {
                         const data = await response.json();
 
-                        // Check if it's the new flat structure with questions array
-                        if (data.questions && Array.isArray(data.questions)) {
+                        // Check if it's the new nested categories structure
+                        if (data.categories && typeof data.categories === 'object') {
+                            this.examData = data;
+                            this.processNestedCategoryData();
+                            this.populateCategorySelector();
+                            return;
+                        }
+                        // Check if it's the old flat structure with questions array
+                        else if (data.questions && Array.isArray(data.questions)) {
                             this.examData = data;
                             this.processQuestionData();
                             this.populateCategorySelector();
@@ -107,6 +114,16 @@ class ExamApp {
             console.error('Error loading exams:', error);
             this.loadSampleData();
         }
+    }
+
+    processNestedCategoryData() {
+        // Extract categories and subcategories from nested structure
+        this.categories = Object.keys(this.examData.categories);
+        this.subcategoryMap = new Map();
+
+        Object.entries(this.examData.categories).forEach(([category, subcategories]) => {
+            this.subcategoryMap.set(category, new Set(Object.keys(subcategories)));
+        });
     }
 
     processQuestionData() {
@@ -240,9 +257,15 @@ class ExamApp {
                 label.textContent = subcategory;
 
                 // Count questions for this subcategory
-                const questionCount = this.examData.questions.filter(q =>
-                    q.category === selectedCategory && q.subcategory === subcategory
-                ).length;
+                let questionCount = 0;
+                if (this.examData.categories && this.examData.categories[selectedCategory] && this.examData.categories[selectedCategory][subcategory]) {
+                    questionCount = this.examData.categories[selectedCategory][subcategory].length;
+                } else if (this.examData.questions) {
+                    // Fallback for old structure
+                    questionCount = this.examData.questions.filter(q =>
+                        q.category === selectedCategory && q.subcategory === subcategory
+                    ).length;
+                }
 
                 const countSpan = document.createElement('span');
                 countSpan.className = 'question-count';
@@ -297,8 +320,60 @@ class ExamApp {
     }
 
     startExam() {
-        if (this.examData && this.examData.questions) {
-            // New category/subcategory based selection
+        // Check if we have nested categories structure
+        if (this.examData && this.examData.categories) {
+            // New nested category/subcategory structure
+            const selectedCategory = this.categorySelect.value;
+
+            if (!selectedCategory) {
+                alert('Please select a category.');
+                return;
+            }
+
+            const selectedSubcategories = this.getSelectedSubcategories();
+            let filteredQuestions = [];
+            let examTitle;
+
+            if (selectedSubcategories.length === 0) {
+                // No subcategories selected - use all questions from the category
+                Object.values(this.examData.categories[selectedCategory]).forEach(subcategoryQuestions => {
+                    filteredQuestions = filteredQuestions.concat(subcategoryQuestions);
+                });
+                examTitle = `${selectedCategory} - All Topics`;
+            } else {
+                // Filter by selected subcategories
+                selectedSubcategories.forEach(subcategory => {
+                    if (this.examData.categories[selectedCategory][subcategory]) {
+                        filteredQuestions = filteredQuestions.concat(
+                            this.examData.categories[selectedCategory][subcategory]
+                        );
+                    }
+                });
+
+                if (selectedSubcategories.length === 1) {
+                    examTitle = `${selectedCategory} - ${selectedSubcategories[0]}`;
+                } else {
+                    examTitle = `${selectedCategory} - ${selectedSubcategories.length} Topics`;
+                }
+            }
+
+            if (filteredQuestions.length === 0) {
+                alert('No questions found for the selected criteria.');
+                return;
+            }
+
+            // Create a virtual exam object
+            this.currentExam = {
+                title: examTitle,
+                description: selectedSubcategories.length === 0
+                    ? `All questions from ${selectedCategory}`
+                    : `Questions from selected topics in ${selectedCategory}`,
+                questions: filteredQuestions
+            };
+        }
+        // Check for old flat structure with questions array
+        else if (this.examData && this.examData.questions) {
+            // Old category/subcategory based selection
             const selectedCategory = this.categorySelect.value;
 
             if (!selectedCategory) {
@@ -488,7 +563,7 @@ class ExamApp {
 
         // Show finish exam button if user has answered at least one question and it's not the last question
         this.finishExamBtn.style.display = (hasAnsweredAtLeastOne && !isLastQuestion) ? 'inline-block' : 'none';
-        
+
         if (isLastQuestion) {
             this.nextQuestionBtn.style.display = 'none';
             this.submitExamBtn.style.display = 'inline-block';
