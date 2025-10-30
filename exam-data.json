@@ -323,6 +323,538 @@
       "explanation": "A Dealer's Aircraft Registration Certificate is another form of registration. It is valid only for flights within the United States by the manufacturer or a dealer for flight testing or demonstration for sale and must be removed by the dealer when the aircraft is sold. The back side of the registration is filled out with the appropriate information from the sale as well as the new owner's name. The certificate must then be mailed back to the FAA registry in Oklahoma City. Doing so protects the buyer and seller. This requirement is law under 14 CFR 47.41(b), which became effective March 31, 2008. (14 CFR Part 47)",
       "category": "Federal Aviation Regulations",
       "subcategory": "14 CFR Part 47: Aircraft Registration"
+    },
+    {
+      "id": 24,
+      "question": "When must a current pilot certificate be in the pilot's personal possession or readily accessible in the aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "When acting as a crew chief during launch and recovery.",
+        "Only when passengers are carried.",
+        "Any time when acting as pilot in command or as a required crewmember."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Current and appropriate pilot and medical certificates must be in your personal possession or readily accessible in the aircraft when you act as pilot in command (PIC) or as a required pilot flight crewmember. (14 CFR 61.3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 25,
+      "question": "A recreational or private pilot acting as pilot in command, or in any other capacity as a required pilot flight crewmember, must have in his or her personal possession or readily accessible in the aircraft a current",
+      "type": "multiple-choice",
+      "answers": [
+        "logbook endorsement to show that a flight review has been satisfactorily accomplished.",
+        "medical certificate if required and an appropriate pilot certificate.",
+        "endorsement on the pilot certificate to show that a flight review has been satisfactorily accomplished."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Current and appropriate pilot and medical certificates must be in your personal possession or readily accessible in the aircraft when you act as pilot in command (PIC) or as a required pilot flight crewmember. (14 CFR 61.3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 26,
+      "question": "What document(s) must be in your personal possession or readily accessible in the aircraft while operating as pilot in command of an aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Certificates showing accomplishment of a checkout in the aircraft and a current satisfactory flight review.",
+        "A pilot certificate with an endorsement showing accomplishment of an annual flight review and a pilot logbook showing recency of experience.",
+        "An appropriate pilot certificate and an appropriate current medical certificate if required."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Current and appropriate pilot and medical certificates must be in your personal possession or readily accessible in the aircraft when you act as pilot in command (PIC) or as a required pilot flight crewmember. (14 CFR 61.3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 27,
+      "question": "Each person who holds a pilot certificate or a medical certificate shall present it for inspection upon the request of any",
+      "type": "multiple-choice",
+      "answers": [
+        "authorized representative of the Department of Transportation.",
+        "person in a position of authority.",
+        "local law enforcement officer."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each person who holds a pilot certificate, flight instructor certificate, medical certificate, authorization, or license required by Federal Aviation Regulations shall present it for inspection upon the request of the Administrator of the FAA, an authorized representative of the National Transportation Safety Board, or any federal, state, or local law enforcement officer. (14 CFR 61.3)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 28,
+      "question": "How soon after the conviction for driving while intoxicated by alcohol or drugs shall it be reported to the FAA's Security and Hazardous Materials Safety Office?",
+      "type": "multiple-choice",
+      "answers": [
+        "No later than 60 days after the motor vehicle action.",
+        "No later than 30 working days after the motor vehicle action.",
+        "Required to be reported upon renewal of medical certificate."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each person holding a certificate under Part 61 shall provide a written report of each motor vehicle action involving alcohol or drugs to the FAA's Security and Hazardous Materials Safety Office no later than 60 days after the motor vehicle action. (14 CFR 61.15)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 29,
+      "question": "How soon after the conviction for driving while intoxicated by alcohol or drugs shall it be reported to the FAA, and which department should this be reported to?",
+      "type": "multiple-choice",
+      "answers": [
+        "Within 60 days to the Airmen Certification Branch.",
+        "Within 60 days to the Security and Hazardous Materials Safety Office.",
+        "Within 60 days to the Regulatory Support Division."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each person holding a certificate under Part 61 shall provide a written report of each motor vehicle action involving alcohol or drugs to the FAA's Security and Hazardous Materials Safety Office no later than 60 days after the motor vehicle action. (14 CFR 61.15)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 30,
+      "question": "A Third-Class Medical Certificate is issued to a 36-year-old pilot on August 10, this year. To exercise the privileges of a Private Pilot Certificate, the medical certificate will be valid until midnight on",
+      "type": "multiple-choice",
+      "answers": [
+        "August 10, 3 years later.",
+        "August 31, 5 years later.",
+        "August 31, 3 years later."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A pilot may exercise the privileges of a private pilot certificate under a third-class medical certificate until it expires at the end of the last day of the month 5 years after it was issued, for pilots less than 40 years old on the date of the medical examination. A third-class medical certificate issued to a 36-year-old pilot on Aug. 10 will be valid until midnight on Aug. 31, 5 years later. (14 CFR 61.23)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 31,
+      "question": "A Third-Class Medical Certificate is issued to a 51-year-old pilot on May 3, this year. To exercise the privileges of a Private Pilot Certificate, the medical certificate will be valid until midnight on",
+      "type": "multiple-choice",
+      "answers": [
+        "May 3, 1 year later.",
+        "May 31, 1 year later.",
+        "May 31, 2 years later."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A pilot may exercise the privileges of a private pilot certificate under a third-class medical certificate until it expires at the end of the last day of the month 2 years after it was issued, for pilots 40 years old or older on the date of the medical examination. A third-class medical certificate issued to a 51-year-old pilot on May 3 will be valid until midnight on May 31, 2 years later. (14 CFR 61.23)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 32,
+      "question": "For private pilot operations, a Second-Class Medical Certificate issued to a 42-year-old pilot on July 15, this year, will expire at midnight on",
+      "type": "multiple-choice",
+      "answers": [
+        "July 15, 2 years later.",
+        "July 31, 1 year later.",
+        "July 31, 2 years later."
+      ],
+      "correctAnswer": 2,
+      "explanation": "For private pilot operations, a second-class medical certificate will expire at the end of the last day of the month, 2 years after it was issued, for pilots 40 years old or older on the date of the medical examination. For private pilot operations, a second-class medical certificate issued to a 42-year-old pilot on July 15 will be valid until midnight on July 31, 2 years later. (14 CFR 61.23)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 33,
+      "question": "A Third-Class Medical Certificate was issued to a 19-year-old pilot on August 10, this year. To exercise the privileges of a recreational or private pilot certificate, the medical certificate will expire at midnight on",
+      "type": "multiple-choice",
+      "answers": [
+        "August 10, 2 years later.",
+        "August 31, 5 years later.",
+        "August 31, 2 years later."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A pilot may exercise the privileges of a recreational or private pilot certificate under a third-class medical certificate until it expires at the end of the last day of the month 5 years after it was issued, for pilots less than 40 years old at the time of the medical examination. A third-class medical certificate issued to a 19-year-old pilot on Aug. 10 will be valid until midnight on Aug. 31, 5 years later. (14 CFR 61.23)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 34,
+      "question": "For private pilot operations, a First-Class Medical Certificate issued to a 23-year-old pilot on October 21, this year, will expire at midnight on",
+      "type": "multiple-choice",
+      "answers": [
+        "October 21, 2 years later.",
+        "October 31, next year.",
+        "October 31, 5 years later."
+      ],
+      "correctAnswer": 2,
+      "explanation": "For private pilot operations, a first-class medical certificate will expire at the end of the last day of the 60th calendar month (5 years) after the month of the date of examination shown on the medical certificate for pilots less than 40 years old on the date of the medical examination. Thus, a first-class medical certificate issued to a 23-year-old pilot on October 21 will be valid until midnight on October 31, 60 calendar months (5 years) after the month of the date of examination. (14 CFR 61.23)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 35,
+      "question": "In order to qualify for BasicMed, you must have received a comprehensive examination from",
+      "type": "multiple-choice",
+      "answers": [
+        "An FAA-designated Aviation Medical Examiner within the previous 60 months.",
+        "A state-licensed physician within the previous 24 months.",
+        "A state-licensed physician within the previous 48 months."
+      ],
+      "correctAnswer": 2,
+      "explanation": "In order to qualify for BasicMed, you must have received a comprehensive examination from a state-licensed physician within the previous 48 months. (14 CFR 61.23)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 36,
+      "question": "Before a person holding a private pilot certificate may act as pilot in command of a high-performance airplane, that person must have",
+      "type": "multiple-choice",
+      "answers": [
+        "passed a flight test in that airplane from an FAA inspector.",
+        "an endorsement in that person's logbook that he or she is competent to act as pilot in command.",
+        "received ground and flight instruction from an authorized flight instructor who then endorses that person's logbook."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A private pilot may not act as pilot in command of a high-performance airplane (an airplane with an engine of more than 200 horsepower) unless they have received and logged ground and flight training from an authorized instructor who has certified in his or her logbook that they are proficient to operate a high-performance airplane. (14 CFR 61.31)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 37,
+      "question": "In order to act as pilot in command of a high-performance airplane, a pilot must have",
+      "type": "multiple-choice",
+      "answers": [
+        "made and logged three solo takeoffs and landings in a high-performance airplane.",
+        "received and logged ground and flight instruction in an airplane that has more than 200 horsepower.",
+        "passed a flight test in a high-performance airplane."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prior to acting as pilot in command of an airplane with an engine of more than 200 horsepower, a person is required to receive and log ground and flight training in such an airplane from an authorized flight instructor who has certified in the pilot's logbook that the individual is proficient to operate a high-performance airplane. (14 CFR 61.31)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 38,
+      "question": "What is the definition of a high-performance airplane?",
+      "type": "multiple-choice",
+      "answers": [
+        "An airplane with 180 horsepower, or retractable landing gear, flaps, and a fixed-pitch propeller.",
+        "An airplane with a normal cruise speed in excess of 200 knots.",
+        "An airplane with an engine of more than 200 horsepower."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A high-performance airplane is defined as an airplane with an engine of more than 200 horsepower. (14 CFR 61.31)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 39,
+      "question": "The pilot in command is required to hold a type rating in which aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Aircraft operated under an authorization issued by the Administrator.",
+        "Aircraft having a gross weight of more than 12,500 pounds.",
+        "Aircraft involved in ferry flights, training flights, or test flights."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A person may not act as pilot in command of any of the following aircraft unless they hold a type rating for that aircraft: (1) A large aircraft (except lighter-than-air), i.e., over 12,500 pounds gross weight (2) A turbojet-powered airplane (3) Other aircraft specified by the FAA through aircraft type certificate procedures. (14 CFR 61.31)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 40,
+      "question": "To act as PIC of a high-performance airplane, which training or experience would meet the additional requirements?",
+      "type": "multiple-choice",
+      "answers": [
+        "Logged at least 5 hours as SIC in a high-performance or turbine-powered airplane in the last 12 calendar months.",
+        "Received and logged ground and flight training in an airplane with retractable landing gear, flaps, and controllable-pitch propeller.",
+        "Received and logged ground and flight training in a high-performance airplane and a received a logbook endorsement."
+      ],
+      "correctAnswer": 2,
+      "explanation": "To act as a PIC of a high-performance aircraft, the pilot must receive and log ground and flight training from an authorized instructor in a high-performance airplane (an aircraft with more than 200 horsepower) or in a flight simulator or training device that is representative of a high-performance airplane. In addition, that pilot must also receive a one-time endorsement in the pilot's logbook from an authorized instructor who certifies the person is proficient to operate a high-performance airplane. (14 CFR 61.31)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 41,
+      "question": "If a recreational or private pilot had a flight review on October 30, this year, when is the next flight review required?",
+      "type": "multiple-choice",
+      "answers": [
+        "October 30, 2 years later.",
+        "October 31, next year.",
+        "October 31, 2 years later."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A pilot is required to have a flight review within the preceding 24 calendar months before the month in which the pilot acts as pilot in command. Thus, a pilot who had a flight review on October 30 of this year must have a flight review completed by October 31, 2 years later. (14 CFR 61.56)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 42,
+      "question": "Each recreational or private pilot is required to have a flight review at least once",
+      "type": "multiple-choice",
+      "answers": [
+        "every 24 calendar months.",
+        "every 12 calendar months.",
+        "every 6 calendar months."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each recreational or private pilot is required to have a flight review once every 24 calendar months in order to act as pilot in command (PIC) of an aircraft. (14 CFR 61.56)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 43,
+      "question": "If a recreational or private pilot had a flight review on August 8, this year, when is the next flight review required?",
+      "type": "multiple-choice",
+      "answers": [
+        "August 8, next year.",
+        "August 31, 1 year later.",
+        "August 31, 2 years later."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A pilot is required to have a flight review within the preceding 24 calendar months before the month in which the pilot acts as pilot in command. Thus, a recreational or private pilot who had a flight review on Aug. 8 of this year must have a flight review completed by Aug. 31, 2 years later. (14 CFR 61.56)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 44,
+      "question": "To act as pilot in command of an aircraft carrying passengers, a pilot must show by logbook endorsement the satisfactory completion of a flight review or completion of a pilot proficiency check within the preceding",
+      "type": "multiple-choice",
+      "answers": [
+        "6 calendar months.",
+        "12 calendar months.",
+        "24 calendar months."
+      ],
+      "correctAnswer": 2,
+      "explanation": "To act as pilot in command of an aircraft (whether carrying passengers or not), a pilot must show by logbook endorsement the satisfactory completion of a flight review or completion of a pilot proficiency check within the preceding 24 calendar months. (14 CFR 61.56)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 45,
+      "question": "To act as pilot in command of an aircraft carrying passengers, the pilot must have made at least three takeoffs and three landings in an aircraft of the same category, class, and if a type rating is required, of the same type, within the preceding",
+      "type": "multiple-choice",
+      "answers": [
+        "90 days.",
+        "12 calendar months.",
+        "24 calendar months."
+      ],
+      "correctAnswer": 0,
+      "explanation": "To act as pilot in command of an airplane with passengers aboard, you must have made at least three takeoffs and three landings (to a full stop if in a tailwheel airplane) in an airplane of the same category, class, and, if a type rating is required, of the same type within the preceding 90 days. Category refers to airplane, rotorcraft, etc.; class refers to single- or multi-engine, land or sea. (14 CFR 61.57)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 46,
+      "question": "If recency of experience requirements for night flight are not met and official sunset is 1830, the latest time passengers may be carried is",
+      "type": "multiple-choice",
+      "answers": [
+        "1829.",
+        "1859.",
+        "1929."
+      ],
+      "correctAnswer": 2,
+      "explanation": "For the purpose of night recency experience flight time, night is defined as the period beginning 1 hr. after sunset and ending 1 hr. before sunrise. If you have not met the night experience requirements and official sunset is 1830, a landing must be accomplished at or before 1929 if passengers are carried. (14 CFR 61.57)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 47,
+      "question": "To act as pilot in command of an aircraft carrying passengers, the pilot must have made three takeoffs and three landings within the preceding 90 days in an aircraft of the same",
+      "type": "multiple-choice",
+      "answers": [
+        "make and model.",
+        "category and class, but not type.",
+        "category, class, and type, if a type rating is required."
+      ],
+      "correctAnswer": 2,
+      "explanation": "No one may act as pilot in command of an airplane carrying passengers unless within the preceding 90 days they have made three takeoffs and three landings as sole manipulator of the controls in an aircraft of the same category and class and, if a type rating is required, the same type. If the aircraft is a tailwheel airplane, the landings must have been to a full stop. (14 CFR 61.57)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 48,
+      "question": "The three takeoffs and landings that are required to act as pilot in command at night must be done during the time period from",
+      "type": "multiple-choice",
+      "answers": [
+        "sunset to sunrise.",
+        "1 hour after sunset to 1 hour before sunrise.",
+        "the end of evening civil twilight to the beginning of morning civil twilight."
+      ],
+      "correctAnswer": 1,
+      "explanation": "No one may act as pilot in command of an aircraft carrying passengers at night (i.e., the period from 1 hour after sunset to 1 hour before sunrise as published in the American Air Almanac) unless they have made three takeoffs and three landings to a full stop within the preceding 90 days, at night, in the category and class of aircraft to be used. (14 CFR 61.57)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 49,
+      "question": "To meet the recency of experience requirements to act as pilot in command carrying passengers at night, a pilot must have made at least three takeoffs and three landings to a full stop within the preceding 90 days in",
+      "type": "multiple-choice",
+      "answers": [
+        "the same category and class of aircraft to be used.",
+        "the same type of aircraft to be used.",
+        "any aircraft."
+      ],
+      "correctAnswer": 0,
+      "explanation": "No one may act as pilot in command of an aircraft carrying passengers at night (i.e., the period from 1 hr. after sunset to 1 hr. before sunrise) unless they have made three takeoffs and three landings to a full stop within the preceding 90 days, at night, in the category and class of aircraft to be used. (14 CFR 61.57)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 50,
+      "question": "The takeoffs and landings required to meet the recency of experience requirements for carrying passengers in a tailwheel airplane",
+      "type": "multiple-choice",
+      "answers": [
+        "may be touch and go or full stop.",
+        "must be touch and go.",
+        "must be to a full stop."
+      ],
+      "correctAnswer": 2,
+      "explanation": "To comply with recency requirements for carrying passengers in a tailwheel airplane, one must have made three takeoffs and landings to a full stop within the past 90 days. (14 CFR 61.57)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 51,
+      "question": "You have accomplished 25 takeoffs and landings in multi-engine land airplanes in the previous 45 days. For a flight you plan to conduct today, this meets the PIC recency of experience requirements to carry passengers in which airplanes?",
+      "type": "multiple-choice",
+      "answers": [
+        "Multi- or single-engine land.",
+        "Single-engine land airplane.",
+        "Multi-engine land airplane."
+      ],
+      "correctAnswer": 2,
+      "explanation": "No person may act as a pilot in command of an aircraft carrying passengers unless that person has made at least 3 takeoffs and 3 landings within the preceding 90 days, and the required takeoffs and landings were performed in an aircraft of the same category (airplane, rotorcraft, glider, etc.), class (single-engine, multi-engine, land, water, gyroplane, etc.), and type (if a type rating is required). Therefore, this meets PIC recency of experience requirements to carry passengers in multi-engine land airplanes. (14 CFR 61.57)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 52,
+      "question": "Your cousin wants you to take him flying. You must have made at least three takeoffs and three landings in your aircraft within the preceding",
+      "type": "multiple-choice",
+      "answers": [
+        "90 days.",
+        "60 days.",
+        "30 days."
+      ],
+      "correctAnswer": 0,
+      "explanation": "To carry passengers, you must have made three landings and three takeoffs within the preceding 90 days. All three landings must be made in aircraft of the same category, class, and, if a type rating is required, type as the one in which passengers are to be carried. (14 CFR 61.57)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 53,
+      "question": "If a certificated pilot changes permanent mailing address and fails to notify the FAA Airmen Certification Branch of the new address, the pilot is entitled to exercise the privileges of the pilot certificate for a period of only",
+      "type": "multiple-choice",
+      "answers": [
+        "30 days after the date of the move.",
+        "60 days after the date of the move.",
+        "90 days after the date of the move."
+      ],
+      "correctAnswer": 0,
+      "explanation": "If you have changed your permanent mailing address, you may not exercise the privileges of your pilot certificate after 30 days from the date of the address change unless you have notified the FAA in writing of the change. You are required to notify the Airmen Certification Branch at PO Box 25082, Oklahoma City, OK 73125. You may also use the airmen services system on the FAA website. NOTE: While you must notify the FAA if your address changes, you are not required to carry a certificate that shows your current address. The FAA will not issue a new certificate upon receipt of your new address unless you send a written request and $2 to the address shown above. (14 CFR 61.60)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 54,
+      "question": "A certificated private pilot may not act as pilot in command of an aircraft towing a glider unless there is entered in the pilot's logbook a minimum of",
+      "type": "multiple-choice",
+      "answers": [
+        "100 hours of pilot flight time in any aircraft the pilot is using to tow a glider.",
+        "100 hours of pilot-in-command time in the aircraft category, class, and type, if required, that the pilot is using to tow a glider.",
+        "200 hours of pilot-in-command time in the aircraft category, class, and type, if required, that the pilot is using to tow a glider."
+      ],
+      "correctAnswer": 1,
+      "explanation": "As a private pilot, you may not act as pilot in command of an aircraft towing a glider unless you have had, and entered in your logbook, at least 100 hours of pilot-in-command time in the aircraft category, class, and type, if required, that you are using to tow a glider. (14 CFR 61.69)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 55,
+      "question": "To act as pilot in command of an aircraft towing a glider, a pilot is required to have made within the preceding 24 months",
+      "type": "multiple-choice",
+      "answers": [
+        "at least three flights as observer in a glider being towed by an aircraft.",
+        "at least three flights in a powered glider.",
+        "at least three actual or simulated glider tows while accompanied by a qualified pilot."
+      ],
+      "correctAnswer": 2,
+      "explanation": "To act as pilot in command of an aircraft towing a glider, you are required to have made, in the preceding 24 months, (1) At least three actual or simulated glider tows while accompanied by a qualified pilot or (2) At least three flights as pilot in command of a glider towed by an aircraft. (14 CFR 61.69)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 56,
+      "question": "If you are operating under BasicMed, you may fly an aircraft with",
+      "type": "multiple-choice",
+      "answers": [
+        "an actual takeoff weight of no more than 12,500 lb.",
+        "a maximum certificated takeoff weight of no more than 12,500 lb.",
+        "any weight, as long as you do not exceed the aircraft's maximum certificated takeoff weight."
+      ],
+      "correctAnswer": 1,
+      "explanation": "If you are operating under BasicMed, you may fly an aircraft with a maximum certificated takeoff weight of no more than 12,500 lb. 14 CFR Part 1 defines aircraft that weigh 12,500 lb. or less as small aircraft. (14 CFR 61.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 57,
+      "question": "In regard to privileges and limitations, a private pilot may",
+      "type": "multiple-choice",
+      "answers": [
+        "act as pilot in command of an aircraft carrying a passenger for compensation if the flight is in connection with a business or employment.",
+        "not pay less than the pro rata share of the operating expenses of a flight with passengers provided the expenses involve only fuel, oil, airport expenditures, or rental fees.",
+        "not be paid in any manner for the operating expenses of a flight."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A private pilot may not pay less than an equal (pro rata) share of the operating expenses of a flight with passengers. These expenses may involve only fuel, oil, airport expenditures (e.g., landing fees, tie-down fees, etc.), or rental fees. (14 CFR 61.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 58,
+      "question": "According to regulations pertaining to privileges and limitations, a private pilot may",
+      "type": "multiple-choice",
+      "answers": [
+        "be paid for the operating expenses of a flight if at least three takeoffs and three landings were made by the pilot within the preceding 90 days.",
+        "not pay less than the pro rata share of the operating expenses of a flight with passengers provided the expenses involve only fuel, oil, airport expenditures, or rental fees.",
+        "not be paid in any manner for the operating expenses of a flight."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A private pilot may not pay less than an equal (pro rata) share of the operating expenses of a flight with passengers. These expenses may involve only fuel, oil, airport expenditures (e.g., landing fees, tie-down fees, etc.), or rental fees. (14 CFR 61.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 59,
+      "question": "What exception, if any, permits a private pilot to act as pilot in command of an aircraft carrying passengers who pay for the flight?",
+      "type": "multiple-choice",
+      "answers": [
+        "If the passengers pay all the operating expenses.",
+        "If a donation is made to a charitable organization for the flight.",
+        "There is no exception."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A private pilot may act as pilot in command of an airplane used in a passenger-carrying airlift sponsored by a charitable organization for which passengers make donations to the organization, provided the following requirements are met: the responsible Flight Standards office is notified at least 7 days before the flight, the flight is conducted from an adequate public airport, the pilot has logged at least 500 hr., no aerobatic or formation flights are performed, the 100-hr. inspection of the airplane requirement is complied with, and the flight is day-VFR. (14 CFR 61.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 60,
+      "question": "If you are operating under BasicMed, what is the maximum speed at which you may fly?",
+      "type": "multiple-choice",
+      "answers": [
+        "250 KIAS.",
+        "250 KIAS below 10,000 feet, and 230 KIAS above 10,000 feet.",
+        "200 KIAS below 10,000 feet, and 230 KIAS above 10,000 feet."
+      ],
+      "correctAnswer": 0,
+      "explanation": "If you are operating under BasicMed, you may fly an aircraft at a maximum speed of 250 KIAS. (14 CFR 61.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
+    },
+    {
+      "id": 61,
+      "question": "You own an aircraft that is certificated to carry 8 occupants and has a total of 8 seats installed, including the pilot's seat. You have recently elected to fly under BasicMed. May you continue to fly the aircraft?",
+      "type": "multiple-choice",
+      "answers": [
+        "Yes, if you remove 2 of the seats.",
+        "Yes, as long as you carry no more than 6 passengers.",
+        "No."
+      ],
+      "correctAnswer": 2,
+      "explanation": "If you are operating under BasicMed, you may only fly aircraft that are authorized under federal law to carry no more than 7 occupants. Aircraft may only be operated under BasicMed pursuant to their type certificate data sheet (TCDS) or supplemental type certificate (STC). (14 CFR 61.113)",
+      "category": "Federal Aviation Regulations",
+      "subcategory": "14 CFR Part 61: Certification: Pilots, Flight Instructors, and Ground Instructors"
     }
   ]
 }
