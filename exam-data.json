@@ -2459,6 +2459,248 @@
               "correctAnswer": 1,
               "explanation": "The NTSB must be notified immediately and by the most expeditious means possible when an aircraft accident or any of various listed incidents occurs or when an aircraft is overdue and believed to have been in an accident. The following are considered incidents: 1. Flight control system malfunction or failure; 2. Inability of any required flight crewmember to perform normal flight duties as a result of injury or illness; 3. Damage to property, other than the aircraft, in excess of $25,000; 4. In-flight fire; or 5. Aircraft collision in flight. (NTSB 830.5)"
             }
+          ],
+          "Optional Quiz": [
+            {
+              "id": 204,
+              "question": "When flying in a VFR corridor designated through Class B airspace, the maximum speed authorized is",
+              "type": "multiple-choice",
+              "answers": [
+                "180 knots.",
+                "200 knots.",
+                "250 knots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "No person may operate an airplane in a VFR corridor designated through Class B airspace at an indicated airspeed of more than 200 knots (230 MPH). (14 CFR 91.117)"
+            },
+            {
+              "id": 205,
+              "question": "You are PIC of a flight. During your preflight, you notice a mechanical discrepancy that you think makes the aircraft unairworthy. Who is responsible for this determination?",
+              "type": "multiple-choice",
+              "answers": [
+                "A certificated aircraft mechanic.",
+                "The pilot-in-command.",
+                "The owner or operator."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The pilot in command is responsible for ensuring the aircraft is in an airworthy condition before each flight. (14 CFR 91.7)"
+            },
+            {
+              "id": 206,
+              "question": "The three takeoffs and landings that are required to act as pilot in command at night must be done during the time period from",
+              "type": "multiple-choice",
+              "answers": [
+                "sunset to sunrise.",
+                "1 hour after sunset to 1 hour before sunrise.",
+                "the end of evening civil twilight to the beginning of morning civil twilight."
+              ],
+              "correctAnswer": 1,
+              "explanation": "No one may act as pilot in command of an aircraft carrying passengers at night (i.e., the period from 1 hour after sunset to 1 hour before sunrise as published in the American Air Almanac) unless they have made three takeoffs and three landings to a full stop within the preceding 90 days, at night, in the category and class of aircraft to be used. (14 CFR 61.57)"
+            },
+            {
+              "id": 207,
+              "question": "When must batteries in an emergency locator transmitter (ELT) be replaced or recharged, if rechargeable?",
+              "type": "multiple-choice",
+              "answers": [
+                "After any inadvertent activation of the ELT.",
+                "When the ELT has been in use for more than 1 cumulative hour.",
+                "When the ELT can no longer be heard over the airplane's communication radio receiver."
+              ],
+              "correctAnswer": 1,
+              "explanation": "ELT batteries must be replaced or recharged (if rechargeable) when the transmitter has been in use for more than 1 cumulative hour or when 50% of their useful life (or useful life of charge) has expired. (14 CFR 91.207)"
+            },
+            {
+              "id": 208,
+              "question": "Each person who holds a pilot certificate or a medical certificate shall present it for inspection upon the request of any",
+              "type": "multiple-choice",
+              "answers": [
+                "authorized representative of the Department of Transportation.",
+                "person in a position of authority.",
+                "local law enforcement officer."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Each person who holds a pilot certificate, flight instructor certificate, medical certificate, authorization, or license required by Federal Aviation Regulations shall present it for inspection upon the request of the Administrator of the FAA, an authorized representative of the National Transportation Safety Board, or any federal, state, or local law enforcement officer. (14 CFR 61.3)"
+            },
+            {
+              "id": 209,
+              "question": "The responsibility for ensuring that an aircraft is maintained in an airworthy condition is primarily that of the",
+              "type": "multiple-choice",
+              "answers": [
+                "pilot in command.",
+                "owner or operator.",
+                "mechanic who performs the work."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The owner or operator of an aircraft is primarily responsible for maintaining that aircraft in an airworthy condition. The term \"operator\" includes the pilot in command. (14 CFR 91.403)"
+            },
+            {
+              "id": 210,
+              "question": "In order to qualify for BasicMed, you must have received a comprehensive examination from",
+              "type": "multiple-choice",
+              "answers": [
+                "An FAA-designated Aviation Medical Examiner within the previous 60 months.",
+                "A state-licensed physician within the previous 24 months.",
+                "A state-licensed physician within the previous 48 months."
+              ],
+              "correctAnswer": 2,
+              "explanation": "In order to qualify for BasicMed, you must have received a comprehensive examination from a state-licensed physician within the previous 48 months. (14 CFR 61.23)"
+            },
+            {
+              "id": 211,
+              "question": "When preventive maintenance is performed on an aircraft, what paperwork is required?",
+              "type": "multiple-choice",
+              "answers": [
+                "A full, detailed description of the work done must be entered in the airframe logbook.",
+                "The date the work was completed, and the name of the person who did the work must be entered in the airframe and engine logbook.",
+                "The signature, certificate number, and kind of certificate held by the person approving the work, and a description of the work must be entered in the aircraft maintenance records."
+              ],
+              "correctAnswer": 2,
+              "explanation": "After preventive maintenance has been performed, the signature, certificate number, and kind of certificate held by the person approving the work and a description of the work must be entered in the aircraft maintenance records. (14 CFR 43.9)"
+            },
+            {
+              "id": 212,
+              "question": "Which V-speed represents maximum flap extended speed?",
+              "type": "multiple-choice",
+              "answers": [
+                "VFE.",
+                "VLOF.",
+                "VFC."
+              ],
+              "correctAnswer": 0,
+              "explanation": "VFE means the maximum flap extended speed. (14 CFR 1.2)"
+            },
+            {
+              "id": 213,
+              "question": "Except when necessary for takeoff or landing, what is the minimum safe altitude required for a pilot to operate an aircraft over other than a congested area?",
+              "type": "multiple-choice",
+              "answers": [
+                "An altitude allowing, if a power unit fails, an emergency landing without undue hazard to persons or property on the surface.",
+                "An altitude of 500 feet AGL, except over open water or a sparsely populated area, which requires 500 feet from any person, vessel, vehicle, or structure.",
+                "An altitude of 500 feet above the highest obstacle within a horizontal radius of 1,000 feet."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Over uncongested areas, an altitude of 500 ft. above the surface is required. Over open water and sparsely populated areas, a distance of 500 ft. from any person, vessel, vehicle, or structure must be maintained. (14 CFR 91.119)"
+            },
+            {
+              "id": 214,
+              "question": "You are conducting your preflight of an aircraft and notice that the last inspection of the emergency locator transmitter was 11 calendar months ago. You may",
+              "type": "multiple-choice",
+              "answers": [
+                "depart if you get a special flight permit.",
+                "depart because the ELT is within the inspection requirements.",
+                "not depart until a new inspection is conducted."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Each required ELT must be inspected within 12 calendar months after the last inspection for proper installation, battery corrosion, operation of the controls and crash sensor, and the presence of a sufficient signal radiating from its antenna. In this scenario, you may depart, as the last inspection was conducted 11 months ago. (14 CFR 91.207)"
+            },
+            {
+              "id": 215,
+              "question": "Under what condition could an aircraft's engine logbook show no previous operating history?",
+              "type": "multiple-choice",
+              "answers": [
+                "If the aircraft had been imported from a foreign country.",
+                "If an error by maintenance personnel occurred.",
+                "When the aircraft's engine has been rebuilt by the manufacturer."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A new maintenance record, without previous operating history, may be used for an aircraft engine rebuilt by the manufacturer or by an agency approved by the manufacturer. (14 CFR 91.421)"
+            },
+            {
+              "id": 216,
+              "question": "With certain exceptions, when must each occupant of an aircraft wear an approved parachute?",
+              "type": "multiple-choice",
+              "answers": [
+                "When a door is removed from the aircraft to facilitate parachute jumpers.",
+                "When intentionally pitching the nose of the aircraft up or down 30° or more.",
+                "When intentionally banking in excess of 30°."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Unless each occupant of an airplane is wearing an approved parachute, no pilot carrying any other person (other than a crewmember) may execute any intentional maneuver that exceeds a bank of 60° or a nose-up or nose-down attitude of 30° relative to the horizon. (14 CFR 91.307)"
+            },
+            {
+              "id": 217,
+              "question": "Which VFR cruising altitude is acceptable for a flight on a Victor Airway with a magnetic course of 175°? The terrain is less than 1,000 feet.",
+              "type": "multiple-choice",
+              "answers": [
+                "4,500 feet.",
+                "5,000 feet.",
+                "5,500 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "When operating a VFR flight above 3,000 feet AGL on a magnetic course of 0° through 179°, fly any odd thousand-foot MSL altitude plus 500 feet. Thus, on a magnetic course of 175°, an appropriate VFR cruising altitude is 5,500 feet. (14 CFR 91.159)"
+            },
+            {
+              "id": 218,
+              "question": "Where may an aircraft's operating limitations be found if the aircraft has an Experimental or Special light-sport airworthiness certificate?",
+              "type": "multiple-choice",
+              "answers": [
+                "Attached to the Airworthiness Certificate.",
+                "In the current, FAA-approved flight manual.",
+                "In the aircraft airframe and engine logbooks."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The operating limitations for experimental aircraft and aircraft issued a special light-sport airworthiness certificate are a permanent part of the aircraft's airworthiness certificate and must remain in the aircraft during operation. (14 CFR 91.9 and AC 65-32A)"
+            },
+            {
+              "id": 219,
+              "question": "Which V-speed represents maneuvering speed?",
+              "type": "multiple-choice",
+              "answers": [
+                "VA.",
+                "VLO.",
+                "VNE."
+              ],
+              "correctAnswer": 0,
+              "explanation": "VA means design maneuvering speed. (14 CFR 1.2)"
+            },
+            {
+              "id": 220,
+              "question": "The party directly responsible for the pre-takeoff briefing of passengers is the",
+              "type": "multiple-choice",
+              "answers": [
+                "pilot in command.",
+                "safety officer.",
+                "ground crew."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Before each takeoff, the pilot in command of an airplane carrying passengers shall ensure that all passengers have been orally briefed on smoking, the use of safety belts and shoulder harnesses, location and means of opening a passenger door as a means of emergency exit, location of survival equipment, ditching procedures and the use of the flotation equipment, and the normal and emergency use of oxygen equipment if installed in the airplane. (14 CFR 91.519)"
+            },
+            {
+              "id": 221,
+              "question": "An ATC clearance provides",
+              "type": "multiple-choice",
+              "answers": [
+                "priority over all other traffic.",
+                "adequate separation from all traffic.",
+                "authorization to proceed under specified traffic conditions in controlled airspace."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A clearance issued by ATC is predicated on known traffic and known physical airport conditions. An ATC clearance means an authorization by ATC, for the purpose of preventing collision between known airplanes, for an airplane to proceed under specified conditions within controlled airspace. (14 CFR 1.1)"
+            },
+            {
+              "id": 222,
+              "question": "As pilot-in-command of an aircraft, you may deviate from an ATC clearance when",
+              "type": "multiple-choice",
+              "answers": [
+                "flying in the outer ring of Class C airspace.",
+                "operating under VFR in Class B airspace.",
+                "there is an in-flight emergency requiring immediate action."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A pilot may deviate from ATC clearance or instruction only in the case of an in-flight emergency requiring immediate action. In such a case, the pilot should notify ATC of the deviation as soon as possible. (14 CFR 91.123)"
+            },
+            {
+              "id": 223,
+              "question": "A Third-Class Medical Certificate is issued to a 51-year-old pilot on May 3, this year. To exercise the privileges of a Private Pilot Certificate, the medical certificate will be valid until midnight on",
+              "type": "multiple-choice",
+              "answers": [
+                "May 3, 1 year later.",
+                "May 31, 1 year later.",
+                "May 31, 2 years later."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A pilot may exercise the privileges of a private pilot certificate under a third-class medical certificate until it expires at the end of the last day of the month 2 years after it was issued, for pilots 40 years old or older on the date of the medical examination. A third-class medical certificate issued to a 51-year-old pilot on May 3 will be valid until midnight on May 31, 2 years later. (14 CFR 61.23)"
+            }
           ]
         }
       }
