@@ -126,6 +126,17 @@ main {
     cursor: not-allowed;
 }
 
+/* Question Bank Selector Specific Styles */
+#questionBankSelect {
+    border-color: #667eea;
+    background: linear-gradient(135deg, #f7fafc, #edf2f7);
+}
+
+#questionBankSelect:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
 .subcategory-container {
     margin-top: 20px;
     padding: 20px;

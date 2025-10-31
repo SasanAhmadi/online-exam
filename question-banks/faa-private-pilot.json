@@ -1,0 +1,81 @@
+{
+  "subjects": {
+    "FAA Private Pilot": {
+      "description": "Federal Aviation Administration Private Pilot Knowledge Test Questions",
+      "categories": {
+        "Weather": {
+          "Weather Systems": [
+            {
+              "id": 1001,
+              "question": "What is the approximate base of the cumulus clouds if the surface air temperature at 1,000 feet MSL is 70°F and the dewpoint is 48°F?",
+              "type": "multiple-choice",
+              "answers": [
+                "4,000 feet MSL.",
+                "5,500 feet MSL.",
+                "6,000 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "To find the base of cumulus clouds, use the formula: Cloud base = surface temperature - dewpoint temperature, divided by 4.4°F per 1,000 feet. (70 - 48) ÷ 4.4 = 5 thousand feet. Adding the 1,000 feet MSL surface elevation gives 6,000 feet MSL."
+            },
+            {
+              "id": 1002,
+              "question": "What weather conditions should be expected beneath a low-pressure system?",
+              "type": "multiple-choice",
+              "answers": [
+                "Poor visibility, steady precipitation, and stratus-type clouds.",
+                "Good visibility, steady precipitation, and stratus-type clouds.",
+                "Poor visibility, intermittent precipitation, and cumulus-type clouds."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Low-pressure systems are associated with poor visibility, intermittent precipitation, and cumulus-type clouds due to the unstable air mass and upward vertical motion."
+            }
+          ],
+          "Weather Charts and Reports": [
+            {
+              "id": 1003,
+              "question": "What is the valid time for the TAF for KMEM?",
+              "type": "multiple-choice",
+              "answers": [
+                "1200Z on the 12th to 1200Z on the 13th.",
+                "1200Z on the 11th to 1200Z on the 12th.",
+                "1000Z on the 12th to 1000Z on the 13th."
+              ],
+              "correctAnswer": 0,
+              "explanation": "TAF (Terminal Aerodrome Forecast) valid times are typically issued four times daily and are valid for 24 or 30 hours. The format shows the valid period from 1200Z on the 12th to 1200Z on the 13th."
+            }
+          ]
+        },
+        "Navigation": {
+          "Radio Navigation": [
+            {
+              "id": 1004,
+              "question": "When using VOR for navigation, which of the following should be considered as station passage?",
+              "type": "multiple-choice",
+              "answers": [
+                "The first flickering of the CDI as it centers.",
+                "The first deflection of the CDI as the aircraft enters the zone of confusion.",
+                "The moment the TO-FROM indicator becomes blank."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Station passage occurs when the TO-FROM indicator becomes blank, indicating the aircraft is directly over or very close to the VOR station in the cone of silence."
+            }
+          ],
+          "Pilotage and Dead Reckoning": [
+            {
+              "id": 1005,
+              "question": "How far will an aircraft travel in 2-1/2 minutes with a groundspeed of 98 knots?",
+              "type": "multiple-choice",
+              "answers": [
+                "2.45 NM.",
+                "3.35 NM.",
+                "4.08 NM."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Distance = Speed × Time. Convert 2.5 minutes to hours: 2.5 ÷ 60 = 0.0417 hours. Distance = 98 knots × 0.0417 hours = 4.08 nautical miles."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

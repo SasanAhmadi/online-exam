@@ -1,0 +1,25 @@
+{
+  "questionBanks": [
+    {
+      "id": "canadian-conversion-ppl",
+      "name": "Canadian Conversion PPL",
+      "description": "14 CFR Regulations - Practice Questions for Canadian License Conversion",
+      "file": "question-banks/canadian-conversion-ppl.json",
+      "enabled": true
+    },
+    {
+      "id": "faa-private-pilot",
+      "name": "FAA Private Pilot",
+      "description": "Federal Aviation Administration Private Pilot Knowledge Test Questions",
+      "file": "question-banks/faa-private-pilot.json",
+      "enabled": true
+    },
+    {
+      "id": "instrument-rating",
+      "name": "Instrument Rating",
+      "description": "Instrument Rating Knowledge Test Questions",
+      "file": "question-banks/instrument-rating.json",
+      "enabled": false
+    }
+  ]
+}

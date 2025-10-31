@@ -1,5 +1,7 @@
 class ExamApp {
     constructor() {
+        this.questionBanks = [];
+        this.mergedExamData = null;
         this.examData = null;
         this.subjects = [];
         this.categories = [];
@@ -12,7 +14,7 @@ class ExamApp {
 
         this.initializeElements();
         this.attachEventListeners();
-        this.loadExams();
+        this.loadQuestionBanks();
     }
 
     initializeElements() {
@@ -23,8 +25,20 @@ class ExamApp {
         this.examInfo = document.getElementById('examInfo');
 
         // Welcome screen elements
+        this.questionBankSelect = document.createElement('select');
+        this.questionBankSelect.id = 'questionBankSelect';
+        this.questionBankSelect.className = 'exam-selector';
+
         this.subjectSelect = document.getElementById('subjectSelect');
         this.categorySelect = document.getElementById('examSelect'); // Reusing existing select element
+
+        // Insert question bank selector before subject selector
+        const questionBankLabel = document.createElement('label');
+        questionBankLabel.textContent = 'Select Question Bank:';
+        questionBankLabel.htmlFor = 'questionBankSelect';
+
+        this.subjectSelect.parentNode.insertBefore(questionBankLabel, this.subjectSelect.parentNode.firstChild);
+        this.subjectSelect.parentNode.insertBefore(this.questionBankSelect, this.subjectSelect.parentNode.firstChild.nextSibling);
 
         // Create subcategory container for checkboxes
         this.subcategoryContainer = document.createElement('div');
@@ -61,6 +75,7 @@ class ExamApp {
     }
 
     attachEventListeners() {
+        this.questionBankSelect.addEventListener('change', () => this.onQuestionBankSelected());
         this.subjectSelect.addEventListener('change', () => this.onSubjectSelected());
         this.categorySelect.addEventListener('change', () => this.onCategorySelected());
         this.startExamBtn.addEventListener('click', () => this.startExam());
@@ -74,56 +89,147 @@ class ExamApp {
         this.backToHomeBtn.addEventListener('click', () => this.backToHome());
     }
 
-    async loadExams() {
+    async loadQuestionBanks() {
         try {
-            // Try to load from multiple possible exam files
-            const examFiles = ['exam-data.json', 'exams.json', 'sample-exam.json'];
-
-            for (const file of examFiles) {
-                try {
-                    const response = await fetch(file);
-                    if (response.ok) {
-                        const data = await response.json();
-
-                        // Check if it's the new subjects structure
-                        if (data.subjects && typeof data.subjects === 'object') {
-                            this.examData = data;
-                            this.processSubjectData();
-                            this.populateSubjectSelector();
-                            return;
-                        }
-                        // Check if it's the nested categories structure
-                        else if (data.categories && typeof data.categories === 'object') {
-                            this.examData = data;
-                            this.processNestedCategoryData();
-                            this.populateCategorySelector();
-                            return;
-                        }
-                        // Check if it's the old flat structure with questions array
-                        else if (data.questions && Array.isArray(data.questions)) {
-                            this.examData = data;
-                            this.processQuestionData();
-                            this.populateCategorySelector();
-                            return;
-                        } else {
-                            // Handle old format as fallback
-                            this.exams = Array.isArray(data) ? data : [data];
-                            this.populateExamSelector();
-                            return;
-                        }
-                    }
-                } catch (error) {
-                    console.log(`Could not load ${file}:`, error.message);
-                }
+            // Load the question bank configuration
+            const response = await fetch('question-banks.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
 
-            // If no exam files found, use sample data
-            this.loadSampleData();
+            const config = await response.json();
+            this.questionBanks = config.questionBanks.filter(bank => bank.enabled);
+
+            // Populate question bank selector
+            this.populateQuestionBankSelector();
+
+            // Load all enabled question banks
+            await this.loadAllQuestionBanks();
 
         } catch (error) {
-            console.error('Error loading exams:', error);
-            this.loadSampleData();
+            console.error('Error loading question banks:', error);
+            alert('Could not load question bank configuration. Please check that question-banks.json exists and is properly formatted.');
         }
+    }
+
+    async loadAllQuestionBanks() {
+        const loadedBanks = [];
+
+        for (const bank of this.questionBanks) {
+            try {
+                const response = await fetch(bank.file);
+                if (response.ok) {
+                    const data = await response.json();
+                    loadedBanks.push({
+                        ...bank,
+                        data: data
+                    });
+                    console.log(`Loaded question bank: ${bank.name}`);
+                } else {
+                    console.warn(`Could not load question bank: ${bank.name} from ${bank.file}`);
+                }
+            } catch (error) {
+                console.error(`Error loading question bank ${bank.name}:`, error);
+            }
+        }
+
+        this.loadedQuestionBanks = loadedBanks;
+
+        // Merge all question banks or load the first one by default
+        if (loadedBanks.length > 0) {
+            this.mergeQuestionBanks();
+        }
+    }
+
+    mergeQuestionBanks(selectedBankIds = null) {
+        // If no specific banks selected, merge all loaded banks
+        const banksToMerge = selectedBankIds ?
+            this.loadedQuestionBanks.filter(bank => selectedBankIds.includes(bank.id)) :
+            this.loadedQuestionBanks;
+
+        // Initialize merged structure
+        this.mergedExamData = {
+            subjects: {}
+        };
+
+        // Merge subjects from all selected question banks
+        banksToMerge.forEach(bank => {
+            if (bank.data && bank.data.subjects) {
+                Object.entries(bank.data.subjects).forEach(([subjectName, subjectData]) => {
+                    if (!this.mergedExamData.subjects[subjectName]) {
+                        this.mergedExamData.subjects[subjectName] = {
+                            description: subjectData.description,
+                            categories: {}
+                        };
+                    }
+
+                    // Merge categories
+                    Object.entries(subjectData.categories).forEach(([categoryName, categoryData]) => {
+                        if (!this.mergedExamData.subjects[subjectName].categories[categoryName]) {
+                            this.mergedExamData.subjects[subjectName].categories[categoryName] = {};
+                        }
+
+                        // Merge subcategories (no overlapping allowed as per requirement)
+                        Object.entries(categoryData).forEach(([subcategoryName, questions]) => {
+                            if (this.mergedExamData.subjects[subjectName].categories[categoryName][subcategoryName]) {
+                                console.warn(`Duplicate subcategory found: ${subcategoryName} in ${categoryName}/${subjectName}`);
+                            } else {
+                                this.mergedExamData.subjects[subjectName].categories[categoryName][subcategoryName] = questions;
+                            }
+                        });
+                    });
+                });
+            }
+        });
+
+        this.examData = this.mergedExamData;
+        this.processSubjectData();
+        this.populateSubjectSelector();
+    }
+
+    populateQuestionBankSelector() {
+        // Clear existing options
+        this.questionBankSelect.innerHTML = '<option value="">Select Question Bank(s)...</option>';
+
+        // Add "All Banks" option
+        const allOption = document.createElement('option');
+        allOption.value = 'all';
+        allOption.textContent = 'All Question Banks';
+        this.questionBankSelect.appendChild(allOption);
+
+        // Add individual banks
+        this.questionBanks.forEach(bank => {
+            const option = document.createElement('option');
+            option.value = bank.id;
+            option.textContent = bank.name;
+            this.questionBankSelect.appendChild(option);
+        });
+
+        // Set default to "All Banks"
+        this.questionBankSelect.value = 'all';
+    }
+
+    onQuestionBankSelected() {
+        const selectedValue = this.questionBankSelect.value;
+
+        if (selectedValue === 'all') {
+            // Merge all question banks
+            this.mergeQuestionBanks();
+        } else if (selectedValue) {
+            // Load specific question bank
+            this.mergeQuestionBanks([selectedValue]);
+        } else {
+            // Clear data
+            this.examData = null;
+            this.clearSelectors();
+        }
+    }
+
+    clearSelectors() {
+        this.subjectSelect.innerHTML = '<option value="">Select Subject...</option>';
+        this.categorySelect.innerHTML = '<option value="">Select Category...</option>';
+        this.subcategoryContainer.style.display = 'none';
+        this.startExamBtn.disabled = true;
     }
 
     processSubjectData() {
@@ -138,16 +244,6 @@ class ExamApp {
             Object.entries(subjectData.categories).forEach(([category, subcategories]) => {
                 this.subcategoryMap.set(`${subject}:${category}`, new Set(Object.keys(subcategories)));
             });
-        });
-    }
-
-    processNestedCategoryData() {
-        // Extract categories and subcategories from nested structure
-        this.categories = Object.keys(this.examData.categories);
-        this.subcategoryMap = new Map();
-
-        Object.entries(this.examData.categories).forEach(([category, subcategories]) => {
-            this.subcategoryMap.set(category, new Set(Object.keys(subcategories)));
         });
     }
 
@@ -311,13 +407,6 @@ class ExamApp {
                 let questionCount = 0;
                 if (this.examData.subjects && selectedSubject && this.examData.subjects[selectedSubject].categories[selectedCategory] && this.examData.subjects[selectedSubject].categories[selectedCategory][subcategory]) {
                     questionCount = this.examData.subjects[selectedSubject].categories[selectedCategory][subcategory].length;
-                } else if (this.examData.categories && this.examData.categories[selectedCategory] && this.examData.categories[selectedCategory][subcategory]) {
-                    questionCount = this.examData.categories[selectedCategory][subcategory].length;
-                } else if (this.examData.questions) {
-                    // Fallback for old structure
-                    questionCount = this.examData.questions.filter(q =>
-                        q.category === selectedCategory && q.subcategory === subcategory
-                    ).length;
                 }
 
                 const countSpan = document.createElement('span');
@@ -339,25 +428,6 @@ class ExamApp {
 
     onSubcategorySelectionChanged() {
         // Enable start button whenever a category is selected (subcategories are optional)
-        this.startExamBtn.disabled = this.categorySelect.value === '';
-    }
-
-    populateExamSelector() {
-        // This function is for backward compatibility with old exam format
-        this.categorySelect.innerHTML = '<option value="">-- Select an exam --</option>';
-
-        if (this.exams && this.exams.length > 0) {
-            this.exams.forEach((exam, index) => {
-                const option = document.createElement('option');
-                option.value = index;
-                option.textContent = `${exam.title} (${exam.questions.length} questions)`;
-                this.categorySelect.appendChild(option);
-            });
-        }
-    }
-
-    onExamSelected() {
-        // This function is for backward compatibility with old exam format
         this.startExamBtn.disabled = this.categorySelect.value === '';
     }
 
@@ -403,170 +473,59 @@ class ExamApp {
     }
 
     startExam() {
-        // Check if we have subjects structure
-        if (this.examData && this.examData.subjects) {
-            const selectedSubject = this.subjectSelect.value;
-            const selectedCategory = this.categorySelect.value;
+        const selectedSubject = this.subjectSelect.value;
+        const selectedCategory = this.categorySelect.value;
 
-            if (!selectedSubject) {
-                alert('Please select a subject.');
-                return;
-            }
-
-            if (!selectedCategory) {
-                alert('Please select a category.');
-                return;
-            }
-
-            const selectedSubcategories = this.getSelectedSubcategories();
-            let filteredQuestions = [];
-            let examTitle;
-
-            if (selectedSubcategories.length === 0) {
-                // No subcategories selected - use all questions from the category
-                Object.values(this.examData.subjects[selectedSubject].categories[selectedCategory]).forEach(subcategoryQuestions => {
-                    filteredQuestions = filteredQuestions.concat(subcategoryQuestions);
-                });
-                examTitle = `${selectedSubject} - ${selectedCategory} - All Topics`;
-            } else {
-                // Filter by selected subcategories
-                selectedSubcategories.forEach(subcategory => {
-                    if (this.examData.subjects[selectedSubject].categories[selectedCategory][subcategory]) {
-                        filteredQuestions = filteredQuestions.concat(
-                            this.examData.subjects[selectedSubject].categories[selectedCategory][subcategory]
-                        );
-                    }
-                });
-
-                if (selectedSubcategories.length === 1) {
-                    examTitle = `${selectedSubject} - ${selectedCategory} - ${selectedSubcategories[0]}`;
-                } else {
-                    examTitle = `${selectedSubject} - ${selectedCategory} - ${selectedSubcategories.length} Topics`;
-                }
-            }
-
-            if (filteredQuestions.length === 0) {
-                alert('No questions found for the selected criteria.');
-                return;
-            }
-
-            // Create a virtual exam object
-            this.currentExam = {
-                title: examTitle,
-                description: selectedSubcategories.length === 0
-                    ? `All questions from ${selectedSubject} - ${selectedCategory}`
-                    : `Questions from selected topics in ${selectedSubject} - ${selectedCategory}`,
-                questions: filteredQuestions
-            };
+        if (!selectedSubject) {
+            alert('Please select a subject.');
+            return;
         }
-        // Check if we have nested categories structure
-        else if (this.examData && this.examData.categories) {
-            // New nested category/subcategory structure
-            const selectedCategory = this.categorySelect.value;
 
-            if (!selectedCategory) {
-                alert('Please select a category.');
-                return;
-            }
-
-            const selectedSubcategories = this.getSelectedSubcategories();
-            let filteredQuestions = [];
-            let examTitle;
-
-            if (selectedSubcategories.length === 0) {
-                // No subcategories selected - use all questions from the category
-                Object.values(this.examData.categories[selectedCategory]).forEach(subcategoryQuestions => {
-                    filteredQuestions = filteredQuestions.concat(subcategoryQuestions);
-                });
-                examTitle = `${selectedCategory} - All Topics`;
-            } else {
-                // Filter by selected subcategories
-                selectedSubcategories.forEach(subcategory => {
-                    if (this.examData.categories[selectedCategory][subcategory]) {
-                        filteredQuestions = filteredQuestions.concat(
-                            this.examData.categories[selectedCategory][subcategory]
-                        );
-                    }
-                });
-
-                if (selectedSubcategories.length === 1) {
-                    examTitle = `${selectedCategory} - ${selectedSubcategories[0]}`;
-                } else {
-                    examTitle = `${selectedCategory} - ${selectedSubcategories.length} Topics`;
-                }
-            }
-
-            if (filteredQuestions.length === 0) {
-                alert('No questions found for the selected criteria.');
-                return;
-            }
-
-            // Create a virtual exam object
-            this.currentExam = {
-                title: examTitle,
-                description: selectedSubcategories.length === 0
-                    ? `All questions from ${selectedCategory}`
-                    : `Questions from selected topics in ${selectedCategory}`,
-                questions: filteredQuestions
-            };
+        if (!selectedCategory) {
+            alert('Please select a category.');
+            return;
         }
-        // Check for old flat structure with questions array
-        else if (this.examData && this.examData.questions) {
-            // Old category/subcategory based selection
-            const selectedCategory = this.categorySelect.value;
 
-            if (!selectedCategory) {
-                alert('Please select a category.');
-                return;
-            }
+        const selectedSubcategories = this.getSelectedSubcategories();
+        let filteredQuestions = [];
+        let examTitle;
 
-            const selectedSubcategories = this.getSelectedSubcategories();
-            let filteredQuestions;
-            let examTitle;
-
-            if (selectedSubcategories.length === 0) {
-                // No subcategories selected - use all questions from the category
-                filteredQuestions = this.examData.questions.filter(question =>
-                    question.category === selectedCategory
-                );
-                examTitle = `${selectedCategory} - All Topics`;
-            } else {
-                // Filter by selected subcategories
-                filteredQuestions = this.examData.questions.filter(question =>
-                    question.category === selectedCategory &&
-                    selectedSubcategories.includes(question.subcategory)
-                );
-
-                if (selectedSubcategories.length === 1) {
-                    examTitle = `${selectedCategory} - ${selectedSubcategories[0]}`;
-                } else {
-                    examTitle = `${selectedCategory} - ${selectedSubcategories.length} Topics`;
-                }
-            }
-
-            if (filteredQuestions.length === 0) {
-                alert('No questions found for the selected criteria.');
-                return;
-            }
-
-            // Create a virtual exam object
-            this.currentExam = {
-                title: examTitle,
-                description: selectedSubcategories.length === 0
-                    ? `All questions from ${selectedCategory}`
-                    : `Questions from selected topics in ${selectedCategory}`,
-                questions: filteredQuestions
-            };
+        if (selectedSubcategories.length === 0) {
+            // No subcategories selected - use all questions from the category
+            Object.values(this.examData.subjects[selectedSubject].categories[selectedCategory]).forEach(subcategoryQuestions => {
+                filteredQuestions = filteredQuestions.concat(subcategoryQuestions);
+            });
+            examTitle = `${selectedSubject} - ${selectedCategory} - All Topics`;
         } else {
-            // Old exam-based selection (fallback)
-            const examIndex = parseInt(this.categorySelect.value);
-            if (examIndex >= 0 && examIndex < this.exams.length) {
-                this.currentExam = this.exams[examIndex];
+            // Filter by selected subcategories
+            selectedSubcategories.forEach(subcategory => {
+                if (this.examData.subjects[selectedSubject].categories[selectedCategory][subcategory]) {
+                    filteredQuestions = filteredQuestions.concat(
+                        this.examData.subjects[selectedSubject].categories[selectedCategory][subcategory]
+                    );
+                }
+            });
+
+            if (selectedSubcategories.length === 1) {
+                examTitle = `${selectedSubject} - ${selectedCategory} - ${selectedSubcategories[0]}`;
             } else {
-                alert('Please select a valid exam.');
-                return;
+                examTitle = `${selectedSubject} - ${selectedCategory} - ${selectedSubcategories.length} Topics`;
             }
         }
+
+        if (filteredQuestions.length === 0) {
+            alert('No questions found for the selected criteria.');
+            return;
+        }
+
+        // Create a virtual exam object
+        this.currentExam = {
+            title: examTitle,
+            description: selectedSubcategories.length === 0
+                ? `All questions from ${selectedSubject} - ${selectedCategory}`
+                : `Questions from selected topics in ${selectedSubject} - ${selectedCategory}`,
+            questions: filteredQuestions
+        };
 
         this.currentQuestionIndex = 0;
         this.userAnswers = new Array(this.currentExam.questions.length).fill(null);
