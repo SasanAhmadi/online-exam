@@ -25,11 +25,17 @@
             <!-- Welcome Screen -->
             <div class="welcome-screen" id="welcomeScreen">
                 <h2>Welcome to the Online Exam Practice</h2>
-                <p>Select a category to practice all questions, or choose specific subcategories for targeted practice.</p>
+                <p>Select a subject and category to practice all questions, or choose specific subcategories for targeted practice.</p>
+                <div class="exam-selector">
+                    <label for="subjectSelect">Choose a subject:</label>
+                    <select id="subjectSelect">
+                        <option value="">-- Select a subject --</option>
+                    </select>
+                </div>
                 <div class="exam-selector">
                     <label for="examSelect">Choose a category:</label>
-                    <select id="examSelect">
-                        <option value="">-- Select a category --</option>
+                    <select id="examSelect" disabled>
+                        <option value="">-- Select a subject first --</option>
                     </select>
                 </div>
                 <button id="startExam" class="btn btn-primary" disabled>Start Exam</button>
