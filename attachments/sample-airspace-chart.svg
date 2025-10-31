@@ -1,0 +1,42 @@
+<!-- This is a sample SVG chart for demonstrating image attachments -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f8ff"/>
+
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#2c3e50">Sample Airspace Chart</text>
+
+  <!-- Class B Airspace (inverted wedding cake) -->
+  <circle cx="200" cy="150" r="80" fill="none" stroke="#0066cc" stroke-width="3"/>
+  <circle cx="200" cy="150" r="60" fill="none" stroke="#0066cc" stroke-width="2"/>
+  <circle cx="200" cy="150" r="40" fill="none" stroke="#0066cc" stroke-width="2"/>
+
+  <!-- Class B Labels -->
+  <text x="200" y="80" text-anchor="middle" font-family="Arial" font-size="12" fill="#0066cc">Class B</text>
+  <text x="200" y="95" text-anchor="middle" font-family="Arial" font-size="10" fill="#0066cc">SFC-10,000</text>
+
+  <text x="140" y="120" text-anchor="middle" font-family="Arial" font-size="10" fill="#0066cc">2,500-10,000</text>
+
+  <text x="120" y="180" text-anchor="middle" font-family="Arial" font-size="10" fill="#0066cc">5,000-10,000</text>
+
+  <!-- Airport symbol -->
+  <circle cx="200" cy="150" r="4" fill="#cc6600"/>
+  <text x="210" y="155" font-family="Arial" font-size="10" fill="#cc6600">Major Airport</text>
+
+  <!-- Class D Airspace -->
+  <circle cx="120" cy="220" r="25" fill="none" stroke="#9932cc" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="120" y="210" text-anchor="middle" font-family="Arial" font-size="10" fill="#9932cc">Class D</text>
+  <text x="120" y="225" text-anchor="middle" font-family="Arial" font-size="8" fill="#9932cc">SFC-2,500</text>
+
+  <!-- Class E Airspace indication -->
+  <text x="50" y="50" font-family="Arial" font-size="12" fill="#228b22">Class E</text>
+  <text x="50" y="65" font-family="Arial" font-size="10" fill="#228b22">1,200 AGL-18,000</text>
+
+  <!-- Legend -->
+  <rect x="20" y="240" width="150" height="50" fill="white" stroke="#666" stroke-width="1"/>
+  <text x="25" y="255" font-family="Arial" font-size="10" font-weight="bold" fill="#333">Legend:</text>
+  <line x1="30" y1="265" x2="40" y2="265" stroke="#0066cc" stroke-width="2"/>
+  <text x="45" y="269" font-family="Arial" font-size="9" fill="#333">Class B Airspace</text>
+  <line x1="30" y1="280" x2="40" y2="280" stroke="#9932cc" stroke-width="2" stroke-dasharray="2,2"/>
+  <text x="45" y="284" font-family="Arial" font-size="9" fill="#333">Class D Airspace</text>
+</svg>

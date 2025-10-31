@@ -543,3 +543,141 @@ main {
         align-items: flex-start;
     }
 }
+
+/* Image attachment styles */
+.question-image-container {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.question-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+}
+
+.review-question-image-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.review-question-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+}
+
+/* Multiple attachments layout */
+.question-attachments {
+    margin: 15px 0;
+}
+
+.attachments-grid {
+    display: grid;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.attachments-grid.single {
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.attachments-grid.double {
+    grid-template-columns: 1fr 1fr;
+}
+
+.attachments-grid.multiple {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.attachment-item {
+    text-align: center;
+}
+
+.attachment-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.attachment-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.attachment-caption {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #718096;
+    font-style: italic;
+}
+
+/* Image modal styles */
+.image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.modal-image {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* Review screen attachments */
+.review-attachments {
+    margin: 10px 0;
+}
+
+.review-attachments .attachments-grid {
+    gap: 10px;
+}
+
+.review-attachments .attachment-image {
+    max-width: 200px;
+    border-radius: 6px;
+}
+
+/* Responsive image handling */
+@media (max-width: 768px) {
+    .question-image {
+        max-width: 95%;
+    }
+
+    .attachments-grid.double,
+    .attachments-grid.multiple {
+        grid-template-columns: 1fr;
+    }
+
+    .attachment-image {
+        max-width: 100%;
+    }
+
+    .modal-image {
+        max-width: 95%;
+        max-height: 95%;
+    }
+
+    .review-question-image {
+        max-width: 95%;
+    }
+}

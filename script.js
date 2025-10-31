@@ -633,7 +633,15 @@ class ExamApp {
         const question = this.shuffledQuestions[this.currentQuestionIndex];
 
         this.questionNumber.textContent = `Question ${this.currentQuestionIndex + 1}`;
-        this.questionText.textContent = question.question;
+        this.questionText.innerHTML = ''; // Clear previous content
+
+        // Add the question text
+        const questionTextNode = document.createElement('div');
+        questionTextNode.textContent = question.question;
+        this.questionText.appendChild(questionTextNode);
+
+        // Handle attachments (both single and multiple formats)
+        this.displayQuestionAttachments(question);
 
         // Clear previous answers
         this.answersContainer.innerHTML = '';
@@ -671,7 +679,111 @@ class ExamApp {
         });
 
         this.updateNavigationButtons();
-    }    selectAnswer(answerIndex) {
+    }
+
+    displayQuestionAttachments(question) {
+        let attachmentFiles = [];
+
+        // Support both single attachment and multiple attachments for backward compatibility
+        if (question.attachment) {
+            // Single attachment format (backward compatible)
+            attachmentFiles = [question.attachment];
+        } else if (question.attachments && Array.isArray(question.attachments)) {
+            // Multiple attachments format
+            attachmentFiles = question.attachments;
+        }
+
+        if (attachmentFiles.length === 0) {
+            return; // No attachments to display
+        }
+
+        const attachmentsContainer = document.createElement('div');
+        attachmentsContainer.className = 'question-attachments-container';
+        attachmentsContainer.style.marginTop = '15px';
+
+        // Add container class based on number of images
+        if (attachmentFiles.length === 1) {
+            attachmentsContainer.classList.add('single-attachment');
+        } else if (attachmentFiles.length === 2) {
+            attachmentsContainer.classList.add('two-attachments');
+        } else {
+            attachmentsContainer.classList.add('multiple-attachments');
+        }
+
+        attachmentFiles.forEach((filename, index) => {
+            const imageWrapper = document.createElement('div');
+            imageWrapper.className = 'question-image-wrapper';
+
+            const image = document.createElement('img');
+            image.src = `attachments/${filename}`;
+            image.alt = `Question illustration ${index + 1}`;
+            image.className = 'question-image';
+
+            // Handle image load error
+            image.onerror = function() {
+                console.warn(`Failed to load image: ${filename}`);
+                imageWrapper.innerHTML = `<p class="image-error">Image not found: ${filename}</p>`;
+            };
+
+            // Add click to enlarge functionality for multiple images
+            if (attachmentFiles.length > 1) {
+                image.style.cursor = 'pointer';
+                image.title = 'Click to enlarge';
+                image.addEventListener('click', () => this.enlargeImage(filename, index + 1));
+            }
+
+            imageWrapper.appendChild(image);
+            attachmentsContainer.appendChild(imageWrapper);
+        });
+
+        this.questionText.appendChild(attachmentsContainer);
+    }
+
+    enlargeImage(filename, imageNumber) {
+        // Create modal overlay
+        const modal = document.createElement('div');
+        modal.className = 'image-modal';
+        modal.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            cursor: pointer;
+        `;
+
+        const enlargedImage = document.createElement('img');
+        enlargedImage.src = `attachments/${filename}`;
+        enlargedImage.alt = `Enlarged view of illustration ${imageNumber}`;
+        enlargedImage.style.cssText = `
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        `;
+
+        // Close modal when clicked
+        modal.addEventListener('click', () => document.body.removeChild(modal));
+
+        // Close modal with Escape key
+        const closeOnEscape = (e) => {
+            if (e.key === 'Escape') {
+                document.body.removeChild(modal);
+                document.removeEventListener('keydown', closeOnEscape);
+            }
+        };
+        document.addEventListener('keydown', closeOnEscape);
+
+        modal.appendChild(enlargedImage);
+        document.body.appendChild(modal);
+    }
+
+    selectAnswer(answerIndex) {
         // Update user answers
         this.userAnswers[this.currentQuestionIndex] = answerIndex;
 
@@ -811,6 +923,32 @@ class ExamApp {
             const questionText = document.createElement('div');
             questionText.className = 'review-question-text';
             questionText.textContent = `${index + 1}. ${originalQuestion.question}`;
+
+            // Add image attachment if present in review
+            if (originalQuestion.attachment) {
+                const imageContainer = document.createElement('div');
+                imageContainer.className = 'review-question-image-container';
+                imageContainer.style.marginTop = '10px';
+                imageContainer.style.marginBottom = '10px';
+                imageContainer.style.textAlign = 'center';
+
+                const image = document.createElement('img');
+                image.src = `attachments/${originalQuestion.attachment}`;
+                image.alt = 'Question illustration';
+                image.className = 'review-question-image';
+                image.style.maxWidth = '300px';
+                image.style.height = 'auto';
+                image.style.borderRadius = '6px';
+                image.style.boxShadow = '0 1px 4px rgba(0,0,0,0.1)';
+
+                // Handle image load error
+                image.onerror = function() {
+                    imageContainer.innerHTML = `<p style="color: #666; font-style: italic; font-size: 0.9em;">Image not found: ${originalQuestion.attachment}</p>`;
+                };
+
+                imageContainer.appendChild(image);
+                questionText.appendChild(imageContainer);
+            }
 
             const yourAnswer = document.createElement('div');
             yourAnswer.className = `review-answer your-answer ${userAnswerIndex === shuffledQuestion.correctAnswer ? '' : 'your-incorrect'}`;
