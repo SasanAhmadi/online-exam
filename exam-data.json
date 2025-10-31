@@ -1361,6 +1361,1104 @@
               "correctAnswer": 1,
               "explanation": "The day-VFR requirement is enough fuel to fly to the first point of intended landing and thereafter for 30 minutes at normal cruising speed. (14 CFR 91.151)"
             }
+          ],
+          "14 CFR Part 91: General Operating and Flight Rules -- 91.159-91.519": [
+            {
+              "id": 113,
+              "question": "Which VFR cruising altitude is acceptable for a flight on a Victor Airway with a magnetic course of 175°? The terrain is less than 1,000 feet.",
+              "type": "multiple-choice",
+              "answers": [
+                "4,500 feet.",
+                "5,000 feet.",
+                "5,500 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "When operating a VFR flight above 3,000 feet AGL on a magnetic course of 0° through 179°, fly any odd thousand-foot MSL altitude plus 500 feet. Thus, on a magnetic course of 175°, an appropriate VFR cruising altitude is 5,500 feet. (14 CFR 91.159)"
+            },
+            {
+              "id": 114,
+              "question": "Which cruising altitude is appropriate for a VFR flight on a magnetic course of 135°?",
+              "type": "multiple-choice",
+              "answers": [
+                "Even thousand.",
+                "Even thousand plus 500 feet.",
+                "Odd thousand plus 500 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "When operating a VFR flight above 3,000 feet AGL on a magnetic course of 0° through 179°, fly any odd thousand-foot MSL altitude plus 500 feet. Thus, on a magnetic course of 135°, an appropriate VFR cruising altitude is an odd thousand plus 500 feet. (14 CFR 91.159)"
+            },
+            {
+              "id": 115,
+              "question": "Which VFR cruising altitude is appropriate when flying above 3,000 feet AGL on a magnetic course of 185°?",
+              "type": "multiple-choice",
+              "answers": [
+                "4,000 feet.",
+                "4,500 feet.",
+                "5,000 feet."
+              ],
+              "correctAnswer": 1,
+              "explanation": "When operating a VFR flight above 3,000 feet AGL on a magnetic course of 180° through 359°, fly any even thousand-foot MSL altitude, plus 500 feet. Thus, on a magnetic course of 185°, an appropriate VFR cruising altitude is 4,500 feet. (14 CFR 91.159)"
+            },
+            {
+              "id": 116,
+              "question": "Each person operating an aircraft at a VFR cruising altitude shall maintain an odd-thousand plus 500-foot altitude while on a",
+              "type": "multiple-choice",
+              "answers": [
+                "magnetic heading of 0° through 179°.",
+                "magnetic course of 0° through 179°.",
+                "true course of 0° through 179°."
+              ],
+              "correctAnswer": 1,
+              "explanation": "When operating above 3,000 feet AGL but less than 18,000 feet MSL on a magnetic course of 0° to 179°, fly at an odd thousand-foot MSL altitude plus 500 feet. (14 CFR 91.159)"
+            },
+            {
+              "id": 117,
+              "question": "According to 14 CFR Part 91, what is the appropriate VFR cruising altitude, when above 3,000 ft. AGL, for a flight on a magnetic course of 090°?",
+              "type": "multiple-choice",
+              "answers": [
+                "4,500 ft.",
+                "5,500 ft.",
+                "5,000 ft."
+              ],
+              "correctAnswer": 1,
+              "explanation": "When operating a VFR flight above 3,000 ft. AGL on a magnetic course of 0° through 179°, fly any odd thousand-foot MSL altitude plus 500 ft. Thus, on a magnetic course of 090°, an appropriate VFR cruising altitude is 5,500 ft. (14 CFR 91.159)"
+            },
+            {
+              "id": 118,
+              "question": "In addition to a valid Airworthiness Certificate, what documents or records must be aboard an aircraft during flight?",
+              "type": "multiple-choice",
+              "answers": [
+                "Aircraft engine and airframe logbooks, and owner's manual.",
+                "Radio operator's permit, and repair and alteration forms.",
+                "Operating limitations and Registration Certificate."
+              ],
+              "correctAnswer": 2,
+              "explanation": "14 CFR 91.203 requires both an Airworthiness Certificate and a Registration Certificate to be aboard aircraft during flight. 14 CFR 91.9 requires that operating limitations be available in the aircraft in an approved Airplane Flight Manual, approved manual material, markings, and placards, or any combination thereof. (14 CFR 91.203, 91.9)"
+            },
+            {
+              "id": 119,
+              "question": "When must batteries in an emergency locator transmitter (ELT) be replaced or recharged, if rechargeable?",
+              "type": "multiple-choice",
+              "answers": [
+                "After any inadvertent activation of the ELT.",
+                "When the ELT has been in use for more than 1 cumulative hour.",
+                "When the ELT can no longer be heard over the airplane's communication radio receiver."
+              ],
+              "correctAnswer": 1,
+              "explanation": "ELT batteries must be replaced or recharged (if rechargeable) when the transmitter has been in use for more than 1 cumulative hour or when 50% of their useful life (or useful life of charge) has expired. (14 CFR 91.207)"
+            },
+            {
+              "id": 120,
+              "question": "When may an emergency locator transmitter (ELT) be tested?",
+              "type": "multiple-choice",
+              "answers": [
+                "Any time.",
+                "At 15 and 45 minutes past the hour.",
+                "During the first 5 minutes after the hour."
+              ],
+              "correctAnswer": 2,
+              "explanation": "ELTs may only be tested on the ground during the first 5 minutes after the hour. Other times it is only allowed with prior arrangement with the nearest FAA Control Tower or FSS. No airborne checks are allowed. (AIM Para 6-2-4)"
+            },
+            {
+              "id": 121,
+              "question": "When are non-rechargeable batteries of an emergency locator transmitter (ELT) required to be replaced?",
+              "type": "multiple-choice",
+              "answers": [
+                "Every 24 months.",
+                "When 50 percent of their useful life expires.",
+                "At the time of each 100-hour or annual inspection."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Non-rechargeable batteries of an ELT must be replaced when 50% of their useful life expires or after the transmitter has been in use for more than 1 cumulative hour. (14 CFR 91.207)"
+            },
+            {
+              "id": 122,
+              "question": "When must the battery in an emergency locator transmitter (ELT) be replaced (or recharged if the battery is rechargeable)?",
+              "type": "multiple-choice",
+              "answers": [
+                "After one-half the battery's useful life.",
+                "During each annual and 100-hour inspection.",
+                "Every 24 calendar months."
+              ],
+              "correctAnswer": 0,
+              "explanation": "ELT batteries must be replaced or recharged after 50% of their useful life has expired or when the transmitter has been in use for more than 1 cumulative hour. (14 CFR 91.207)"
+            },
+            {
+              "id": 123,
+              "question": "You are conducting your preflight of an aircraft and notice that the last inspection of the emergency locator transmitter was 11 calendar months ago. You may",
+              "type": "multiple-choice",
+              "answers": [
+                "depart if you get a special flight permit.",
+                "depart because the ELT is within the inspection requirements.",
+                "not depart until a new inspection is conducted."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Each required ELT must be inspected within 12 calendar months after the last inspection for proper installation, battery corrosion, operation of the controls and crash sensor, and the presence of a sufficient signal radiating from its antenna. In this scenario, you may depart, as the last inspection was conducted 11 months ago. (14 CFR 91.207)"
+            },
+            {
+              "id": 124,
+              "question": "Except in Alaska, during what time period should lighted position lights be displayed on an aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "End of evening civil twilight to the beginning of morning civil twilight.",
+                "1 hour after sunset to 1 hour before sunrise.",
+                "Sunset to sunrise."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Except in Alaska, no person may operate an aircraft during the period from sunset to sunrise unless the aircraft's lighted position lights are on. (14 CFR 91.209)"
+            },
+            {
+              "id": 125,
+              "question": "Unless each occupant is provided with supplemental oxygen, no person may operate a civil aircraft of U.S. registry above a maximum cabin pressure altitude of",
+              "type": "multiple-choice",
+              "answers": [
+                "12,500 feet MSL.",
+                "14,000 feet MSL.",
+                "15,000 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "No person may operate a civil aircraft of U.S. registry at cabin pressure altitudes above 15,000 feet MSL unless each occupant is provided with supplemental oxygen. (14 CFR 91.211)"
+            },
+            {
+              "id": 126,
+              "question": "When operating an aircraft at cabin pressure altitudes above 12,500 feet MSL up to and including 14,000 feet MSL, supplemental oxygen shall be used during",
+              "type": "multiple-choice",
+              "answers": [
+                "the entire flight time at those altitudes.",
+                "that flight time in excess of 10 minutes at those altitudes.",
+                "that flight time in excess of 30 minutes at those altitudes."
+              ],
+              "correctAnswer": 2,
+              "explanation": "At cabin pressure altitudes above 12,500 feet MSL, up to and including 14,000 feet MSL, the required minimum flight crew must use supplemental oxygen only after 30 minutes at those altitudes. (14 CFR 91.211)"
+            },
+            {
+              "id": 127,
+              "question": "An operable 4096-code transponder with an encoding altimeter is required in which airspace?",
+              "type": "multiple-choice",
+              "answers": [
+                "Class A, Class B (and within 30 miles of the Class B primary airport), and Class C.",
+                "Class D and Class E (below 10,000 feet MSL).",
+                "Class D and Class G (below 10,000 feet MSL)."
+              ],
+              "correctAnswer": 0,
+              "explanation": "An operable transponder with an encoding altimeter (Mode C) is required in Class A, Class B (and within 30 nautical miles of the Class B primary airport), and Class C airspace, and at or above 10,000 feet MSL excluding that airspace below 2,500 feet AGL. (14 CFR 91.215)"
+            },
+            {
+              "id": 128,
+              "question": "An operable 4096-code transponder and Mode C encoding altimeter are required in",
+              "type": "multiple-choice",
+              "answers": [
+                "Class B airspace and within 30 miles of the Class B primary airport.",
+                "Class D airspace.",
+                "Class E airspace below 10,000 feet MSL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "An operable 4096-code transponder and Mode C encoding altimeter are required in Class B airspace and within 30 nautical miles of the Class B primary airport. (14 CFR 91.215)"
+            },
+            {
+              "id": 129,
+              "question": "Your transponder is inoperative. In order to enter Class B airspace, you must submit a request for a deviation from the",
+              "type": "multiple-choice",
+              "answers": [
+                "ATC facility no less than 24 hr. before the proposed operation.",
+                "nearest FSDO 24 hr. before the proposed operation.",
+                "controlling ATC facility at least 1 hr. before the proposed flight."
+              ],
+              "correctAnswer": 2,
+              "explanation": "ATC may authorize deviations on a continuing basis, or for individual flights, for operations of aircraft without an operative transponder. The request for a deviation must be submitted to the ATC facility having jurisdiction over the airspace concerned at least 1 hr. before the proposed operation. (14 CFR 91.215)"
+            },
+            {
+              "id": 130,
+              "question": "Automatic Dependent Surveillance-Broadcast (ADS-B) Out is mandated for aircraft operations in",
+              "type": "multiple-choice",
+              "answers": [
+                "Class A, B, and C airspace.",
+                "Class A, B, and C airspace above 2,500 ft. AGL.",
+                "all airspace within the 48 contiguous states above 2,000 ft. AGL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "ADS-B Out equipment must be installed for all operations (1) in Class A, B, and C airspace; (2) above the ceiling and within the lateral boundaries of Class B and Class C airspace; and (3) in Class E airspace within the 48 contiguous states and the District of Columbia at and above 10,000 ft. MSL, excluding the airspace at and below 2,500 ft. above the surface. (14 CFR 91.225)"
+            },
+            {
+              "id": 131,
+              "question": "Which of the following flights may be made without ADS-B Out equipment installed?",
+              "type": "multiple-choice",
+              "answers": [
+                "A VFR flight that departs a Class E airport and cruises at 12,500 ft. MSL to a Class G destination airport.",
+                "A VFR flight that overflies, but does not enter, a Class C airspace while en route at 6,500 ft. MSL.",
+                "A VFR flight that departs a Class D airport, cruises in Class E airspace at 7,500 ft. MSL, and arrives at another Class D airport."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A VFR flight that departs a Class D airport, cruises in Class E airspace at 7,500 ft. MSL, and arrives at another Class D airport may be made without ADS-B Out equipment installed because ADS-B Out is not required in Class D airspace or Class E airspace below 10,000 ft. MSL. ADS-B Out equipment must be installed for all operations (1) in Class A, B, and C airspace; (2) above the ceiling and within the lateral boundaries of Class B and Class C airspace; and (3) in Class E airspace within the 48 contiguous states and the District of Columbia at and above 10,000 ft. MSL, excluding the airspace at and below 2,500 ft. above the surface. (14 CFR 91.225)"
+            },
+            {
+              "id": 132,
+              "question": "When is Automatic Dependent Surveillance-Broadcast (ADS-B) Out equipment required?",
+              "type": "multiple-choice",
+              "answers": [
+                "Under the shelf of Class C airspace.",
+                "In Class E airspace above 10,000 ft. MSL, except at and below 2,500 ft. AGL.",
+                "In all controlled airspace."
+              ],
+              "correctAnswer": 1,
+              "explanation": "ADS-B Out equipment must be installed for all operations (1) in Class A airspace; (2) above the ceiling and within the lateral boundaries of Class B and C airspace (within the Mode C veil where applicable); and (3) in Class E airspace within the 48 contiguous states and the District of Columbia at and above 10,000 ft. MSL, excluding the airspace at and below 2,500 ft. above the surface. It is also required over the Gulf of Mexico at and above 3,000 ft. MSL within 12 NM of the United States coastline. (14 CFR 91.225)"
+            },
+            {
+              "id": 133,
+              "question": "What type of ADS-B equipment is required in Class A airspace?",
+              "type": "multiple-choice",
+              "answers": [
+                "ADS-B Out that operates on the frequency 1090 MHz.",
+                "ADS-B Out that operates with UAT on the frequency 978 MHz.",
+                "Any type of certified ADS-B In."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Aircraft operating in Class A airspace are required to have ADS-B Out equipment installed that operates on the frequency of 1090 MHz. (14 CFR 91.227)"
+            },
+            {
+              "id": 134,
+              "question": "With certain exceptions, when must each occupant of an aircraft wear an approved parachute?",
+              "type": "multiple-choice",
+              "answers": [
+                "When a door is removed from the aircraft to facilitate parachute jumpers.",
+                "When intentionally pitching the nose of the aircraft up or down 30° or more.",
+                "When intentionally banking in excess of 30°."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Unless each occupant of an airplane is wearing an approved parachute, no pilot carrying any other person (other than a crewmember) may execute any intentional maneuver that exceeds a bank of 60° or a nose-up or nose-down attitude of 30° relative to the horizon. (14 CFR 91.307)"
+            },
+            {
+              "id": 135,
+              "question": "A parachute composed of nylon, rayon, or other synthetic fibers must have been packed by a certificated and appropriately rated parachute rigger within the preceding",
+              "type": "multiple-choice",
+              "answers": [
+                "60 days.",
+                "90 days.",
+                "180 days."
+              ],
+              "correctAnswer": 2,
+              "explanation": "No pilot of a civil aircraft may allow a parachute that is available for emergency use to be carried in that aircraft unless it is an approved type and, if a chair type, it has been packed by a certificated and appropriately rated parachute rigger within the preceding 180 days, if synthetic fibers are used in its design. (14 CFR 91.307)"
+            },
+            {
+              "id": 136,
+              "question": "An approved parachute constructed of natural fibers may be carried in an aircraft for emergency use if it has been packed by an appropriately rated parachute rigger within the preceding",
+              "type": "multiple-choice",
+              "answers": [
+                "60 days.",
+                "120 days.",
+                "180 days."
+              ],
+              "correctAnswer": 0,
+              "explanation": "No pilot of a civil aircraft may allow a parachute that is available for emergency use to be carried in that aircraft unless it is an approved type and has been packed by a certificated and appropriately rated parachute rigger within the preceding 60 days, if natural fibers are used in its design. (14 CFR 91.307)"
+            },
+            {
+              "id": 137,
+              "question": "Which is normally prohibited when operating a restricted category civil aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "Flight under instrument flight rules.",
+                "Flight over a densely populated area.",
+                "Flight within Class D airspace."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Normally, no person may operate a restricted category civil aircraft over a densely populated area. (14 CFR 91.313)"
+            },
+            {
+              "id": 138,
+              "question": "Unless otherwise specifically authorized, no person may operate an aircraft that has an experimental certificate",
+              "type": "multiple-choice",
+              "answers": [
+                "beneath the floor of Class B airspace.",
+                "over a densely populated area or in a congested airway.",
+                "from the primary airport within Class D airspace."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Unless otherwise specifically authorized, no person may operate an aircraft that has an experimental certificate over a densely populated area or along a congested airway. (14 CFR 91.319)"
+            },
+            {
+              "id": 139,
+              "question": "Who is responsible for ensuring Airworthiness Directives (ADs) are complied with?",
+              "type": "multiple-choice",
+              "answers": [
+                "Owner or operator.",
+                "Repair station.",
+                "Mechanic with inspection authorization (IA)."
+              ],
+              "correctAnswer": 0,
+              "explanation": "ADs are regulatory and must be complied with, unless a specific exemption is granted. It is the responsibility of the owner or operator to ensure compliance with all pertinent ADs, including those ADs that require recurrent or continuing action. (14 CFR 91.403)"
+            },
+            {
+              "id": 140,
+              "question": "The responsibility for ensuring that an aircraft is maintained in an airworthy condition is primarily that of the",
+              "type": "multiple-choice",
+              "answers": [
+                "pilot in command.",
+                "owner or operator.",
+                "mechanic who performs the work."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The owner or operator of an aircraft is primarily responsible for maintaining that aircraft in an airworthy condition. The term \"operator\" includes the pilot in command. (14 CFR 91.403)"
+            },
+            {
+              "id": 141,
+              "question": "You are PIC of a flight and determine that the aircraft you planned to fly has an overdue Airworthiness Directive (AD). Which of the following is an appropriate decision?",
+              "type": "multiple-choice",
+              "answers": [
+                "No maintenance is available so you wait until after the trip to comply with the AD.",
+                "You make the flight because you can overfly an AD by 10 hours.",
+                "You cancel the flight and have the aircraft scheduled for maintenance."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The pilot in command is responsible for ensuring the aircraft is maintained in an airworthy condition and for complying with all ADs. ADs are regulatory and must be complied with unless a specific exemption is granted. (14 CFR 91.403)"
+            },
+            {
+              "id": 142,
+              "question": "The responsibility for ensuring that maintenance personnel make the appropriate entries in the aircraft maintenance records indicating the aircraft has been approved for return to service lies with the",
+              "type": "multiple-choice",
+              "answers": [
+                "owner or operator.",
+                "pilot in command.",
+                "mechanic who performed the work."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Each owner or operator of an aircraft shall ensure that maintenance personnel make the appropriate entries in the aircraft maintenance records indicating the aircraft has been approved for return to service. (14 CFR 91.405)"
+            },
+            {
+              "id": 143,
+              "question": "Who is responsible for ensuring appropriate entries are made in maintenance records indicating the aircraft has been approved for return to service?",
+              "type": "multiple-choice",
+              "answers": [
+                "Owner or operator.",
+                "Certified mechanic.",
+                "Repair station."
+              ],
+              "correctAnswer": 0,
+              "explanation": "It is the responsibility of the owner or operator of an aircraft to ensure that appropriate entries are made in maintenance records by maintenance personnel indicating the aircraft has been approved for return to service. (14 CFR 91.405)"
+            },
+            {
+              "id": 144,
+              "question": "If an alteration or repair substantially affects an aircraft's operation in flight, that aircraft must be test flown by an appropriately-rated pilot and approved for return to service prior to being operated",
+              "type": "multiple-choice",
+              "answers": [
+                "by any private pilot.",
+                "with passengers aboard.",
+                "for compensation or hire."
+              ],
+              "correctAnswer": 1,
+              "explanation": "If an alteration or repair has been made that substantially affects the airplane's flight characteristics, the airplane must be test flown and approved for return to service by an appropriately rated pilot prior to being operated with passengers aboard. The test pilot must be at least a private pilot and appropriately rated for the airplane being tested, must make an operational check of the alteration or repair made, and must log the flight in the aircraft records. (14 CFR 91.407)"
+            },
+            {
+              "id": 145,
+              "question": "Before passengers can be carried in an aircraft that has been altered in a manner that may have appreciably changed its flight characteristics, it must be flight tested by an appropriately-rated pilot who holds at least a",
+              "type": "multiple-choice",
+              "answers": [
+                "Commercial Pilot Certificate with an instrument rating.",
+                "Private Pilot Certificate.",
+                "Commercial Pilot Certificate and a mechanic's certificate."
+              ],
+              "correctAnswer": 1,
+              "explanation": "If an alteration or repair has been made that may have changed an airplane's flight characteristics, the airplane must be test flown and approved for return to service by an appropriately rated pilot prior to being operated with passengers aboard. The test pilot must be at least a private pilot and appropriately rated for the airplane being tested. (14 CFR 91.407)"
+            },
+            {
+              "id": 146,
+              "question": "A 100-hour inspection was due at 3302.5 hours. The 100-hour inspection was actually done at 3309.5 hours. When is the next 100-hour inspection due?",
+              "type": "multiple-choice",
+              "answers": [
+                "3312.5 hours.",
+                "3402.5 hours.",
+                "3395.5 hours."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Since the last 100-hour inspection was due at 3302.5 hours, the next 100-hour inspection is due at 3402.5 hours (3302.5 + 100). The 100-hour limitation may be exceeded by not more than 10 hours while en route to reach a place where the inspection can be done; this excess time must be included in computing the next 100 hours of time in service. (14 CFR 91.409)"
+            },
+            {
+              "id": 147,
+              "question": "An aircraft's annual condition inspection was performed on July 12, this year. The next annual inspection will be due no later than",
+              "type": "multiple-choice",
+              "answers": [
+                "July 1, next year.",
+                "July 13, next year.",
+                "July 31, next year."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Annual condition inspections expire on the last day of the 12th calendar month after the previous annual condition inspection. If an annual condition inspection is performed on July 12 of this year, it will expire at midnight on July 31 next year. (14 CFR 91.409)"
+            },
+            {
+              "id": 148,
+              "question": "What aircraft inspections are required for rental aircraft that are also used for flight instruction?",
+              "type": "multiple-choice",
+              "answers": [
+                "Annual condition and 100-hour inspections.",
+                "Biannual condition and 100-hour inspections.",
+                "Annual condition and 50-hour inspections."
+              ],
+              "correctAnswer": 0,
+              "explanation": "All aircraft that are used for hire (e.g., rental) and flight instruction must be inspected on a 100-hour basis. Also, an annual condition inspection must be completed. (14 CFR 91.409)"
+            },
+            {
+              "id": 149,
+              "question": "An aircraft had a 100-hour inspection when the tachometer read 1259.6. When is the next 100-hour inspection due?",
+              "type": "multiple-choice",
+              "answers": [
+                "1349.6 hours.",
+                "1359.6 hours.",
+                "1369.6 hours."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The next 100-hour inspection is due within 100 hours of time in service. The 100-hour may be exceeded by 10 hours in order to get to a place where the work can be done. However, this additional time is included in computing the next 100-hour period. Therefore, in this question, add 100 hours to 1259.6 to get the next inspection, due at 1359.6 hours. (14 CFR 91.409)"
+            },
+            {
+              "id": 150,
+              "question": "No person may use an ATC transponder unless it has been tested and inspected within at least the preceding",
+              "type": "multiple-choice",
+              "answers": [
+                "6 calendar months.",
+                "12 calendar months.",
+                "24 calendar months."
+              ],
+              "correctAnswer": 2,
+              "explanation": "No person may use an ATC transponder that is specified in the regulations unless within the preceding 24 calendar months it has been tested and found to comply with its operating specifications. (14 CFR 91.413)"
+            },
+            {
+              "id": 151,
+              "question": "Maintenance records show the last transponder inspection was performed on September 1, 2014. The next inspection will be due no later than",
+              "type": "multiple-choice",
+              "answers": [
+                "September 30, 2015.",
+                "September 1, 2016.",
+                "September 30, 2016."
+              ],
+              "correctAnswer": 2,
+              "explanation": "No person may use an ATC transponder that is specified in the regulations unless within the preceding 24 calendar months it has been tested and found to comply with its operating specifications. Thus, if the last inspection was performed on September 1, 2014, the next inspection will be due no later than September 30, 2016. (14 CFR 91.413)"
+            },
+            {
+              "id": 152,
+              "question": "Completion of an annual condition inspection and the return of the aircraft to service should always be indicated by",
+              "type": "multiple-choice",
+              "answers": [
+                "the relicensing date on the Registration Certificate.",
+                "an appropriate notation in the aircraft maintenance records.",
+                "an inspection sticker placed on the instrument panel that lists the annual inspection completion date."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Completion of an annual condition inspection and the return of the aircraft to service should always be indicated by an appropriate notation in the aircraft's maintenance records. (14 CFR 91.417)"
+            },
+            {
+              "id": 153,
+              "question": "To determine the expiration date of the last annual aircraft inspection, a person should refer to the",
+              "type": "multiple-choice",
+              "answers": [
+                "Airworthiness Certificate.",
+                "Registration Certificate.",
+                "aircraft maintenance records."
+              ],
+              "correctAnswer": 2,
+              "explanation": "After maintenance inspections have been completed, maintenance personnel should make the appropriate entries in the aircraft maintenance records or logbooks. This is where the date of the last annual inspection can be found. (14 CFR 91.417)"
+            },
+            {
+              "id": 154,
+              "question": "Which records or documents shall the owner or operator of an aircraft keep to show compliance with an applicable Airworthiness Directive?",
+              "type": "multiple-choice",
+              "answers": [
+                "Aircraft maintenance records.",
+                "Airworthiness Certificate and Pilot's Operating Handbook.",
+                "Airworthiness and Registration Certificates."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Aircraft maintenance records must show the current status of applicable airworthiness directives (ADs) including, for each, the method of compliance, the AD number, and revision date. If the AD involves recurring action, the records must show the time and date when the next action is required. (14 CFR 91.417)"
+            },
+            {
+              "id": 155,
+              "question": "The airworthiness of an aircraft can be determined by a preflight inspection and a",
+              "type": "multiple-choice",
+              "answers": [
+                "statement from the owner or operator that the aircraft is airworthy.",
+                "log book endorsement from a flight instructor.",
+                "review of the maintenance records."
+              ],
+              "correctAnswer": 2,
+              "explanation": "As pilot in command, you are responsible for determining whether your aircraft is in condition for safe flight. Only by conducting a preflight inspection and a review of the maintenance records can you determine whether all required maintenance has been performed and, thus, whether the aircraft is airworthy. (14 CFR 91.417)"
+            },
+            {
+              "id": 156,
+              "question": "Under what condition could an aircraft's engine logbook show no previous operating history?",
+              "type": "multiple-choice",
+              "answers": [
+                "If the aircraft had been imported from a foreign country.",
+                "If an error by maintenance personnel occurred.",
+                "When the aircraft's engine has been rebuilt by the manufacturer."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A new maintenance record, without previous operating history, may be used for an aircraft engine rebuilt by the manufacturer or by an agency approved by the manufacturer. (14 CFR 91.421)"
+            },
+            {
+              "id": 157,
+              "question": "The party directly responsible for the pre-takeoff briefing of passengers is the",
+              "type": "multiple-choice",
+              "answers": [
+                "pilot in command.",
+                "safety officer.",
+                "ground crew."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Before each takeoff, the pilot in command of an airplane carrying passengers shall ensure that all passengers have been orally briefed on smoking, the use of safety belts and shoulder harnesses, location and means of opening a passenger door as a means of emergency exit, location of survival equipment, ditching procedures and the use of the flotation equipment, and the normal and emergency use of oxygen equipment if installed in the airplane. (14 CFR 91.519)"
+            },
+            {
+              "id": 158,
+              "question": "Pre-takeoff briefing of passengers for a flight is the responsibility of",
+              "type": "multiple-choice",
+              "answers": [
+                "all passengers.",
+                "the pilot.",
+                "a crewmember."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Before each takeoff, the pilot in command of an airplane carrying passengers shall ensure that all passengers have been orally briefed on smoking, the use of safety belts and shoulder harnesses, location and means of opening a passenger door as a means of emergency exit, location of survival equipment, ditching procedures and the use of the flotation equipment, and the normal and emergency use of oxygen equipment if installed in the airplane. (14 CFR 91.519)"
+            },
+            {
+              "id": 159,
+              "question": "Pre-takeoff briefing of passengers about the use of seat belts for a flight is the responsibility of",
+              "type": "multiple-choice",
+              "answers": [
+                "all passengers.",
+                "the pilot.",
+                "a crewmember."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Before each takeoff, the pilot in command of an airplane carrying passengers shall ensure that all passengers have been orally briefed on smoking, the use of safety belts and shoulder harnesses, location and means of opening a passenger door as a means of emergency exit, location of survival equipment, ditching procedures and the use of the flotation equipment, and the normal and emergency use of oxygen equipment if installed in the airplane. (14 CFR 91.519)"
+            },
+            {
+              "id": 160,
+              "question": "Pre-takeoff briefing of passengers about the use of seat belts is the responsibility of",
+              "type": "multiple-choice",
+              "answers": [
+                "all passengers.",
+                "the pilot in command.",
+                "the right seat pilot."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Before each takeoff, the pilot in command of an airplane carrying passengers shall ensure that all passengers have been orally briefed on smoking, the use of safety belts and shoulder harnesses, location and means of opening a passenger door as a means of emergency exit, location of survival equipment, ditching procedures and the use of the flotation equipment, and the normal and emergency use of oxygen equipment if installed in the airplane. (14 CFR 91.519)"
+            }
+          ],
+          "NTSB Part 830 -- Notification and Reporting of Aircraft Accidents or Incidents and Overdue Aircraft, and Preservation of Aircraft Wreckage, Mail, Cargo, and Records": [
+            {
+              "id": 161,
+              "question": "If an aircraft is involved in an accident which results in substantial damage to the aircraft, the nearest NTSB field office should be notified",
+              "type": "multiple-choice",
+              "answers": [
+                "immediately.",
+                "within 48 hours.",
+                "within 7 days."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The NTSB must be notified immediately and by the most expeditious means possible when an aircraft accident or any of various listed incidents occurs or when an aircraft is overdue and is believed to have been in an accident. (NTSB 830.5)"
+            },
+            {
+              "id": 162,
+              "question": "Which incident would necessitate an immediate notification to the nearest NTSB field office?",
+              "type": "multiple-choice",
+              "answers": [
+                "An in-flight generator/alternator failure.",
+                "An in-flight fire.",
+                "An in-flight loss of VOR receiver capability."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The NTSB must be notified immediately and by the most expeditious means possible when an aircraft accident or any of various listed incidents occurs or when an aircraft is overdue and believed to have been in an accident. The following are considered incidents: 1. Flight control system malfunction or failure; 2. Inability of any required flight crewmember to perform normal flight duties as a result of injury or illness; 3. Damage to property, other than the aircraft, in excess of $25,000; 4. In-flight fire; or 5. Aircraft collision in flight. (NTSB 830.5)"
+            },
+            {
+              "id": 163,
+              "question": "Which incident requires an immediate notification be made to the nearest NTSB field office?",
+              "type": "multiple-choice",
+              "answers": [
+                "An overdue aircraft that is believed to be involved in an accident.",
+                "An in-flight radio communications failure.",
+                "An in-flight generator or alternator failure."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The NTSB must be notified immediately and by the most expeditious means possible when an aircraft is overdue and is believed to have been involved in an accident. (NTSB 830.5)"
+            },
+            {
+              "id": 164,
+              "question": "Which incident requires an immediate notification to the nearest NTSB field office?",
+              "type": "multiple-choice",
+              "answers": [
+                "A forced landing due to engine failure.",
+                "Landing gear damage, due to a hard landing.",
+                "Flight control system malfunction or failure."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The NTSB must be notified immediately and by the most expeditious means possible when an aircraft accident or any of various listed incidents occurs or when an aircraft is overdue and believed to have been in an accident. The following are considered incidents: 1. Flight control system malfunction or failure; 2. Inability of any required flight crewmember to perform normal flight duties as a result of injury or illness; 3. Damage to property, other than the aircraft, in excess of $25,000; 4. In-flight fire; or 5. Aircraft collision in flight. (NTSB 830.5)"
+            },
+            {
+              "id": 165,
+              "question": "On a post flight inspection of your aircraft after an aborted takeoff due to an elevator malfunction, you find that the elevator control cable has broken. According to NTSB 830, you",
+              "type": "multiple-choice",
+              "answers": [
+                "must immediately notify the nearest NTSB office.",
+                "should notify the NTSB within 10 days.",
+                "must file a NASA report immediately."
+              ],
+              "correctAnswer": 0,
+              "explanation": "According to NTSB 830.5, immediate notification to the nearest NTSB office is required for certain serious incidents, such as when a flight control system malfunctions or fails. (NTSB 830.5)"
+            },
+            {
+              "id": 166,
+              "question": "The NTSB must be notified immediately when there is",
+              "type": "multiple-choice",
+              "answers": [
+                "an in-flight fire.",
+                "a ground fire.",
+                "a hangar fire."
+              ],
+              "correctAnswer": 0,
+              "explanation": "An in-flight fire is included in the list of serious incidents in NTSB 830.5 and must be reported to the NTSB immediately. (NTSB 830.5)"
+            },
+            {
+              "id": 167,
+              "question": "May aircraft wreckage be moved prior to the time the NTSB takes custody?",
+              "type": "multiple-choice",
+              "answers": [
+                "Yes, but only if moved by a federal, state, or local law enforcement officer.",
+                "Yes, but only to protect the wreckage from further damage.",
+                "No, it may not be moved under any circumstances."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Prior to the time the Board or its authorized representative takes custody of aircraft wreckage, mail, or cargo, such wreckage, mail, or cargo may not be disturbed or moved except to the extent necessary to 1. Remove persons injured or trapped, 2. Protect the wreckage from further damage, or 3. Protect the public from injury. (NTSB 830.10)"
+            },
+            {
+              "id": 168,
+              "question": "The operator of an aircraft that has been involved in an accident is required to file an NTSB accident report within how many days?",
+              "type": "multiple-choice",
+              "answers": [
+                "5",
+                "7",
+                "10"
+              ],
+              "correctAnswer": 2,
+              "explanation": "The operator of an aircraft shall file a report on NTSB Form 6120.1 within 10 days after an accident, or after 7 days if an overdue aircraft is still missing. A report on an incident for which notification is required shall be filed only as required. (NTSB 830.15)"
+            },
+            {
+              "id": 169,
+              "question": "The operator of an aircraft that has been involved in an incident is required to submit a report to the nearest field office of the NTSB",
+              "type": "multiple-choice",
+              "answers": [
+                "within 7 days.",
+                "within 10 days.",
+                "when requested."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The operator of an aircraft shall file a report on NTSB Form 6120.1 only when requested. A report is required within 10 days of an accident or after 7 days if an overdue aircraft is still missing. (NTSB 830.15)"
+            }
+          ],
+          "Final Quiz": [
+            {
+              "id": 170,
+              "question": "Except when necessary for takeoff or landing, what is the minimum safe altitude for a pilot to operate an aircraft anywhere?",
+              "type": "multiple-choice",
+              "answers": [
+                "An altitude of 500 feet above the surface and no closer than 500 feet to any person, vessel, vehicle, or structure.",
+                "An altitude of 500 feet above the highest obstacle within a horizontal radius of 1,000 feet.",
+                "An altitude allowing, if a power unit fails, an emergency landing without undue hazard to persons or property on the surface."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Except when necessary for takeoff or landing, an aircraft should always be operated at an altitude high enough to permit an emergency landing without endangering people or property on the ground. (14 CFR 91.119)"
+            },
+            {
+              "id": 171,
+              "question": "In order to qualify for BasicMed, you must have received a comprehensive examination from",
+              "type": "multiple-choice",
+              "answers": [
+                "A state-licensed physician within the previous 48 months.",
+                "An FAA-designated Aviation Medical Examiner within the previous 60 months.",
+                "A state-licensed physician within the previous 24 months."
+              ],
+              "correctAnswer": 0,
+              "explanation": "In order to qualify for BasicMed, you must have received a comprehensive examination from a state-licensed physician within the previous 48 months. (14 CFR 61.23)"
+            },
+            {
+              "id": 172,
+              "question": "With respect to the certification of aircraft, which is a class of aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "Airplane, rotorcraft, glider, balloon.",
+                "Normal, utility, acrobatic, limited.",
+                "Transport, restricted, provisional."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Class of aircraft, as used with respect to the certification of aircraft, means a broad grouping of aircraft having similar characteristics of propulsion, flight, or landing. Examples include airplane, rotorcraft, glider, balloon, landplane, and seaplane. (14 CFR 1.1)"
+            },
+            {
+              "id": 173,
+              "question": "When would a pilot be required to submit a detailed report of an emergency which caused the pilot to deviate from an ATC clearance?",
+              "type": "multiple-choice",
+              "answers": [
+                "Within 48 hours if requested by ATC.",
+                "Immediately.",
+                "Within 7 days."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Each pilot in command who is given priority by ATC in an emergency shall, if requested by ATC, submit a detailed report within 48 hours to the manager of that ATC facility. (14 CFR 91.123)"
+            },
+            {
+              "id": 174,
+              "question": "If an alteration or repair substantially affects an aircraft's operation in flight, that aircraft must be test flown by an appropriately-rated pilot and approved for return to service prior to being operated",
+              "type": "multiple-choice",
+              "answers": [
+                "for compensation or hire.",
+                "with passengers aboard.",
+                "by any private pilot."
+              ],
+              "correctAnswer": 1,
+              "explanation": "If an alteration or repair has been made that substantially affects the airplane's flight characteristics, the airplane must be test flown and approved for return to service by an appropriately rated pilot prior to being operated with passengers aboard. The test pilot must be at least a private pilot and appropriately rated for the airplane being tested, must make an operational check of the alteration or repair made, and must log the flight in the aircraft records. (14 CFR 91.407)"
+            },
+            {
+              "id": 175,
+              "question": "Unless each occupant is provided with supplemental oxygen, no person may operate a civil aircraft of U.S. registry above a maximum cabin pressure altitude of",
+              "type": "multiple-choice",
+              "answers": [
+                "15,000 feet MSL.",
+                "14,000 feet MSL.",
+                "12,500 feet MSL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "No person may operate a civil aircraft of U.S. registry at cabin pressure altitudes above 15,000 feet MSL unless each occupant is provided with supplemental oxygen. (14 CFR 91.211)"
+            },
+            {
+              "id": 176,
+              "question": "If recency of experience requirements for night flight are not met and official sunset is 1830, the latest time passengers may be carried is",
+              "type": "multiple-choice",
+              "answers": [
+                "1859.",
+                "1929.",
+                "1829."
+              ],
+              "correctAnswer": 1,
+              "explanation": "For the purpose of night recency experience flight time, night is defined as the period beginning 1 hr. after sunset and ending 1 hr. before sunrise. If you have not met the night experience requirements and official sunset is 1830, a landing must be accomplished at or before 1929 if passengers are carried. (14 CFR 61.57)"
+            },
+            {
+              "id": 177,
+              "question": "A Third-Class Medical Certificate is issued to a 36-year-old pilot on August 10, this year. To exercise the privileges of a Private Pilot Certificate, the medical certificate will be valid until midnight on",
+              "type": "multiple-choice",
+              "answers": [
+                "August 31, 5 years later.",
+                "August 10, 3 years later.",
+                "August 31, 3 years later."
+              ],
+              "correctAnswer": 0,
+              "explanation": "A pilot may exercise the privileges of a private pilot certificate under a third-class medical certificate until it expires at the end of the last day of the month 5 years after it was issued, for pilots less than 40 years old on the date of the medical examination. A third-class medical certificate issued to a 36-year-old pilot on Aug. 10 will be valid until midnight on Aug. 31, 5 years later. (14 CFR 61.23)"
+            },
+            {
+              "id": 178,
+              "question": "Under what condition, if any, may a pilot allow a person who is obviously under the influence of drugs to be carried aboard an aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "Only if the person does not have access to the flight deck or pilot's compartment.",
+                "In an emergency or if the person is a medical patient under proper care.",
+                "Under no condition."
+              ],
+              "correctAnswer": 1,
+              "explanation": "No pilot of a civil aircraft may allow a person who demonstrates by manner or physical indications that the individual is under the influence of drugs to be carried in that aircraft, except in an emergency or if the person is a medical patient under proper care. (14 CFR 91.17)"
+            },
+            {
+              "id": 179,
+              "question": "For private pilot operations, a First-Class Medical Certificate issued to a 23-year-old pilot on October 21, this year, will expire at midnight on",
+              "type": "multiple-choice",
+              "answers": [
+                "October 31, next year.",
+                "October 21, 2 years later.",
+                "October 31, 5 years later."
+              ],
+              "correctAnswer": 2,
+              "explanation": "For private pilot operations, a first-class medical certificate will expire at the end of the last day of the 60th calendar month (5 years) after the month of the date of examination shown on the medical certificate for pilots less than 40 years old on the date of the medical examination. Thus, a first-class medical certificate issued to a 23-year-old pilot on October 21 will be valid until midnight on October 31, 60 calendar months (5 years) after the month of the date of examination. (14 CFR 61.23)"
+            },
+            {
+              "id": 180,
+              "question": "On a post flight inspection of your aircraft after an aborted takeoff due to an elevator malfunction, you find that the elevator control cable has broken. According to NTSB 830, you",
+              "type": "multiple-choice",
+              "answers": [
+                "must immediately notify the nearest NTSB office.",
+                "should notify the NTSB within 10 days.",
+                "must file a NASA report immediately."
+              ],
+              "correctAnswer": 0,
+              "explanation": "According to NTSB 830.5, immediate notification to the nearest NTSB office is required for certain serious incidents, such as when a flight control system malfunctions or fails. (NTSB 830.5)"
+            },
+            {
+              "id": 181,
+              "question": "Under what conditions may objects be dropped from an aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "If precautions are taken to avoid injury or damage to persons or property on the surface.",
+                "If prior permission is received from the Federal Aviation Administration.",
+                "Only in an emergency."
+              ],
+              "correctAnswer": 0,
+              "explanation": "No pilot in command of a civil aircraft may allow any object to be dropped from that aircraft in flight that creates a hazard to persons or property. However, this section does not prohibit the dropping of any object if reasonable precautions are taken to avoid injury or damage to persons or property. (14 CFR 91.15)"
+            },
+            {
+              "id": 182,
+              "question": "Pre-takeoff briefing of passengers for a flight is the responsibility of",
+              "type": "multiple-choice",
+              "answers": [
+                "the pilot.",
+                "a crewmember.",
+                "all passengers."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Before each takeoff, the pilot in command of an airplane carrying passengers shall ensure that all passengers have been orally briefed on smoking, the use of safety belts and shoulder harnesses, location and means of opening a passenger door as a means of emergency exit, location of survival equipment, ditching procedures and the use of the flotation equipment, and the normal and emergency use of oxygen equipment if installed in the airplane. (14 CFR 91.519)"
+            },
+            {
+              "id": 183,
+              "question": "If a recreational or private pilot had a flight review on October 30, this year, when is the next flight review required?",
+              "type": "multiple-choice",
+              "answers": [
+                "October 31, 2 years later.",
+                "October 30, 2 years later.",
+                "October 31, next year."
+              ],
+              "correctAnswer": 0,
+              "explanation": "A pilot is required to have a flight review within the preceding 24 calendar months before the month in which the pilot acts as pilot in command. Thus, a pilot who had a flight review on October 30 of this year must have a flight review completed by October 31, 2 years later. (14 CFR 61.56)"
+            },
+            {
+              "id": 184,
+              "question": "Except when necessary for takeoff or landing, what is the minimum safe altitude required for a pilot to operate an aircraft over congested areas?",
+              "type": "multiple-choice",
+              "answers": [
+                "An altitude of 1,000 feet above the highest obstacle within a horizontal radius of 2,000 feet of the aircraft.",
+                "An altitude of 500 feet above the highest obstacle within a horizontal radius of 1,000 feet of the aircraft.",
+                "An altitude of 1,000 feet above any person, vessel, vehicle, or structure."
+              ],
+              "correctAnswer": 0,
+              "explanation": "When operating an aircraft over any congested area of a city, town, or settlement, or over an open-air assembly of persons, a pilot must remain at an altitude of 1,000 feet above the highest obstacle within a horizontal radius of 2,000 feet of the aircraft. (14 CFR 91.119)"
+            },
+            {
+              "id": 185,
+              "question": "When must a pilot who deviates from a regulation during an emergency send a written report of that deviation to the Administrator?",
+              "type": "multiple-choice",
+              "answers": [
+                "Upon request.",
+                "Within 7 days.",
+                "Within 10 days."
+              ],
+              "correctAnswer": 0,
+              "explanation": "A pilot who deviates from a regulation during an emergency must send a written report of that deviation to the Administrator of the FAA only upon request. (14 CFR 91.3)"
+            },
+            {
+              "id": 186,
+              "question": "VNO is defined as the",
+              "type": "multiple-choice",
+              "answers": [
+                "never-exceed speed.",
+                "maximum structural cruising speed.",
+                "normal operating range."
+              ],
+              "correctAnswer": 1,
+              "explanation": "VNO is defined as the maximum structural cruising speed. (14 CFR 1.2)"
+            },
+            {
+              "id": 187,
+              "question": "The operator of an aircraft that has been involved in an incident is required to submit a report to the nearest field office of the NTSB",
+              "type": "multiple-choice",
+              "answers": [
+                "within 7 days.",
+                "within 10 days.",
+                "when requested."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The operator of an aircraft shall file a report on NTSB Form 6120.1 only when requested. A report is required within 10 days of an accident or after 7 days if an overdue aircraft is still missing. (NTSB 830.15)"
+            },
+            {
+              "id": 188,
+              "question": "You are planning a trip and one of your passengers states that he prefers not to use his shoulder harness because it is uncomfortable. You should",
+              "type": "multiple-choice",
+              "answers": [
+                "allow him to use his seat belt for takeoff and landing and the shoulder harness while en route.",
+                "explain that it is a mandatory requirement and that he must use the shoulder harness during takeoff and landing.",
+                "allow him to use his seat belt for the entire trip without the shoulder harness."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Each person on board a U.S.-registered civil aircraft must occupy an approved seat with a safety belt and, if installed, a shoulder harness, properly secured during movement on the surface, takeoff, and landing. (14 CFR 91.107)"
+            },
+            {
+              "id": 189,
+              "question": "For private pilot operations, a Second-Class Medical Certificate issued to a 42-year-old pilot on July 15, this year, will expire at midnight on",
+              "type": "multiple-choice",
+              "answers": [
+                "July 15, 2 years later.",
+                "July 31, 2 years later.",
+                "July 31, 1 year later."
+              ],
+              "correctAnswer": 1,
+              "explanation": "For private pilot operations, a second-class medical certificate will expire at the end of the last day of the month, 2 years after it was issued, for pilots 40 years old or older on the date of the medical examination. For private pilot operations, a second-class medical certificate issued to a 42-year-old pilot on July 15 will be valid until midnight on July 31, 2 years later. (14 CFR 61.23)"
+            },
+            {
+              "id": 190,
+              "question": "Which preflight action is specifically required of the pilot prior to each flight?",
+              "type": "multiple-choice",
+              "answers": [
+                "Become familiar with all available information concerning the flight.",
+                "Review wake turbulence avoidance procedures.",
+                "Check the aircraft logbooks for appropriate entries."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Each pilot in command will, before beginning a flight, become familiar with all available information concerning that flight. (14 CFR 91.103)"
+            },
+            {
+              "id": 191,
+              "question": "What exception, if any, permits a private pilot to act as pilot in command of an aircraft carrying passengers who pay for the flight?",
+              "type": "multiple-choice",
+              "answers": [
+                "If a donation is made to a charitable organization for the flight.",
+                "If the passengers pay all the operating expenses.",
+                "There is no exception."
+              ],
+              "correctAnswer": 0,
+              "explanation": "A private pilot may act as pilot in command of an airplane used in a passenger-carrying airlift sponsored by a charitable organization for which passengers make donations to the organization, provided the following requirements are met: the responsible Flight Standards office is notified at least 7 days before the flight, the flight is conducted from an adequate public airport, the pilot has logged at least 500 hr., no aerobatic or formation flights are performed, the 100-hr. inspection of the airplane requirement is complied with, and the flight is day-VFR. (14 CFR 61.113)"
+            },
+            {
+              "id": 192,
+              "question": "Preflight action, as required for all flights away from the vicinity of an airport, shall include",
+              "type": "multiple-choice",
+              "answers": [
+                "the designation of an alternate airport.",
+                "a study of arrival procedures at airports/heliports of intended use.",
+                "an alternate course of action if the flight cannot be completed as planned."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Preflight actions for flights not in the vicinity of an airport include checking weather reports and forecasts, fuel requirements, alternatives available if the planned flight cannot be completed, and any known traffic delays. (14 CFR 91.103)"
+            },
+            {
+              "id": 193,
+              "question": "To act as pilot in command of an aircraft carrying passengers, a pilot must show by logbook endorsement the satisfactory completion of a flight review or completion of a pilot proficiency check within the preceding",
+              "type": "multiple-choice",
+              "answers": [
+                "12 calendar months.",
+                "6 calendar months.",
+                "24 calendar months."
+              ],
+              "correctAnswer": 2,
+              "explanation": "To act as pilot in command of an aircraft (whether carrying passengers or not), a pilot must show by logbook endorsement the satisfactory completion of a flight review or completion of a pilot proficiency check within the preceding 24 calendar months. (14 CFR 61.56)"
+            },
+            {
+              "id": 194,
+              "question": "The pilot in command is required to hold a type rating in which aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "Aircraft operated under an authorization issued by the Administrator.",
+                "Aircraft involved in ferry flights, training flights, or test flights.",
+                "Aircraft having a gross weight of more than 12,500 pounds."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A person may not act as pilot in command of any of the following aircraft unless they hold a type rating for that aircraft: (1) A large aircraft (except lighter-than-air), i.e., over 12,500 pounds gross weight (2) A turbojet-powered airplane (3) Other aircraft specified by the FAA through aircraft type certificate procedures. (14 CFR 61.31)"
+            },
+            {
+              "id": 195,
+              "question": "With respect to the certification of aircraft, which is a category of aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "Normal, utility, acrobatic.",
+                "Landplane, seaplane.",
+                "Airplane, rotorcraft, glider."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Category of aircraft, as used with respect to the certification of aircraft, means a grouping of aircraft based upon intended use or operating limitations. Examples include transport, normal, utility, acrobatic, limited, restricted, and provisional. (14 CFR 1.1)"
+            },
+            {
+              "id": 196,
+              "question": "Which aircraft has the right-of-way over the other aircraft listed?",
+              "type": "multiple-choice",
+              "answers": [
+                "Aircraft refueling other aircraft.",
+                "Glider.",
+                "Airship."
+              ],
+              "correctAnswer": 1,
+              "explanation": "If aircraft of different categories are converging, the right-of-way depends upon who has the least maneuverability. A glider has right-of-way over an airship, airplane, or rotorcraft. (14 CFR 91.113)"
+            },
+            {
+              "id": 197,
+              "question": "You have accomplished 25 takeoffs and landings in multi-engine land airplanes in the previous 45 days. For a flight you plan to conduct today, this meets the PIC recency of experience requirements to carry passengers in which airplanes?",
+              "type": "multiple-choice",
+              "answers": [
+                "Multi- or single-engine land.",
+                "Multi-engine land airplane.",
+                "Single-engine land airplane."
+              ],
+              "correctAnswer": 1,
+              "explanation": "No person may act as a pilot in command of an aircraft carrying passengers unless that person has made at least 3 takeoffs and 3 landings within the preceding 90 days, and the required takeoffs and landings were performed in an aircraft of the same category (airplane, rotorcraft, glider, etc.), class (single-engine, multi-engine, land, water, gyroplane, etc.), and type (if a type rating is required). Therefore, this meets PIC recency of experience requirements to carry passengers in multi-engine land airplanes. (14 CFR 61.57)"
+            },
+            {
+              "id": 198,
+              "question": "Which aircraft has the right-of-way over all other air traffic?",
+              "type": "multiple-choice",
+              "answers": [
+                "An aircraft on final approach to land.",
+                "A balloon.",
+                "An aircraft in distress."
+              ],
+              "correctAnswer": 2,
+              "explanation": "An aircraft in distress has the right-of-way over all other aircraft. (14 CFR 91.113)"
+            },
+            {
+              "id": 199,
+              "question": "Which of the following flights may be made without ADS-B Out equipment installed?",
+              "type": "multiple-choice",
+              "answers": [
+                "A VFR flight that departs a Class D airport, cruises in Class E airspace at 7,500 ft. MSL, and arrives at another Class D airport.",
+                "A VFR flight that overflies, but does not enter, a Class C airspace while en route at 6,500 ft. MSL.",
+                "A VFR flight that departs a Class E airport and cruises at 12,500 ft. MSL to a Class G destination airport."
+              ],
+              "correctAnswer": 0,
+              "explanation": "A VFR flight that departs a Class D airport, cruises in Class E airspace at 7,500 ft. MSL, and arrives at another Class D airport may be made without ADS-B Out equipment installed because ADS-B Out is not required in Class D airspace or Class E airspace below 10,000 ft. MSL. ADS-B Out equipment must be installed for all operations (1) in Class A, B, and C airspace; (2) above the ceiling and within the lateral boundaries of Class B and Class C airspace; and (3) in Class E airspace within the 48 contiguous states and the District of Columbia at and above 10,000 ft. MSL, excluding the airspace at and below 2,500 ft. above the surface. (14 CFR 91.225)"
+            },
+            {
+              "id": 200,
+              "question": "If a certificated pilot changes permanent mailing address and fails to notify the FAA Airmen Certification Branch of the new address, the pilot is entitled to exercise the privileges of the pilot certificate for a period of only",
+              "type": "multiple-choice",
+              "answers": [
+                "90 days after the date of the move.",
+                "30 days after the date of the move.",
+                "60 days after the date of the move."
+              ],
+              "correctAnswer": 1,
+              "explanation": "If you have changed your permanent mailing address, you may not exercise the privileges of your pilot certificate after 30 days from the date of the address change unless you have notified the FAA in writing of the change. You are required to notify the Airmen Certification Branch at PO Box 25082, Oklahoma City, OK 73125. You may also use the airmen services system on the FAA website. (14 CFR 61.60)"
+            },
+            {
+              "id": 201,
+              "question": "How soon after the conviction for driving while intoxicated by alcohol or drugs shall it be reported to the FAA, and which department should this be reported to?",
+              "type": "multiple-choice",
+              "answers": [
+                "Within 60 days to the Regulatory Support Division.",
+                "Within 60 days to the Airmen Certification Branch.",
+                "Within 60 days to the Security and Hazardous Materials Safety Office."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Each person holding a certificate under Part 61 shall provide a written report of each motor vehicle action involving alcohol or drugs to the FAA's Security and Hazardous Materials Safety Office no later than 60 days after the motor vehicle action. (14 CFR 61.15)"
+            },
+            {
+              "id": 202,
+              "question": "When is Automatic Dependent Surveillance-Broadcast (ADS-B) Out equipment required?",
+              "type": "multiple-choice",
+              "answers": [
+                "Under the shelf of Class C airspace.",
+                "In Class E airspace above 10,000 ft. MSL, except at and below 2,500 ft. AGL.",
+                "In all controlled airspace."
+              ],
+              "correctAnswer": 1,
+              "explanation": "ADS-B Out equipment must be installed for all operations (1) in Class A airspace; (2) above the ceiling and within the lateral boundaries of Class B and C airspace (within the Mode C veil where applicable); and (3) in Class E airspace within the 48 contiguous states and the District of Columbia at and above 10,000 ft. MSL, excluding the airspace at and below 2,500 ft. above the surface. It is also required over the Gulf of Mexico at and above 3,000 ft. MSL within 12 NM of the United States coastline. (14 CFR 91.225)"
+            },
+            {
+              "id": 203,
+              "question": "Which incident requires an immediate notification to the nearest NTSB field office?",
+              "type": "multiple-choice",
+              "answers": [
+                "Landing gear damage, due to a hard landing.",
+                "Flight control system malfunction or failure.",
+                "A forced landing due to engine failure."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The NTSB must be notified immediately and by the most expeditious means possible when an aircraft accident or any of various listed incidents occurs or when an aircraft is overdue and believed to have been in an accident. The following are considered incidents: 1. Flight control system malfunction or failure; 2. Inability of any required flight crewmember to perform normal flight duties as a result of injury or illness; 3. Damage to property, other than the aircraft, in excess of $25,000; 4. In-flight fire; or 5. Aircraft collision in flight. (NTSB 830.5)"
+            }
           ]
         }
       }
