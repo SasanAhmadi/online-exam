@@ -1,0 +1,975 @@
+{
+  "subjects": {
+    "Canadian Conversion PPL": {
+      "description": "Canadian Conversion PPL Knowledge Test Questions",
+      "categories": {
+        "Aviation Weather Services": {
+          "Weather Briefings": [
+            {
+              "id": 3001,
+              "question": "When speaking to a flight service weather briefer, you should state",
+              "type": "multiple-choice",
+              "answers": [
+                "the pilot in command's full name and address.",
+                "a summary of your qualifications.",
+                "whether the flight is VFR or IFR."
+              ],
+              "correctAnswer": 2,
+              "explanation": "When speaking to an FSS weather briefer, you should identify yourself as a pilot and state the route, destination, type of airplane, and whether you intend to fly VFR or IFR to permit the weather briefer to give you the most complete briefing. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3002,
+              "question": "To get a complete weather briefing for the planned flight, the pilot should request",
+              "type": "multiple-choice",
+              "answers": [
+                "a general briefing.",
+                "an abbreviated briefing.",
+                "a standard briefing."
+              ],
+              "correctAnswer": 2,
+              "explanation": "To get a complete briefing before a planned flight, the pilot should request a standard briefing. This will include all pertinent information needed for a safe flight. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3003,
+              "question": "Which type weather briefing should a pilot request, when departing within the hour, if no preliminary weather information has been received?",
+              "type": "multiple-choice",
+              "answers": [
+                "Outlook briefing.",
+                "Abbreviated briefing.",
+                "Standard briefing."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A pilot should request a standard briefing any time they are planning a flight and have not received a previous briefing or has not received preliminary information through mass dissemination media (e.g., PATWAS, etc.). (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3004,
+              "question": "A weather briefing that is provided when the information requested is 6 or more hours in advance of the proposed departure time is",
+              "type": "multiple-choice",
+              "answers": [
+                "an outlook briefing.",
+                "a forecast briefing.",
+                "a prognostic briefing."
+              ],
+              "correctAnswer": 0,
+              "explanation": "An outlook briefing is given when the briefing is 6 or more hours before the proposed departure time. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3005,
+              "question": "When requesting weather information for the following morning, a pilot should request",
+              "type": "multiple-choice",
+              "answers": [
+                "an outlook briefing.",
+                "a standard briefing.",
+                "an abbreviated briefing."
+              ],
+              "correctAnswer": 0,
+              "explanation": "An outlook briefing should be requested when the briefing is 6 or more hours in advance of the proposed departure. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3006,
+              "question": "What should pilots state initially when telephoning a weather briefing facility for preflight weather information?",
+              "type": "multiple-choice",
+              "answers": [
+                "Tell the number of occupants on board.",
+                "State their total flight time.",
+                "Identify themselves as pilots."
+              ],
+              "correctAnswer": 2,
+              "explanation": "When telephoning for a weather briefing, you should identify yourself as a pilot so the person can give you an aviation-oriented briefing. Many nonpilots call weather briefing facilities to get the weather for other activities. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3007,
+              "question": "What should pilots state initially when telephoning a weather briefing facility for preflight weather information?",
+              "type": "multiple-choice",
+              "answers": [
+                "The intended route of flight radio frequencies.",
+                "The intended route of flight and destination.",
+                "The address of the pilot in command."
+              ],
+              "correctAnswer": 1,
+              "explanation": "By telling the briefer your intended route and destination, the briefer will be able to provide you a more relevant briefing. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3008,
+              "question": "Which type of weather briefing should a pilot request to supplement mass disseminated data?",
+              "type": "multiple-choice",
+              "answers": [
+                "An outlook briefing.",
+                "A supplemental briefing.",
+                "An abbreviated briefing."
+              ],
+              "correctAnswer": 2,
+              "explanation": "An abbreviated briefing will be provided when the user requests information to supplement mass disseminated data, to update a previous briefing, or to obtain specific information. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3009,
+              "question": "You plan to phone a weather briefing facility for preflight weather information. You should",
+              "type": "multiple-choice",
+              "answers": [
+                "provide the number of occupants on board.",
+                "identify yourself as a pilot.",
+                "begin with your route of flight."
+              ],
+              "correctAnswer": 1,
+              "explanation": "When calling for a weather briefing, you should identify yourself as a pilot so the person can give you an aviation-oriented briefing. Nonpilots may call weather briefing facilities to get the weather for other activities. It is best to tell them what kind of pilot you are, e.g., student pilot, private pilot, instrument pilot. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3010,
+              "question": "When telephoning a weather briefing facility for preflight weather information, pilots should state",
+              "type": "multiple-choice",
+              "answers": [
+                "the aircraft identification or the pilot's name.",
+                "true airspeed.",
+                "fuel on board."
+              ],
+              "correctAnswer": 0,
+              "explanation": "When requesting a briefing, you should provide the briefer with the following information: VFR or IFR, aircraft identification or the pilot's name, aircraft type, departure point, route of flight, destination, altitude, estimated time of departure, and time en route or estimated time of arrival. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3011,
+              "question": "To update a previous weather briefing, a pilot should request",
+              "type": "multiple-choice",
+              "answers": [
+                "an abbreviated briefing.",
+                "a standard briefing.",
+                "an outlook briefing."
+              ],
+              "correctAnswer": 0,
+              "explanation": "An abbreviated briefing will be provided when the user requests information (1) to supplement mass disseminated data, (2) to update a previous briefing, or (3) to be limited to specific information. (FAA-H-8083-28 Chap 3)"
+            }
+          ],
+          "Aviation Routine Weather Report (METAR)": [
+            {
+              "id": 3012,
+              "question": "For aviation purposes, ceiling is defined as the height above the Earth's surface of the",
+              "type": "multiple-choice",
+              "answers": [
+                "lowest reported obscuration and the highest layer of clouds reported as overcast.",
+                "lowest broken or overcast layer or vertical visibility into an obscuration.",
+                "lowest layer of clouds reported as scattered, broken, or thin."
+              ],
+              "correctAnswer": 1,
+              "explanation": "A ceiling layer is not designated in the METAR code. For aviation purposes, the ceiling is the lowest broken or overcast layer, or vertical visibility into an obscuration. (FAA-H-8083-28 Chap 24)"
+            },
+            {
+              "id": 3013,
+              "question": "What are the current conditions depicted for Chicago Midway Airport (KMDW)?",
+              "type": "multiple-choice",
+              "answers": [
+                "Sky 700 feet overcast, visibility 1-1/2 SM, rain.",
+                "Sky 7000 feet overcast, visibility 1-1/2 SM, heavy rain.",
+                "Sky 700 feet overcast, visibility 11, occasionally 2 SM, with rain."
+              ],
+              "correctAnswer": 0,
+              "explanation": "At KMDW a special METAR (SPECI) taken at 1856Z reported wind 320° at 5 kt., visibility 1 1/2 SM in moderate rain, overcast clouds at 700 ft., temperature 17°C, dew point 16°C, altimeter 29.80 in. Hg, remarks follow, rain began at 35 min. past the hour. (FAA-H-8083-28 Chap 24)",
+              "attachment": "metar-01.png"
+            },
+            {
+              "id": 3014,
+              "question": "The wind direction and velocity at KJFK is from",
+              "type": "multiple-choice",
+              "answers": [
+                "180° true at 4 knots.",
+                "180° magnetic at 4 knots.",
+                "040° true at 18 knots."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The wind group at KJFK is coded as 18004KT. The first three digits are the direction the wind is blowing from referenced to true north. The next two digits are the speed in knots. Thus, the wind direction and speed at KJFK are 180° true at 4 knots. (FAA-H-8083-28 Chap 24)",
+              "attachment": "metar-01.png"
+            },
+            {
+              "id": 3015,
+              "question": "What are the wind conditions at Wink, Texas (KINK)?",
+              "type": "multiple-choice",
+              "answers": [
+                "Calm.",
+                "110° at 12 knots, gusts 18 knots.",
+                "111° at 2 knots, gusts 18 knots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The wind group at KINK is coded as 11012G18KT. The first three digits are the direction the wind is blowing from referenced to true north. The next two digits are the wind speed in knots. If the wind is gusty, it is reported as a \"G\" after the speed followed by the highest (or peak) gust reported. Thus, the wind conditions at KINK are 110° true at 12 knots, peak gust at 18 knots. (FAA-H-8083-28 Chap 24)",
+              "attachment": "metar-01.png"
+            },
+            {
+              "id": 3016,
+              "question": "Which of the reporting stations have VFR weather?",
+              "type": "multiple-choice",
+              "answers": [
+                "All.",
+                "KINK, KBOI, and KJFK.",
+                "KINK, KBOI, and KLAX."
+              ],
+              "correctAnswer": 2,
+              "explanation": "KINK is reporting visibility of 15 SM and sky clear (15SM SKC); KBOI is reporting visibility of 30 SM and a scattered cloud layer base at 15,000 ft. (30SM SCT150); and KLAX is reporting visibility of 6SM in mist (foggy conditions > 5/8 SM visibility) with a scattered cloud layer at 700 ft. and another one at 25,000 ft. (6SM BR SCT007 SCT250). All of these conditions are above VFR weather minimums of 1,000-ft. ceiling and/or 3-SM visibility. (FAA-H-8083-28 Chap 24)",
+              "attachment": "metar-01.png"
+            },
+            {
+              "id": 3017,
+              "question": "The remarks section for KMDW has RAB35 listed. This entry means",
+              "type": "multiple-choice",
+              "answers": [
+                "blowing mist has reduced the visibility to 1-1/2 SM.",
+                "rain began at 1835Z.",
+                "the barometer has risen .35\" Hg."
+              ],
+              "correctAnswer": 1,
+              "explanation": "In the remarks (RMK) section for KMDW, RAB35 means that rain began at 35 min. past the hour. Since the report was taken at 1856Z, rain began at 35 min. past the hour, or 1835Z. (FAA-H-8083-28 Chap 24)",
+              "attachment": "metar-01.png"
+            }
+          ],
+          "Aircraft Observations and Reports": [
+            {
+              "id": 3018,
+              "question": "If the terrain elevation is 1,295 feet MSL, what is the height above ground level of the base of the ceiling?",
+              "type": "multiple-choice",
+              "answers": [
+                "505 feet AGL.",
+                "1,295 feet AGL.",
+                "6,586 feet AGL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Refer to the PIREP (identified by the letters UA) in Fig. 14. The base of the ceiling is reported in the sky cover (SK) section. The first layer is considered a ceiling (i.e., broken), and the base is 1,800 ft. MSL. The height above ground of the broken base is 505 ft. AGL (1,800 ft. – 1,295 ft.). (FAA-H-8083-28 Chap 24)",
+              "attachment": "pirep-01.png"
+            },
+            {
+              "id": 3019,
+              "question": "The base and tops of the overcast layer reported by a pilot are",
+              "type": "multiple-choice",
+              "answers": [
+                "1,800 feet MSL and 5,500 feet MSL.",
+                "5,500 feet AGL and 7,200 feet MSL.",
+                "7,200 feet MSL and 8,900 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Refer to the PIREP (identified by the letters UA) in Fig. 14. The base and tops of the overcast layer are reported in the sky conditions (identified by the letters SK). This pilot has reported the base of the overcast layer at 7,200 ft. and the top of the overcast layer at 8,900 ft. (072 OVC 089). All altitudes are stated in MSL unless otherwise noted. Thus, the base and top of the overcast layer are reported as 7,200 ft. MSL and 8,900 ft. MSL, respectively. (FAA-H-8083-28 Chap 24)",
+              "attachment": "pirep-01.png"
+            },
+            {
+              "id": 3020,
+              "question": "The intensity of the turbulence reported at a specific altitude is",
+              "type": "multiple-choice",
+              "answers": [
+                "moderate at 5,500 feet and at 7,200 feet.",
+                "moderate from 5,500 feet to 7,200 feet.",
+                "light from 5,500 feet to 7,200 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Refer to the PIREP (identified by the letters UA) in Fig. 14. The turbulence is reported in the section identified by the letters TB. In the PIREP the turbulence is reported as light from 5,500 ft. to 7,200 ft. (TB LGT 055-072). (FAA-H-8083-28 Chap 24)",
+              "attachment": "pirep-01.png"
+            },
+            {
+              "id": 3021,
+              "question": "The wind and temperature at 12,000 feet MSL as reported by a pilot are",
+              "type": "multiple-choice",
+              "answers": [
+                "080° at 21 knots and –7°C.",
+                "090° at 21 MPH and –9°F.",
+                "090° at 21 knots and –9°C."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Refer to the PIREP (identified by the letters UA) in Fig. 14. The wind is reported in the section identified by the letters WV and is presented in five or six digits. The temperature is reported in the section identified by the letters TA in degrees Celsius, and if below 0°C, prefixed with an \"M.\" The wind is reported as 080° at 21 kt. with a temperature of –7°C. (FAA-H-8083-28 Chap 24)",
+              "attachment": "pirep-01.png"
+            },
+            {
+              "id": 3022,
+              "question": "The intensity and type of icing reported by a pilot is",
+              "type": "multiple-choice",
+              "answers": [
+                "light to moderate.",
+                "light to moderate clear.",
+                "light to moderate rime."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Refer to the PIREP (identified by the letters UA) in Fig. 14. The icing conditions are reported following the letters IC. In this report, icing is reported as light to moderate rime (LGT-MDT RIME) from 7,200 to 8,900 ft. MSL (072-089). (FAA-H-8083-28 Chap 24)",
+              "attachment": "pirep-01.png"
+            },
+            {
+              "id": 3023,
+              "question": "What is the base of the ceiling in the following pilot report?\nKMOB UA /OV APE230010/TM 1515/FL085/TP BE20/SK BKN065/WX FV03SM HZ FU/TA 20/TB LGT",
+              "type": "multiple-choice",
+              "answers": [
+                "There is not a defined ceiling in this report.",
+                "There is a layer reported at 8,500 feet.",
+                "There is a broken layer at 6,500 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The PIREP is reporting a broken layer of 6,500 ft. (SK BKN065). (FAA-H-8083-25C Chap 13, AIM Para 7-1-18)"
+            },
+            {
+              "id": 3024,
+              "question": "What is indicated by the following report?\nTYR UUA/OV TYR180015/TM 1757/FL310/TP B737/TB MOD-SEV CAT 350-390",
+              "type": "multiple-choice",
+              "answers": [
+                "An urgent pilot report for moderate to severe clear air turbulence.",
+                "A routine pilot report for overcast conditions from flight levels 350-390.",
+                "A special METAR issued on the 18th day of the month at 1757Z."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The UUA found in the first section of the report indicates an \"Urgent Upper Air\" report. The /TB MOD-SEV CAT 350-390 in the last section of the report indicates moderate to severe clear air turbulence for flight levels 350 to 390. (FAA-H-8083-28 Chap 24)"
+            }
+          ],
+          "Terminal Aerodrome Forecast (TAF)": [
+            {
+              "id": 3025,
+              "question": "In the TAF for KMEM, what does \"SHRA\" stand for?",
+              "type": "multiple-choice",
+              "answers": [
+                "Rain showers.",
+                "A shift in wind direction is expected.",
+                "A significant change in precipitation is possible."
+              ],
+              "correctAnswer": 0,
+              "explanation": "SHRA is a coded group of forecast weather. SH is a descriptor that means showers. RA is a type of precipitation that means rain. Thus, SHRA means rain showers. (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            },
+            {
+              "id": 3026,
+              "question": "Between 1000Z and 1200Z the visibility at KMEM is forecast to be?",
+              "type": "multiple-choice",
+              "answers": [
+                "1/2 statute mile.",
+                "3 statute miles.",
+                "6 statute miles."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Between 1000Z and 1200Z, the conditions at KMEM are forecast to gradually become wind calm, visibility 3 SM in mist, sky clear with temporary (occasional) visibility 1/2 SM in fog between 1200Z and 1400Z. Conditions are expected to continue until 1600Z. (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            },
+            {
+              "id": 3027,
+              "question": "In the TAF from KOKC, the clear sky becomes",
+              "type": "multiple-choice",
+              "answers": [
+                "overcast at 2,000 feet during the forecast period between 2200Z and 2400Z.",
+                "overcast at 200 feet with a 40 percent probability of becoming overcast at 600 feet during the forecast period between 2200Z and 2400Z.",
+                "overcast at 200 feet with the probability of becoming overcast at 400 feet during the forecast period between 2200Z and 2400Z."
+              ],
+              "correctAnswer": 0,
+              "explanation": "In the TAF for KOKC, from 2200Z to 2400Z, the conditions are forecast to gradually become wind 200° at 13 kt. with gusts to 20 kt., visibility 4 SM in moderate rain showers, overcast clouds at 2,000 ft. Between the hours of 0000Z and 0600Z, a chance (40 percent) exists of visibility 2 SM in thunderstorm with moderate rain, and 800 ft. overcast, cumulus clouds. (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            },
+            {
+              "id": 3028,
+              "question": "What is the forecast wind for KMEM from 1600Z until the end of the forecast?",
+              "type": "multiple-choice",
+              "answers": [
+                "No significant wind.",
+                "Variable in direction at 6 knots.",
+                "Variable in direction at 4 knots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The forecast for KMEM from 1600Z until the end of the forecast (1800Z) is wind direction variable at 6 knots (VRB06KT), visibility greater than 6 SM, and sky clear. (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            },
+            {
+              "id": 3029,
+              "question": "During the time period from 0600Z to 0800Z, what visibility is forecast for KOKC?",
+              "type": "multiple-choice",
+              "answers": [
+                "Greater than 6 statute miles.",
+                "Possibly 6 statute miles.",
+                "Not forecasted."
+              ],
+              "correctAnswer": 0,
+              "explanation": "At KOKC, between 0600Z and 0800Z, conditions are forecast to become wind 210° at 15 kt., visibility greater than 6 SM (P6SM), scattered clouds at 4,000 ft. with conditions continuing until the end of the forecast (1800Z). (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            },
+            {
+              "id": 3030,
+              "question": "What is the valid period for the TAF for KMEM?",
+              "type": "multiple-choice",
+              "answers": [
+                "1200Z to 1800Z.",
+                "1200Z to 1200Z.",
+                "1800Z to 2400Z."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The valid period of a TAF follows the four-letter location identifier and the six-digit issuance date/time. The valid period group is a two-digit date followed by the two-digit beginning hour and the two-digit ending hour. The valid period of the TAF for KMEM is 1218/1324, which means the forecast is valid from the 12th day at 1800Z until the 13th at 2400Z. (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            },
+            {
+              "id": 3031,
+              "question": "In the TAF from KOKC, the \"FM (FROM) Group\" is forecast for the hours from 1600Z to 2200Z with the wind from",
+              "type": "multiple-choice",
+              "answers": [
+                "160° at 10 knots.",
+                "180° at 10 knots.",
+                "180° at 10 knots, becoming 200° at 13 knots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The FM group states that, from 1600Z until 2200Z (time of next change group), the forecast wind is 180° at 10 knots. (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            },
+            {
+              "id": 3032,
+              "question": "The only cloud type forecast in TAF reports is",
+              "type": "multiple-choice",
+              "answers": [
+                "Nimbostratus.",
+                "Cumulonimbus.",
+                "Scattered cumulus."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Cumulonimbus clouds are the only cloud type forecast in TAFs. If cumulonimbus clouds are expected at the airport, the contraction CB is appended to the cloud layer that represents the base of the cumulonimbus cloud(s). (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            },
+            {
+              "id": 3033,
+              "question": "In the following METAR/TAF for HOU, what is the ceiling and visibility forecast on the 7th day of the month at 0600Z?\nKHOU 061734Z 0618/0718 16014G22KT P6SM VCSH BKN018 BKN035\n\nFM070100 17010KT P6SM BKN015 OVC025\n\nFM070500 17008KT 4SM BR SCT008 OVC012\n\nFM071000 18005KT 3SM BR OVC007\n\nFM071500 23008KT 5SM BR VCSH SCT008 OVC015",
+              "type": "multiple-choice",
+              "answers": [
+                "Visibility 6 miles with a broken ceiling at 15,000 feet MSL.",
+                "4 nautical miles of visibility and an overcast ceiling at 700 feet MSL.",
+                "4 statute miles visibility and an overcast ceiling at 1,200 feet AGL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "According to the TAF, there will be 4 statute miles visibility (4SM) and an overcast ceiling at 1,200 ft. AGL (OVC012) during the time period beginning on the 7th day of the month at 0500Z (FM070500) until the 7th day of the month at 1000Z (FM071000). The 7th day of the month at 0600Z is included within this period. (FAA-H-8083-28 Chap 27)"
+            }
+          ],
+          "Radar Weather Reports (NEXRAD)": [
+            {
+              "id": 3034,
+              "question": "Radar weather reports are of special interest to pilots because they indicate",
+              "type": "multiple-choice",
+              "answers": [
+                "Large areas of low ceilings and fog.",
+                "Location of precipitation along with type, intensity, and cell movement of precipitation.",
+                "Location of precipitation along with type, intensity, and trend."
+              ],
+              "correctAnswer": 2,
+              "explanation": "(FAA-H-8083-28 Chap 24)\nRadar weather reports are of special interest to pilots because they report the location of precipitation along with type, intensity, and cell movement."
+            }
+          ],
+          "In-Flight Weather": [
+            {
+              "id": 3035,
+              "question": "How should contact be established with a Flight Service Station, and what service would be expected?",
+              "type": "multiple-choice",
+              "answers": [
+                "Call Flight Service on 122.2 for routine weather, current reports on hazardous weather, and altimeter settings.",
+                "Call flight assistance on 122.5 for advisory service pertaining to severe weather.",
+                "Call Flight Service on 122.0 for information regarding actual weather and thunderstorm activity along proposed route."
+              ],
+              "correctAnswer": 0,
+              "explanation": "You would call FSS on 122.2 MHz for routine weather, current reports on hazardous weather, and altimeter settings. (AIM Para 7-1-5, 4-2-14)"
+            },
+            {
+              "id": 3036,
+              "question": "What service should a pilot normally expect from Flight Service?",
+              "type": "multiple-choice",
+              "answers": [
+                "Actual weather information and thunderstorm activity along the route.",
+                "Preferential routing and radar vectoring to circumnavigate severe weather.",
+                "Local information about restaurants, hotels, and rental car services."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Flight Service is designed to provide en route traffic with timely and meaningful weather advisories pertinent to the type of flight intended. It is designed to be a continuous exchange of information on winds, turbulence, visibility, icing, etc., between pilots and Flight Service specialists on the ground. (AIM Para 7-1-5)"
+            },
+            {
+              "id": 3037,
+              "question": "En route weather advisories should be obtained from an FSS on",
+              "type": "multiple-choice",
+              "answers": [
+                "122.2 MHz.",
+                "122.1 MHz.",
+                "123.6 MHz."
+              ],
+              "correctAnswer": 0,
+              "explanation": "To receive weather advisories along your route, you should contact Flight Service on 122.2 MHz. (AIM Para 4-2-14)"
+            },
+            {
+              "id": 3038,
+              "question": "How could you receive in-flight weather information about your destination while still 150 NM away?",
+              "type": "multiple-choice",
+              "answers": [
+                "Tune the frequency and listen to the ATIS for your destination.",
+                "Review the destination METAR and TAF through FIS-B.",
+                "Contact Flight Service on the frequency 121.5."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Flight Information Services-Broadcast (FIS-B) is a ground-based broadcast system provided through ADS-B via the 978 MHz data link that can display in-flight weather data such as METARs, TAFs, Winds Aloft, and PIREPs. (FAA-H-8083-25C Chap 13)"
+            }
+          ],
+          "Wind and Temperature Aloft Forecasts (FB)": [
+            {
+              "id": 3039,
+              "question": "What wind is forecast for STL at 12,000 feet?",
+              "type": "multiple-choice",
+              "answers": [
+                "230° magnetic at 39 knots.",
+                "230° true at 39 knots.",
+                "230° true at 106 knots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Refer to the FB forecast in Fig. 17. Locate STL on the left side of the chart and move to the right to the 12,000-ft. column. The wind forecast (first four digits) is coded as 2339. The forecast is decoded as 230° true at 39 kt. (FAA-H-8083-28 Chap 27)",
+              "attachment": "fb-01.png"
+            },
+            {
+              "id": 3040,
+              "question": "Determine the wind and temperature aloft forecast for MKC at 6,000 ft.",
+              "type": "multiple-choice",
+              "answers": [
+                "050° true at 7 knots, temperature missing.",
+                "200° magnetic at 6 knots, temperature +3°C.",
+                "200° true at 6 knots, temperature +3°C."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Refer to the FB forecast in Fig. 17. Locate MKC on the left side of the chart and move to the right to the 6,000-ft. column. The wind and temperature forecast is coded as 2006+03, which translates as the forecast wind at 200° true at 6 kt. and a temperature of 3°C. (FAA-H-8083-28 Chap 27)",
+              "attachment": "fb-01.png"
+            },
+            {
+              "id": 3041,
+              "question": "What wind is forecast for STL at 12,000 feet?",
+              "type": "multiple-choice",
+              "answers": [
+                "230° true at 39 knots.",
+                "230° true at 56 knots.",
+                "230° magnetic at 56 knots."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Refer to the FB forecast in Fig. 17. Locate STL and move right to the 12,000-foot column. The wind forecast (first four digits) is coded as 2339, which means the wind is 230° true at 39 knots. (FAA-H-8083-28 Chap 27)",
+              "attachment": "fb-01.png"
+            },
+            {
+              "id": 3042,
+              "question": "Determine the wind and temperature aloft forecast for DEN at 9,000 feet.",
+              "type": "multiple-choice",
+              "answers": [
+                "230° magnetic at 53 knots, temperature 47°C.",
+                "230° true at 53 knots, temperature –47°C.",
+                "230° true at 21 knots, temperature –4°C."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Refer to the FB forecast in Fig. 17. Locate DEN on the left side of the chart and move to the right to the 9,000-ft. column. The wind and temperature forecast is coded as 2321-04. The forecast is decoded as 230° true at 21 kt., temperature –4°C. (FAA-H-8083-28 Chap 27)",
+              "attachment": "fb-01.png"
+            },
+            {
+              "id": 3043,
+              "question": "What wind is forecast for STL at 9,000 feet?",
+              "type": "multiple-choice",
+              "answers": [
+                "230° magnetic at 25 knots.",
+                "230° true at 32 knots.",
+                "230° true at 25 knots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Refer to the FB forecast in Fig. 17. Locate STL on the left side of the chart and move right to the 9,000-ft. column. The coded wind forecast (first four digits) is 2332. Thus, the forecast wind is 230° true at 32 kt. (FAA-H-8083-28 Chap 27)",
+              "attachment": "fb-01.png"
+            },
+            {
+              "id": 3044,
+              "question": "What values are used for Winds Aloft Forecasts?",
+              "type": "multiple-choice",
+              "answers": [
+                "Magnetic direction and knots.",
+                "Magnetic direction and miles per hour.",
+                "True direction and knots."
+              ],
+              "correctAnswer": 2,
+              "explanation": "For Winds Aloft Forecasts, wind direction is given in true direction and the wind speed is in knots. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3045,
+              "question": "When the term \"light and variable\" is used in reference to a Winds Aloft Forecast, the coded group and windspeed is",
+              "type": "multiple-choice",
+              "answers": [
+                "0000 and less than 7 knots.",
+                "9900 and less than 5 knots.",
+                "9999 and less than 10 knots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "When winds are light and variable on a Winds Aloft Forecast (FB), it is coded 9900 and wind speed is less than 5 knots. (FAA-H-8083-28 Chap 27)"
+            }
+          ],
+          "Significant Weather Prognostic Charts (SIGWX)": [
+            {
+              "id": 3046,
+              "question": "Interpret the weather symbol depicted in Utah on the 12-hour Significant Weather Prognostic Chart.",
+              "type": "multiple-choice",
+              "answers": [
+                "Moderate turbulence, surface to 18,000 feet.",
+                "Thunderstorm tops at 18,000 feet.",
+                "Base of clear air turbulence, 18,000 feet."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Refer to the upper panel of the Significant Weather Prognostic Chart in Fig. 19. In Utah, the weather symbol indicates moderate turbulence as designated by the symbol of a small peaked hat. Note that the broken line indicates moderate or greater turbulence. The peaked hat is the symbol for moderate turbulence. The \"180\" means the moderate turbulence extends from the surface upward to 18,000 feet. (FAA-H-8083-28 Chap 27)",
+              "attachment": "sig-01.png"
+            },
+            {
+              "id": 3047,
+              "question": "At what altitude is the freezing level over the middle of Florida on the 12-hour Significant Weather Prognostic Chart?",
+              "type": "multiple-choice",
+              "answers": [
+                "4,000 feet.",
+                "8,000 feet.",
+                "12,000 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Refer to the upper panel of the Significant Weather Prognostic Chart in Fig. 19. On prog charts, the freezing level is indicated by a dashed line, with the height given in hundreds of feet MSL. In Fig. 19, there is a dashed line across the middle of Florida, marked with \"120.\" This signifies that the freezing level is 12,000 ft. MSL. (FAA-H-8083-28 Chap 27)",
+              "attachment": "sig-01.png"
+            },
+            {
+              "id": 3048,
+              "question": "You are preparing for a flight with a planned arrival in southern Georgia at 0600Z. What conditions should you expect when landing?",
+              "type": "multiple-choice",
+              "answers": [
+                "Moderate turbulence.",
+                "Marginal VFR conditions.",
+                "Instrument meteorological conditions."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The lower panel, which is the 24-hr. forecast, should be used because it is valid at the time of arrival, 0600Z. The red line surrounding Georgia indicates instrument meteorological conditions will be present, which occur when the ceiling is less than 1,000 ft. and/or visibility is less than 3 mi. (FAA-H-8083-28 Chap 27)",
+              "attachment": "sig-01.png"
+            },
+            {
+              "id": 3049,
+              "question": "How are significant weather charts best used by a pilot?",
+              "type": "multiple-choice",
+              "answers": [
+                "For overall planning at all altitudes.",
+                "For determining areas to avoid (freezing levels and turbulence).",
+                "For analyzing current frontal activity and cloud coverage."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Significant weather charts forecast conditions that exist 12 and 24 hr. in the future. They include two types of forecasts: low level significant weather, such as IFR and marginal VFR areas, and moderate or greater turbulence areas and freezing levels. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3050,
+              "question": "The distance measured in millibars separating isobars on surface analysis charts is typically",
+              "type": "multiple-choice",
+              "answers": [
+                "2 mb.",
+                "4 mb.",
+                "6 mb."
+              ],
+              "correctAnswer": 1,
+              "explanation": "An isobar connects areas of similar barometric pressure. On a surface analysis chart, isobars are used to depict the sea-level pressure pattern; they are depicted with a series of solid black lines surrounding the defined pressure area. The interval between isobars is typically 4 mb, based on a standard pressure gradient. (FAA-H-8083-28 Chap 27)"
+            }
+          ],
+          "AIRMETs and SIGMETs": [
+            {
+              "id": 3051,
+              "question": "SIGMETs are issued as a warning of weather conditions hazardous to which aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "Small aircraft only.",
+                "Large aircraft only.",
+                "All aircraft."
+              ],
+              "correctAnswer": 2,
+              "explanation": "SIGMETs (significant meteorological information) warn of weather considered potentially hazardous to all aircraft. SIGMET advisories cover severe and extreme turbulence; severe icing; and widespread duststorms, sandstorms, or volcanic ash that reduce visibility to less than 3 SM. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3052,
+              "question": "AIRMETs are advisories of significant weather phenomena but of lower intensities than SIGMETs and are intended for dissemination to",
+              "type": "multiple-choice",
+              "answers": [
+                "only IFR pilots.",
+                "all pilots.",
+                "only VFR pilots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "AIRMETs are advisories of significant weather phenomena that describe conditions at intensities lower than those which require the issuance of SIGMETs. They are intended for dissemination to all pilots. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3053,
+              "question": "Which in-flight advisory would contain information on severe icing not associated with thunderstorms?",
+              "type": "multiple-choice",
+              "answers": [
+                "Convective SIGMET.",
+                "SIGMET.",
+                "AIRMET."
+              ],
+              "correctAnswer": 1,
+              "explanation": "SIGMET advisories cover severe icing not associated with thunderstorms; severe or extreme turbulence or clear air turbulence not associated with thunderstorms; duststorms, sandstorms, or volcanic ash that reduce visibility to less than 3 SM; and volcanic eruption. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3054,
+              "question": "What information is contained in a CONVECTIVE SIGMET?",
+              "type": "multiple-choice",
+              "answers": [
+                "Tornadoes, embedded thunderstorms, and hail 3/4 inch or greater in diameter.",
+                "Severe icing, severe turbulence, or widespread dust storms lowering visibility to less than 3 miles.",
+                "Surface winds greater than 40 knots or thunderstorms equal to or greater than video integrator processor (VIP) level 4."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Convective SIGMETs are issued for tornadoes, lines of thunderstorms, embedded thunderstorms of any intensity level, areas of thunderstorms greater than or equal to VIP level 4 with an area coverage of 40% or more, and hail 3/4 in. or greater. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3055,
+              "question": "What is indicated when a current CONVECTIVE SIGMET forecasts thunderstorms?",
+              "type": "multiple-choice",
+              "answers": [
+                "Moderate thunderstorms covering 30 percent of the area.",
+                "Moderate or severe turbulence.",
+                "Thunderstorms obscured by massive cloud layers."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Convective SIGMETs are issued for tornadoes, lines of thunderstorms, embedded (i.e., obscured by massive cloud layers) thunderstorms of any intensity level, areas of thunderstorms greater than or equal to VIP level 4 with an area coverage of 40% or more, and hail 3/4 in. or greater. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3056,
+              "question": "To determine the freezing level and areas of probable icing aloft, the pilot should refer to the",
+              "type": "multiple-choice",
+              "answers": [
+                "inflight aviation weather advisories.",
+                "CVA chart.",
+                "surface analysis chart."
+              ],
+              "correctAnswer": 0,
+              "explanation": "To determine the freezing level and areas of probable icing aloft, refer to the inflight aviation weather advisories (AIRMET Zulu for icing and freezing level; AIRMET Tango for turbulence, strong winds/low-level wind shear; and AIRMET Sierra for IFR conditions and mountain obscuration). (FAA-H-8083-28 Chap 27)"
+            }
+          ],
+          "Final Exam": [
+            {
+              "id": 3057,
+              "question": "To get a complete weather briefing for the planned flight, the pilot should request",
+              "type": "multiple-choice",
+              "answers": [
+                "an abbreviated briefing.",
+                "a standard briefing.",
+                "a general briefing."
+              ],
+              "correctAnswer": 1,
+              "explanation": "To get a complete briefing before a planned flight, the pilot should request a standard briefing. This will include all pertinent information needed for a safe flight. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3058,
+              "question": "What information is contained in a CONVECTIVE SIGMET?",
+              "type": "multiple-choice",
+              "answers": [
+                "Severe icing, severe turbulence, or widespread dust storms lowering visibility to less than 3 miles.",
+                "Surface winds greater than 40 knots or thunderstorms equal to or greater than video integrator processor (VIP) level 4.",
+                "Tornadoes, embedded thunderstorms, and hail 3/4 inch or greater in diameter."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Convective SIGMETs are issued for tornadoes, lines of thunderstorms, embedded thunderstorms of any intensity level, areas of thunderstorms greater than or equal to VIP level 4 with an area coverage of 40% or more, and hail 3/4 in. or greater. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3059,
+              "question": "What service should a pilot normally expect from Flight Service?",
+              "type": "multiple-choice",
+              "answers": [
+                "Actual weather information and thunderstorm activity along the route.",
+                "Local information about restaurants, hotels, and rental car services.",
+                "Preferential routing and radar vectoring to circumnavigate severe weather."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Flight Service is designed to provide en route traffic with timely and meaningful weather advisories pertinent to the type of flight intended. It is designed to be a continuous exchange of information on winds, turbulence, visibility, icing, etc., between pilots and Flight Service specialists on the ground. (AIM Para 7-1-5)"
+            },
+            {
+              "id": 3060,
+              "question": "At what altitude is the freezing level over the middle of Florida on the 12-hour Significant Weather Prognostic Chart?",
+              "type": "multiple-choice",
+              "answers": [
+                "8,000 feet.",
+                "12,000 feet.",
+                "4,000 feet."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Refer to the upper panel of the Significant Weather Prognostic Chart in Fig. 19. On prog charts, the freezing level is indicated by a dashed line, with the height given in hundreds of feet MSL. In Fig. 19, there is a dashed line across the middle of Florida, marked with \"120.\" This signifies that the freezing level is 12,000 ft. MSL. (FAA-H-8083-28 Chap 27)",
+              "attachment": "sig-01.png"
+            },
+            {
+              "id": 3061,
+              "question": "What should pilots state initially when telephoning a weather briefing facility for preflight weather information?",
+              "type": "multiple-choice",
+              "answers": [
+                "Tell the number of occupants on board.",
+                "Identify themselves as pilots.",
+                "State their total flight time."
+              ],
+              "correctAnswer": 1,
+              "explanation": "When telephoning for a weather briefing, you should identify yourself as a pilot so the person can give you an aviation-oriented briefing. Many nonpilots call weather briefing facilities to get the weather for other activities. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3062,
+              "question": "When speaking to a flight service weather briefer, you should state",
+              "type": "multiple-choice",
+              "answers": [
+                "a summary of your qualifications.",
+                "whether the flight is VFR or IFR.",
+                "the pilot in command's full name and address."
+              ],
+              "correctAnswer": 1,
+              "explanation": "When speaking to an FSS weather briefer, you should identify yourself as a pilot and state the route, destination, type of airplane, and whether you intend to fly VFR or IFR to permit the weather briefer to give you the most complete briefing. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3063,
+              "question": "What values are used for Winds Aloft Forecasts?",
+              "type": "multiple-choice",
+              "answers": [
+                "Magnetic direction and miles per hour.",
+                "Magnetic direction and knots.",
+                "True direction and knots."
+              ],
+              "correctAnswer": 2,
+              "explanation": "For Winds Aloft Forecasts, wind direction is given in true direction and the wind speed is in knots. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3064,
+              "question": "What is indicated when a current CONVECTIVE SIGMET forecasts thunderstorms?",
+              "type": "multiple-choice",
+              "answers": [
+                "Moderate or severe turbulence.",
+                "Moderate thunderstorms covering 30 percent of the area.",
+                "Thunderstorms obscured by massive cloud layers."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Convective SIGMETs are issued for tornadoes, lines of thunderstorms, embedded (i.e., obscured by massive cloud layers) thunderstorms of any intensity level, areas of thunderstorms greater than or equal to VIP level 4 with an area coverage of 40% or more, and hail 3/4 in. or greater. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3065,
+              "question": "Which of the reporting stations have VFR weather?",
+              "type": "multiple-choice",
+              "answers": [
+                "KINK, KBOI, and KLAX.",
+                "All.",
+                "KINK, KBOI, and KJFK."
+              ],
+              "correctAnswer": 0,
+              "explanation": "KINK is reporting visibility of 15 SM and sky clear (15SM SKC); KBOI is reporting visibility of 30 SM and a scattered cloud layer base at 15,000 ft. (30SM SCT150); and KLAX is reporting visibility of 6SM in mist (foggy conditions > 5/8 SM visibility) with a scattered cloud layer at 700 ft. and another one at 25,000 ft. (6SM BR SCT007 SCT250). All of these conditions are above VFR weather minimums of 1,000-ft. ceiling and/or 3-SM visibility. (FAA-H-8083-28 Chap 24)",
+              "attachment": "metar-01.png"
+            },
+            {
+              "id": 3066,
+              "question": "What wind is forecast for STL at 12,000 feet?",
+              "type": "multiple-choice",
+              "answers": [
+                "230° true at 106 knots.",
+                "230° true at 39 knots.",
+                "230° magnetic at 39 knots."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Refer to the FB forecast in Fig. 17. Locate STL on the left side of the chart and move to the right to the 12,000-ft. column. The wind forecast (first four digits) is coded as 2339. The forecast is decoded as 230° true at 39 kt. (FAA-H-8083-28 Chap 27)",
+              "attachment": "fb-01.png"
+            },
+            {
+              "id": 3067,
+              "question": "What is the base of the ceiling in the following pilot report?\nKMOB UA /OV APE230010/TM 1515/FL085/TP BE20/SK BKN065/WX FV03SM HZ FU/TA 20/TB LGT",
+              "type": "multiple-choice",
+              "answers": [
+                "There is a layer reported at 8,500 feet.",
+                "There is not a defined ceiling in this report.",
+                "There is a broken layer at 6,500 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The PIREP is reporting a broken layer of 6,500 ft. (SK BKN065). (FAA-H-8083-25C Chap 13, AIM Para 7-1-18)"
+            },
+            {
+              "id": 3068,
+              "question": "If the terrain elevation is 1,295 feet MSL, what is the height above ground level of the base of the ceiling?",
+              "type": "multiple-choice",
+              "answers": [
+                "6,586 feet AGL.",
+                "1,295 feet AGL.",
+                "505 feet AGL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Refer to the PIREP (identified by the letters UA) in Fig. 14. The base of the ceiling is reported in the sky cover (SK) section. The first layer is considered a ceiling (i.e., broken), and the base is 1,800 ft. MSL. The height above ground of the broken base is 505 ft. AGL (1,800 ft. – 1,295 ft.). (FAA-H-8083-28 Chap 24)",
+              "attachment": "pirep-01.png"
+            },
+            {
+              "id": 3069,
+              "question": "You are preparing for a flight with a planned arrival in southern Georgia at 0600Z. What conditions should you expect when landing?",
+              "type": "multiple-choice",
+              "answers": [
+                "Instrument meteorological conditions.",
+                "Marginal VFR conditions.",
+                "Moderate turbulence."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The lower panel, which is the 24-hr. forecast, should be used because it is valid at the time of arrival, 0600Z. The red line surrounding Georgia indicates instrument meteorological conditions will be present, which occur when the ceiling is less than 1,000 ft. and/or visibility is less than 3 mi. (FAA-H-8083-28 Chap 27)",
+              "attachment": "sig-01.png"
+            },
+            {
+              "id": 3070,
+              "question": "To determine the freezing level and areas of probable icing aloft, the pilot should refer to the",
+              "type": "multiple-choice",
+              "answers": [
+                "CVA chart.",
+                "surface analysis chart.",
+                "inflight aviation weather advisories."
+              ],
+              "correctAnswer": 2,
+              "explanation": "To determine the freezing level and areas of probable icing aloft, refer to the inflight aviation weather advisories (AIRMET Zulu for icing and freezing level; AIRMET Tango for turbulence, strong winds/low-level wind shear; and AIRMET Sierra for IFR conditions and mountain obscuration). (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3071,
+              "question": "A weather briefing that is provided when the information requested is 6 or more hours in advance of the proposed departure time is",
+              "type": "multiple-choice",
+              "answers": [
+                "a prognostic briefing.",
+                "an outlook briefing.",
+                "a forecast briefing."
+              ],
+              "correctAnswer": 1,
+              "explanation": "An outlook briefing is given when the briefing is 6 or more hours before the proposed departure time. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3072,
+              "question": "How are significant weather charts best used by a pilot?",
+              "type": "multiple-choice",
+              "answers": [
+                "For overall planning at all altitudes.",
+                "For analyzing current frontal activity and cloud coverage.",
+                "For determining areas to avoid (freezing levels and turbulence)."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Significant weather charts forecast conditions that exist 12 and 24 hr. in the future. They include two types of forecasts: low level significant weather, such as IFR and marginal VFR areas, and moderate or greater turbulence areas and freezing levels. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 3073,
+              "question": "Radar weather reports are of special interest to pilots because they indicate",
+              "type": "multiple-choice",
+              "answers": [
+                "location of precipitation along with type, intensity, and cell movement of precipitation.",
+                "large areas of low ceilings and fog.",
+                "location of precipitation along with type, intensity, and trend."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Radar weather reports are of special interest to pilots because they report the location of precipitation along with type, intensity, and cell movement. (FAA-H-8083-28 Chap 24)"
+            },
+            {
+              "id": 3074,
+              "question": "You plan to phone a weather briefing facility for preflight weather information. You should",
+              "type": "multiple-choice",
+              "answers": [
+                "provide the number of occupants on board.",
+                "identify yourself as a pilot.",
+                "begin with your route of flight."
+              ],
+              "correctAnswer": 1,
+              "explanation": "When calling for a weather briefing, you should identify yourself as a pilot so the person can give you an aviation-oriented briefing. Nonpilots may call weather briefing facilities to get the weather for other activities. It is best to tell them what kind of pilot you are, e.g., student pilot, private pilot, instrument pilot. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 3075,
+              "question": "How should contact be established with a Flight Service Station, and what service would be expected?",
+              "type": "multiple-choice",
+              "answers": [
+                "Call flight assistance on 122.5 for advisory service pertaining to severe weather.",
+                "Call Flight Service on 122.0 for information regarding actual weather and thunderstorm activity along proposed route.",
+                "Call Flight Service on 122.2 for routine weather, current reports on hazardous weather, and altimeter settings."
+              ],
+              "correctAnswer": 2,
+              "explanation": "You would call FSS on 122.2 MHz for routine weather, current reports on hazardous weather, and altimeter settings. (AIM Para 7-1-5, 4-2-14)"
+            },
+            {
+              "id": 3076,
+              "question": "In the TAF from KOKC, the \"FM (FROM) Group\" is forecast for the hours from 1600Z to 2200Z with the wind from",
+              "type": "multiple-choice",
+              "answers": [
+                "180° at 10 knots.",
+                "180° at 10 knots, becoming 200° at 13 knots.",
+                "160° at 10 knots."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The FM group states that, from 1600Z until 2200Z (time of next change group), the forecast wind is 180° at 10 knots. (FAA-H-8083-28 Chap 27)",
+              "attachment": "taf-01.png"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

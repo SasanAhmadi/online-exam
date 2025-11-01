@@ -64,4 +64,4 @@ Use descriptive names that relate to the question content:
 
 ## Sample Files
 - `sample-airspace-chart.svg`: Example aviation chart showing airspace configuration
-- Add your own image files following the naming conventions above
+- Add your own image files following the naming conventions above![alt text](sig-01.png)

@@ -3,8 +3,11 @@
     {
       "id": "canadian-conversion-ppl",
       "name": "Canadian Conversion PPL",
-      "description": "14 CFR Regulations - Practice Questions for Canadian License Conversion",
-      "file": "question-banks/canadian-conversion-ppl.json",
+      "description": "Complete Canadian Conversion PPL Knowledge Test Questions - Aviation Weather Services and Federal Aviation Regulations",
+      "files": [
+        "question-banks/canadian-conversion-ppl-aviation-weather.json",
+        "question-banks/canadian-conversion-ppl-federal-aviation-regulations.json"
+      ],
       "enabled": true
     },
     {
@@ -13,13 +16,6 @@
       "description": "Federal Aviation Administration Private Pilot Knowledge Test Questions",
       "file": "question-banks/faa-private-pilot.json",
       "enabled": true
-    },
-    {
-      "id": "instrument-rating",
-      "name": "Instrument Rating",
-      "description": "Instrument Rating Knowledge Test Questions",
-      "file": "question-banks/instrument-rating.json",
-      "enabled": false
     }
   ]
 }

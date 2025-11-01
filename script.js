@@ -91,8 +91,15 @@ class ExamApp {
 
     async loadQuestionBanks() {
         try {
-            // Load the question bank configuration
-            const response = await fetch('question-banks.json');
+            // Load the question bank configuration with cache busting
+            const timestamp = new Date().getTime();
+            const response = await fetch(`question-banks.json?v=${timestamp}`, {
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache',
+                    'Expires': '0'
+                }
+            });
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -114,20 +121,65 @@ class ExamApp {
 
     async loadAllQuestionBanks() {
         const loadedBanks = [];
+        const timestamp = new Date().getTime();
 
         for (const bank of this.questionBanks) {
             try {
-                const response = await fetch(bank.file);
-                if (response.ok) {
-                    const data = await response.json();
-                    loadedBanks.push({
-                        ...bank,
-                        data: data
+                // Support both single file and multiple files
+                const filesToLoad = bank.files || [bank.file];
+                const bankData = { subjects: {} };
+
+                // Load and merge all files for this bank
+                for (const file of filesToLoad) {
+                    const response = await fetch(`${file}?v=${timestamp}`, {
+                        headers: {
+                            'Cache-Control': 'no-cache, no-store, must-revalidate',
+                            'Pragma': 'no-cache',
+                            'Expires': '0'
+                        }
                     });
-                    console.log(`Loaded question bank: ${bank.name}`);
-                } else {
-                    console.warn(`Could not load question bank: ${bank.name} from ${bank.file}`);
+
+                    if (response.ok) {
+                        const fileData = await response.json();
+
+                        // Merge subjects from this file into the bank data
+                        if (fileData.subjects) {
+                            Object.entries(fileData.subjects).forEach(([subjectName, subjectData]) => {
+                                if (!bankData.subjects[subjectName]) {
+                                    bankData.subjects[subjectName] = {
+                                        description: subjectData.description,
+                                        categories: {}
+                                    };
+                                }
+
+                                // Merge categories
+                                Object.entries(subjectData.categories).forEach(([categoryName, categoryData]) => {
+                                    if (!bankData.subjects[subjectName].categories[categoryName]) {
+                                        bankData.subjects[subjectName].categories[categoryName] = {};
+                                    }
+
+                                    // Merge subcategories
+                                    Object.entries(categoryData).forEach(([subcategoryName, questions]) => {
+                                        if (bankData.subjects[subjectName].categories[categoryName][subcategoryName]) {
+                                            console.warn(`Duplicate subcategory found: ${subcategoryName} in ${categoryName}/${subjectName} from ${file}`);
+                                        } else {
+                                            bankData.subjects[subjectName].categories[categoryName][subcategoryName] = questions;
+                                        }
+                                    });
+                                });
+                            });
+                        }
+                    } else {
+                        console.warn(`Could not load file: ${file} for bank: ${bank.name}`);
+                    }
                 }
+
+                loadedBanks.push({
+                    ...bank,
+                    data: bankData
+                });
+                console.log(`Loaded question bank: ${bank.name} from ${filesToLoad.length} file(s)`);
+
             } catch (error) {
                 console.error(`Error loading question bank ${bank.name}:`, error);
             }
