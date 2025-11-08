@@ -3,10 +3,12 @@
     {
       "id": "canadian-conversion-ppl",
       "name": "Canadian Conversion PPL",
-      "description": "Complete Canadian Conversion PPL Knowledge Test Questions - Aviation Weather Services and Federal Aviation Regulations",
+      "description": "Complete Canadian Conversion PPL Knowledge Test Questions - Aviation Weather, Federal Aviation Regulations, and Stage Tests",
       "files": [
         "question-banks/canadian-conversion-ppl-aviation-weather.json",
-        "question-banks/canadian-conversion-ppl-federal-aviation-regulations.json"
+        "question-banks/canadian-conversion-ppl-federal-aviation-regulations.json",
+        "question-banks/canadian-conversion-ppl-navigation-charts-and-publications.json",
+        "question-banks/canadian-conversion-ppl-final-quiz.json"
       ],
       "enabled": true
     },
