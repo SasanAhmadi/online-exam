@@ -688,6 +688,149 @@
               "explanation": "To determine the height of the lighted stack, first find it on Fig. 23. Locate the compass rose and look along the 010° radial, knowing that the compass rose has a 10-NM radius. Just outside the compass rose is a group obstruction (stacks). Its height is 454 ft. MSL; AGL height is not shown. (ACUG)",
               "attachment": "nav-13.png"
             }
+          ],
+          "Identifying Airports, Services, and Landmarks": [
+            {
+              "id": 4054,
+              "question": "The flag symbols at Statesboro Bulloch County Airport, Claxton-Evans County Airport, and Ridgeland Airport are",
+              "type": "multiple-choice",
+              "answers": [
+                "outer boundaries of Savannah Class C airspace.",
+                "airports with special traffic patterns.",
+                "visual checkpoints to identify position for initial callup prior to entering Savannah Class C airspace."
+              ],
+              "correctAnswer": 2,
+              "explanation": "On Fig. 23, note the flag symbols at Claxton-Evans County Airport (1 in. to the left of 2), at Statesboro Bulloch County Airport (2 in. above 2), and at Ridgeland Airport (2 in. above 3). These airports are visual checkpoints to identify position for initial callup prior to entering the Savannah Class C airspace. (ACUG)",
+              "attachment": "nav-13.png"
+            },
+            {
+              "id": 4055,
+              "question": "(Refer to Area 3.) For information about glider operations at Ridgeland Airport, refer to",
+              "type": "multiple-choice",
+              "answers": [
+                "notes on the border of the chart.",
+                "the Chart Supplement.",
+                "NOTAMs for Ridgeland Airport."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The miniature glider near the Ridgeland Airport (at 3 on Fig. 23) indicates a glider operations area. The Chart Supplement will have information on the glider operations at Ridgeland Airport. (ACUG)",
+              "attachment": "nav-13.png"
+            },
+            {
+              "id": 4056,
+              "question": "(Refer to Area 5.) The CAUTION box denotes what hazard to aircraft?",
+              "type": "multiple-choice",
+              "answers": [
+                "Unmarked blimp hangars at 308 feet MSL.",
+                "Unmarked balloon on cable to 3,008 feet AGL.",
+                "Unmarked balloon on cable to 3,008 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "On Fig. 20, northwest of 5, find \"CAUTION: UNMARKED BALLOON ON CABLE TO 3,008' MSL.\" This is self-explanatory. (ACUG)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4057,
+              "question": "(Refer to Area 2.) The flag symbol at Lake Drummond represents a",
+              "type": "multiple-choice",
+              "answers": [
+                "compulsory reporting point for Norfolk Class C airspace.",
+                "compulsory reporting point for Hampton Roads Airport.",
+                "visual checkpoint used to identify position for initial callup to Norfolk Approach Control."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The magenta (reddish) flag (west of 2) at Lake Drummond signifies that the lake is a visual check-point that can be used to identify the position for initial callup to the Norfolk approach control. (ACUG)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4058,
+              "question": "Which public use airport depicted is indicated as having fuel?",
+              "type": "multiple-choice",
+              "answers": [
+                "Minot Int'l (Area 1).",
+                "Garrison (Area 2).",
+                "Mercer County Regional Airport (Area 3)."
+              ],
+              "correctAnswer": 0,
+              "explanation": "On Fig. 21, the requirement is to identify the airports having fuel available. Airports having fuel available are designated by small squares extending from the top, bottom, and both sides of the airport symbol. Only Minot Int'l (Area 1) has such a symbol. (ACUG)",
+              "attachment": "nav-03.png"
+            },
+            {
+              "id": 4059,
+              "question": "Which public use airports depicted are indicated as having fuel?",
+              "type": "multiple-choice",
+              "answers": [
+                "Commerce (Area 6) and Rockwall (Area 1).",
+                "Rockwall (Area 1) and Sulphur Springs (Area 5).",
+                "Commerce (Area 6) and Sulphur Springs (Area 5)."
+              ],
+              "correctAnswer": 1,
+              "explanation": "On Fig. 24, the requirement is to identify the airports having fuel available. Airports having fuel available are designated by small squares extending from the top, bottom, and both sides of the airport symbol. Rockwall (Area 1) and Sulphur Springs (Area 5) have such symbols. (ACUG)",
+              "attachment": "nav-05.png"
+            },
+            {
+              "id": 4060,
+              "question": "(Refer to Area 1.) For information about the parachute jumping at Caddo Mills Airport, refer to",
+              "type": "multiple-choice",
+              "answers": [
+                "notes on the border of the chart.",
+                "the Airport/Facility Directory section of the Chart Supplement.",
+                "NOTAMs for Caddo Mills Airport."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The miniature parachute near the Caddo Mills Airport (at 1 on Fig. 24) indicates a parachute jumping area. In Legend 1, the symbol for a parachute jumping area instructs you to see the Airport/Facility Directory section of the Chart Supplement for more information. (ACUG)",
+              "attachment": "nav-05.png"
+            },
+            {
+              "id": 4061,
+              "question": "Which is true concerning the blue and magenta colors used to depict airports on Sectional Aeronautical Charts?",
+              "type": "multiple-choice",
+              "answers": [
+                "Airports with control towers underlying Class A, B, and C airspace are shown in blue; Class D and E airspace are magenta.",
+                "Airports with control towers underlying Class C, D, and E airspace are shown in magenta.",
+                "Airports with control towers underlying Class B, C, D, and E airspace are shown in blue."
+              ],
+              "correctAnswer": 2,
+              "explanation": "On sectional charts, airports with control towers underlying Class B, C, D, E, or G airspace are shown in blue. Airports with no control towers are shown in magenta. (ACUG)"
+            },
+            {
+              "id": 4062,
+              "question": "Information concerning parachute jumping sites may be found in the",
+              "type": "multiple-choice",
+              "answers": [
+                "NOTAMs.",
+                "Chart Supplement.",
+                "Graphic Notices and Supplemental Data."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Information concerning parachute jump sites may be found in the Chart Supplement. (ACUG)"
+            },
+            {
+              "id": 4063,
+              "question": "(Refer to Area 1.) Dubey Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "a privately owned airport restricted to use.",
+                "a restricted military stage field within restricted airspace.",
+                "an airport restricted to use by sport pilots only."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Dubey Airport (south of 1) is a private, i.e., nonpublic-use, airport as indicated by the term \"(Pvt)\" after the airport name. Private airports that are shown on the sectional charts have an emergency or landmark value. The airport symbol with the letter \"R\" in the center means it is a nonpublic-use airport. (ACUG)",
+              "attachment": "nav-14.png"
+            },
+            {
+              "id": 4064,
+              "question": "(Refer to Area 6.) Sky Way Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "an airport restricted to use by private and recreational pilots.",
+                "a restricted military stage field within restricted airspace.",
+                "a nonpublic-use airport."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Sky Way Airport (southeast of 6) is a private, i.e., nonpublic-use, airport as indicated by the term \"(Pvt)\" after the airport name. Private airports that are shown on the sectional charts have an emergency or landmark value. (ACUG)",
+              "attachment": "nav-14.png"
+            }
           ]
         }
       }
