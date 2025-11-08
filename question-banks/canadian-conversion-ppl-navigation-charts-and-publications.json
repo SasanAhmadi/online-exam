@@ -95,6 +95,599 @@
               "explanation": "On Fig. 20, find the Currituck County Airport, which is northeast of Area 3. Note that the airport symbol is just to the west of 76° longitude (find 76° just north of Virginia Beach). There are 60 min. between the 76°W and 77°W lines of longitude, with each tick mark depicting 1 min. The airport is one tick mark to the west of the 76° line, or 76°01'W. The latitude is below the 30-min. latitude line across the center of the chart. See the numbered latitude lines at the top (37°) of the chart. Since each tick mark represents 1 min. of latitude, and the airport is approximately six tick marks south of the 36°30'N latitude, the airport is at 36°24'N latitude. Thus, Currituck County Airport is at approximately 36°24'N – 76°01'W. (FAA-H-8083-25C Chap 16)",
               "attachment": "nav-04.png"
             }
+          ],
+          "Airspace and Altitudes": [
+            {
+              "id": 4008,
+              "question": "(Refer to Area 1.) The NALF Fentress (NFE) Airport is in what type of airspace?",
+              "type": "multiple-choice",
+              "answers": [
+                "Class C.",
+                "Class E.",
+                "Class G."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The NFE Airport (south of Area 1) is surrounded by a dashed magenta line. This line indicates Class E surface airspace for the NFE Airport. (ACUG)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4009,
+              "question": "(Refer to Area 4.) What hazards to aircraft may exist in restricted areas such as R-5302A?",
+              "type": "multiple-choice",
+              "answers": [
+                "Unusual, often invisible, hazards such as aerial gunnery or guided missiles.",
+                "High volume of pilot training or an unusual type of aerial activity.",
+                "Military training activities that necessitate acrobatic or abrupt flight maneuvers."
+              ],
+              "correctAnswer": 0,
+              "explanation": "See Fig. 20. Restricted areas denote the existence of unusual, often invisible, hazards to aircraft such as military firing, aerial gunnery, or guided missiles. (AIM Para 3-4-3)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4010,
+              "question": "(Refer to Area 1.) What minimum radio equipment is required to land and take off at Norfolk International?",
+              "type": "multiple-choice",
+              "answers": [
+                "Mode C transponder and omnireceiver.",
+                "Mode C transponder and two-way radio.",
+                "Mode C transponder, omnireceiver, and DME."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The minimum equipment to land and take off at Norfolk International (Fig. 20), which is within Class C airspace, is a Mode C transponder and a two-way radio. Unless otherwise authorized, a pilot must establish and maintain radio communication with ATC prior to and while operating in the Class C airspace area. Mode C transponders are also required in and above all Class C airspace areas. (AIM Para 3-2-4)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4011,
+              "question": "(Refer to Area 2.) The elevation of the Chesapeake Regional Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "19 feet.",
+                "36 feet.",
+                "360 feet."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The question asks for the elevation of the Chesapeake Regional Airport (Fig. 20). East of 2, note that the second line of the airport identifier for Chesapeake Regional reads \"19 L 55 123.075.\" The first number, in bold type, is the altitude of the airport above MSL. It is followed by the L for lighted runway(s), 55 for the length of the longest runway (5,500 ft.), and the CTAF frequency (123.075). (ACUG)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4012,
+              "question": "With certain exceptions, Class E airspace extends upward from either 700 feet or 1,200 feet AGL to, but does not include,",
+              "type": "multiple-choice",
+              "answers": [
+                "10,000 feet MSL.",
+                "14,500 feet MSL.",
+                "18,000 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Beginning at either 700 ft. AGL or 1,200 ft. AGL, Class E airspace extends up to, but not including, the base of the overlying controlled airspace. With the exception of Class B and Class C airspace, Class E airspace extends up to, but not including, 18,000 ft. MSL, i.e., the floor of Class A airspace. (AIM Para 3-2-6)"
+            },
+            {
+              "id": 4013,
+              "question": "Pilots flying over a national wildlife refuge are requested to fly no lower than",
+              "type": "multiple-choice",
+              "answers": [
+                "1,000 feet AGL.",
+                "2,000 feet AGL.",
+                "3,000 feet AGL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The Fish and Wildlife Service requests that pilots maintain a minimum altitude of 2,000 ft. above the terrain of national wildlife refuge areas. (AIM Para 7-5-6)"
+            },
+            {
+              "id": 4014,
+              "question": "The terrain elevation of the light tan (light colored) area between Minot (Area 1) and Audubon Lake (Area 2) varies from",
+              "type": "multiple-choice",
+              "answers": [
+                "sea level to 2,000 feet MSL.",
+                "2,000 feet to 2,500 feet MSL.",
+                "2,000 feet to 2,700 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The tan area indicates terrain between 2,000 ft. and 3,000 ft. The elevation contours on sectionals vary by 500 ft. increments. The 2,000 ft. contour line is located where the color changes from light green to light tan. Since there is no other contour line in the light tan area, the terrain elevation is between 2,000 ft. and 2,500 ft. MSL. Also, Poleschook Airport (halfway between 1 and 2) indicates an elevation above MSL of 2,245. (ACUG)",
+              "attachment": "nav-03.png"
+            },
+            {
+              "id": 4015,
+              "question": "(Refer to Area 3.) What type military flight operations should a pilot expect along IR 644?",
+              "type": "multiple-choice",
+              "answers": [
+                "IFR training flights above 1,500 feet AGL at speeds in excess of 250 knots.",
+                "VFR training flights above 1,500 feet AGL at speeds less than 250 knots.",
+                "Instrument training flights below 1,500 feet AGL at speeds in excess of 150 knots."
+              ],
+              "correctAnswer": 0,
+              "explanation": "In Fig. 21, IR 644 is below Area 3. Military training flights are established to promote proficiency of military pilots in the interest of national defense. Military flight routes below 1,500 ft. are charted with four-digit numbers; those above 1,500 ft. have three-digit numbers. IR means the flights are made in accordance with IFR. (VR would mean they use VFR.) Thus, IR 644, a three-digit number, is above 1,500 ft., and flights will be flown under IFR rules. (AIM Para 3-5-2)",
+              "attachment": "nav-03.png"
+            },
+            {
+              "id": 4016,
+              "question": "What action should a pilot take when operating under VFR in a Military Operations Area (MOA)?",
+              "type": "multiple-choice",
+              "answers": [
+                "Obtain a clearance from the controlling agency prior to entering the MOA.",
+                "Operate only on the airways that transverse the MOA.",
+                "Exercise extreme caution when military activity is being conducted."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Military operations areas consist of airspace established for separating military training activities from IFR traffic. VFR traffic should exercise extreme caution when flying within an MOA. Information regarding MOA activity can be obtained from flight service stations (FSSs) within 100 mi. of the MOA. (AIM Para 3-4-5)"
+            },
+            {
+              "id": 4017,
+              "question": "Flight through a restricted area should not be accomplished unless the pilot has",
+              "type": "multiple-choice",
+              "answers": [
+                "filed a IFR flight plan.",
+                "received prior authorization from the controlling agency.",
+                "received prior permission from the commanding officer of the nearest military base."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Before an aircraft penetrates a restricted area, authorization must be obtained from the controlling agency. Information pertaining to the agency controlling the restricted area may be found at the bottom of the En Route Chart appropriate to navigation. (AIM Para 3-4-3)"
+            },
+            {
+              "id": 4018,
+              "question": "What must a pilot do or be aware of when transitioning an Alert Area?",
+              "type": "multiple-choice",
+              "answers": [
+                "All pilots must contact the controlling agency to ensure aircraft separation.",
+                "Non-participating aircraft may transit the area as long as they operate in accordance with their waiver.",
+                "Be aware that the area may contain unusual aeronautical activity or high volume of pilot training."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Alert areas are depicted on aeronautical charts with an \"A\" followed by a number (e.g., A-211) to inform non-participating pilots of areas that may contain a high volume of pilot training or an unusual type of aerial activity. Pilots should exercise caution in alert areas. Both pilots of participating aircraft and pilots transiting the area are equally responsible for collision avoidance. (AIM Para 3-4-6, FAA-H-8083-25C)"
+            },
+            {
+              "id": 4019,
+              "question": "(Refer to Area 1.) The visibility and cloud clearance requirements to operate VFR during daylight hours over Sandpoint Airport at 1,200 feet AGL are",
+              "type": "multiple-choice",
+              "answers": [
+                "1 mile and clear of clouds.",
+                "1 mile and 1,000 feet above, 500 feet below, and 2,000 feet horizontally from each cloud.",
+                "3 miles and 1,000 feet above, 500 feet below, and 2,000 feet horizontally from each cloud."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The airspace around Sandpoint Airport is Class G airspace from the surface to 700 ft. AGL and Class E airspace from 700 ft. AGL up to, but not including, 18,000 ft. MSL (indicated by the magenta shading). Therefore, 1,200 ft. AGL is within Class E airspace. The VFR visibility and cloud clearance requirements for operations in Class E airspace below 10,000 ft. MSL are 3 miles and a distance of 1,000 ft. above, 500 ft. below, and 2,000 ft. horizontally from each cloud. (ACUG and 14 CFR 91.155)",
+              "attachment": "nav-01.png"
+            },
+            {
+              "id": 4020,
+              "question": "(Refer to Area 3.) The vertical limits of that portion of Class E airspace designated as a Federal Airway over Magee Airport are",
+              "type": "multiple-choice",
+              "answers": [
+                "1,200 feet AGL to 17,999 feet MSL.",
+                "700 feet MSL to 12,500 feet MSL.",
+                "7,500 feet MSL to 17,999 feet MSL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Magee Airport on Fig. 22 is northwest of 3. The question asks for the vertical limits of the Class E airspace over the airport. Class E airspace areas extend upwards but do not include 18,000 ft. MSL (base of Class A airspace). The floor of a Class E airspace designated as an airway is 1,200 ft. AGL, unless otherwise indicated. (ACUG)",
+              "attachment": "nav-01.png"
+            },
+            {
+              "id": 4021,
+              "question": "(Refer to Area 1.) What minimum altitude is necessary to vertically clear the obstacle on the northeast side of Airpark East Airport by 500 feet?",
+              "type": "multiple-choice",
+              "answers": [
+                "1,010 feet MSL.",
+                "1,273 feet MSL.",
+                "1,283 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Find Airpark East, which is near 1 in Fig. 24. Remember to locate the actual airport symbol, not just the name of the airport. It is the third of three airports in a southwesterly line from the 1. The elevation of the top of the obstacle on the northeast side of the airport is marked in bold as 773 feet MSL. Minimum altitude to clear the 773-foot obstacle by 500 feet is 1,273 feet MSL. (ACUG and 14 CFR 91.119)",
+              "attachment": "nav-05.png"
+            },
+            {
+              "id": 4022,
+              "question": "(Refer to Area 2.) What minimum altitude is necessary to vertically clear the obstacle on the southeast side of Winnsboro Airport by 500 feet?",
+              "type": "multiple-choice",
+              "answers": [
+                "823 feet MSL.",
+                "1,013 feet MSL.",
+                "1,403 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The first step is to find the obstacle on the southeast side of Winnsboro Airport on Fig. 24, near 2. The elevation numbers to the right of the obstruction symbol indicate that its top is 903 feet MSL or a height of 323 feet AGL. Thus, the clearance altitude is 1,403 feet MSL (903 feet MSL + 500 feet of clearance). (ACUG and 14 CFR 91.119)",
+              "attachment": "nav-05.png"
+            },
+            {
+              "id": 4023,
+              "question": "What is the base of Class B airspace at Lakeview (30F) Airport (Area 2)?",
+              "type": "multiple-choice",
+              "answers": [
+                "4,000",
+                "3,000",
+                "1,700"
+              ],
+              "correctAnswer": 1,
+              "explanation": "To the southwest of Lakeview Airport, there are numbers 110 over 30 in blue color. This indicates the base of Class B airspace between the blue airspace lines is 3,000 ft. MSL and the top is 11,000 ft. MSL. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4024,
+              "question": "(Refer to Area 4.) The airspace directly overlying Fort Worth Meacham is",
+              "type": "multiple-choice",
+              "answers": [
+                "Class B airspace to 10,000 feet MSL.",
+                "Class C airspace to 5,000 feet MSL.",
+                "Class D airspace to 3,200 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The airspace overlying Fort Worth Meacham (Fig. 25, southeast of 4) is Class D airspace as denoted by the segmented blue lines. The upper limit is depicted in a broken box in hundreds of feet MSL southeast of the airport. Thus, the Class D airspace extends from the surface to 3,200 feet MSL. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4025,
+              "question": "At which airports is fixed-wing Special VFR not authorized?",
+              "type": "multiple-choice",
+              "answers": [
+                "Fort Worth Meacham and Fort Worth Spinks.",
+                "Dallas-Fort Worth International and Dallas Love Field.",
+                "Addison and Dallas Executive."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The first (top) line of the airport data for Dallas-Ft. Worth Int'l. and Dallas Love Field (Fig. 25, Areas 5 and 6) indicates NO SVFR, which means no special VFR permitted for a fixed-wing aircraft. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4026,
+              "question": "(Refer to Area 3.) The floor of Class B airspace at Dallas Executive Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "at the surface.",
+                "3,000 feet MSL.",
+                "3,100 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Dallas Executive Airport (Fig. 25, Area 3) has a segmented blue circle around it depicting Class D airspace. Dallas Executive Airport also underlies Class B airspace as depicted by solid blue lines. The altitudes of the Class B airspace are shown to the southeast of the airport. The bottom number denotes the floor of the Class B airspace to be 3,000 feet MSL. (ACUG and 14 CFR 71.9)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4027,
+              "question": "(Refer to Area 7.) The airspace overlying Mc Kinney (TKI) is controlled from the surface to",
+              "type": "multiple-choice",
+              "answers": [
+                "700 feet AGL.",
+                "2,900 feet MSL.",
+                "2,500 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The airspace overlying Mc Kinney airport (TKI) (Fig. 25, northeast of 7) is Class D airspace as denoted by the segmented blue lines. The upper limit is depicted in a broken box in hundreds of feet MSL to the left of the airport symbol. The box contains the number \"29,\" meaning that the vertical limit of the Class D airspace is 2,900 feet MSL. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4028,
+              "question": "(Refer to Area 8.) What minimum altitude is required to fly over the Cedar Hill TV towers in the congested area southwest of Dallas Executive?",
+              "type": "multiple-choice",
+              "answers": [
+                "2,731 feet MSL.",
+                "3,549 feet MSL.",
+                "3,349 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The Cedar Hill TV towers (Fig. 25, west of 8) have an elevation of 2,549 feet MSL. The minimum safe altitude over a congested area is 1,000 feet above the highest obstacle within a horizontal radius of 2,000 feet of the aircraft. Thus, to vertically clear the towers, the minimum altitude is 3,549 feet MSL (2,549 + 1,000). (ACUG and 14 CFR 91.119)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4029,
+              "question": "(Refer to Area 4.) The floor of Class B airspace overlying Hicks Airport (T67) north-northwest of Fort Worth Meacham Field is",
+              "type": "multiple-choice",
+              "answers": [
+                "at the surface.",
+                "3,200 feet MSL.",
+                "4,000 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Hicks Airport (T67) on Fig. 25 is northeast of 4. Class B airspace is depicted by a solid blue line, as shown just west of the airport. Follow the blue line toward the bottom of the chart until you find a number over a number in blue. The bottom number denotes the floor of the Class B airspace as 4,000 feet MSL. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4030,
+              "question": "(Refer to Area 5.) The navigation facility at Dallas-Ft. Worth International (DFW) is a",
+              "type": "multiple-choice",
+              "answers": [
+                "VOR.",
+                "VORTAC.",
+                "VOR/DME."
+              ],
+              "correctAnswer": 2,
+              "explanation": "On Fig. 25, DFW is located at the center of the chart and the navigation facility is 1 NM south of the right set of parallel runways. The symbol is a hexagon with a dot in the center within a square. This is the symbol for a VOR/DME navigation facility. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4031,
+              "question": "The Devils Lake East MOA (Area 1) is a",
+              "type": "multiple-choice",
+              "answers": [
+                "meteorological observation area.",
+                "military observation area.",
+                "military operations area."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Military operations areas are shown on the sectional chart surrounded by magenta hashed lines. Devils Lake East MOA is labeled in the top left of Fig. 26. All the magenta hashed lines around the label are the boundaries of the MOA. (AIM Para 3-4-5)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4032,
+              "question": "(Refer to Area 2.) What hazards to aircraft may exist in areas such as Devils Lake East MOA?",
+              "type": "multiple-choice",
+              "answers": [
+                "Unusual, often invisible, hazards to aircraft such as artillery firing, aerial gunnery, or guided missiles.",
+                "Military training activities that necessitate acrobatic or abrupt flight maneuvers.",
+                "High volume of pilot training or an unusual type of aerial activity."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Military Operations Areas (MOAs), such as Devils Lake East in Fig. 26 consist of defined lateral and vertical limits that are designated for the purpose of separating military training activities from IFR traffic. Most training activities necessitate acrobatic or abrupt flight maneuvers, i.e., air combat tactics, aerobatics, and formation training. Therefore, the likelihood of a collision is increased inside an MOA. VFR traffic is permitted, but extra vigilance should be exercised in seeing and avoiding military aircraft. (AIM Para 3-4-5)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4033,
+              "question": "(Refer to Area 2.) Identify the airspace over Bryn Airport.",
+              "type": "multiple-choice",
+              "answers": [
+                "Class G airspace -- surface up to but not including 1,200 feet AGL; Class E airspace -- 1,200 feet AGL up to but not including 18,000 feet MSL.",
+                "Class G airspace -- surface up to but not including 18,000 feet MSL.",
+                "Class G airspace -- surface up to but not including 700 feet MSL; Class E airspace -- 700 feet to 14,500 feet MSL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Bryn Airport is located 1.5 in. south of 2 on Fig. 26. There is no specific airspace designation around Bryn. Therefore, the airspace over the airport is Class G airspace up to the next overlying airspace. Unless the floor is designated otherwise, Class E airspace exists from 1,200 ft. AGL, up to but not including 18,000 ft. MSL. (ACUG)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4034,
+              "question": "(Refer to Area 2.) The visibility and cloud clearance requirements to operate VFR during daylight hours over the town of Cooperstown between 1,200 feet AGL and 10,000 feet MSL are",
+              "type": "multiple-choice",
+              "answers": [
+                "1 mile and clear of clouds.",
+                "1 mile and 1,000 feet above, 500 feet below, and 2,000 feet horizontally from clouds.",
+                "3 miles and 1,000 feet above, 500 feet below, and 2,000 feet horizontally from clouds."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The airspace over the town of Cooperstown (Fig. 26, north of 2) is Class G airspace up to 700 feet AGL, and Class E airspace from 700 feet AGL up to, but not including, 18,000 feet MSL (indicated by the magenta shading). Therefore, the visibility and cloud clearance requirements for daylight VFR operation over the town of Cooperstown between 1,200 feet AGL and 10,000 feet MSL are 3 miles and 1,000 feet above, 500 feet below, and 2,000 feet horizontally. (14 CFR 91.155)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4035,
+              "question": "(Refer to Area 3.) Identify the airspace over Sprague Airport.",
+              "type": "multiple-choice",
+              "answers": [
+                "Class G airspace -- surface up to but not including 1,200 feet AGL; Class E airspace - 1,200 feet AGL up to but not including 18,000 feet MSL.",
+                "Class G airspace -- surface up to but not including 18,000 feet MSL.",
+                "Class G airspace -- surface up to but not including 700 feet MSL; Class E airspace - 700 feet to 14,500 feet MSL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Sprague Airport is the private airport located between Areas 3 and 4 on Fig. 26. There is no specific airspace designation around Sprague. Therefore, the airspace over the airport is Class G airspace up to the next overlying airspace. Unless the floor is designated otherwise, Class E airspace exists from 1,200 ft. AGL, up to but not including 18,000 ft. MSL. (ACUG)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4036,
+              "question": "(Refer to Area 3.) When flying over Arrowwood National Wildlife Refuge, a pilot should fly no lower than",
+              "type": "multiple-choice",
+              "answers": [
+                "2,000 feet AGL.",
+                "2,500 feet AGL.",
+                "3,000 feet AGL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "On Fig. 26, Arrowwood National Wildlife Refuge is to the west of Area 3. All aircraft are requested to maintain a minimum altitude of 2,000 feet above the surface of a national wildlife refuge except if forced to land by emergency, landing at a designated site, or on official government business. (AIM Para 7-5-6)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4037,
+              "question": "(Refer to east of Area 5.) The airspace overlying and within 5 miles of Barnes County Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "Class D airspace from the surface to the floor of the overlying Class E airspace.",
+                "Class E airspace from the surface to 1,200 feet MSL.",
+                "Class G airspace from the surface to 700 feet AGL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The magenta shading surrounding Barnes County Airport indicates that Class E airspace starts at 700 feet AGL. Therefore, Class G airspace exists from the surface to 700 feet AGL. (ACUG)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4038,
+              "question": "(Refer to Area 2.) What kind of airport is Deshler (6D7)?",
+              "type": "multiple-choice",
+              "answers": [
+                "A private airport with a grass runway.",
+                "A public airport with a runway that is not a hard surface.",
+                "An abandoned paved airport having landmark value."
+              ],
+              "correctAnswer": 1,
+              "explanation": "According to the Sectional Chart Legend, a magenta circle with nothing indicated on the inside of the circle indicates that airport is not hard-surfaced. (ACUG)",
+              "attachment": "nav-07.png"
+            },
+            {
+              "id": 4039,
+              "question": "(Refer to Area 3.) What is the airspace classification around Findlay (FDY) airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "C.",
+                "D.",
+                "E."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A magenta dashed line surrounding an airport identifies it as Class E airspace that extends to the surface. The presence of this dashed magenta line indicates that this airport offers a precision instrument approach. (ACUG)",
+              "attachment": "nav-07.png"
+            },
+            {
+              "id": 4040,
+              "question": "The controlled airspace located at the Corpus Christi VORTAC (Area 5) begins at",
+              "type": "multiple-choice",
+              "answers": [
+                "the surface.",
+                "700 feet AGL.",
+                "1,200 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "On Fig. 69, Area 5 is 9 NM north of Corpus Christi. The Corpus Christi VORTAC is just inside the magenta-shaded area. This indicates that Class E (controlled) airspace extends upward from 700 feet AGL to the base of the overlying airspace [here Class C airspace at 1,200 feet MSL, as indicated by the magenta solid lines and the \"40\" above the \"12\" (separated by a line), 5 NM west of the VORTAC]. (ACUG)",
+              "attachment": "nav-08.png"
+            },
+            {
+              "id": 4041,
+              "question": "When are two-way radio communications required on a flight from Bishop Airport (Area 4) to McCampbell Airport (Area 1) at an altitude of 2,000 feet MSL?",
+              "type": "multiple-choice",
+              "answers": [
+                "Entering the Corpus Christi Class C airspace.",
+                "Leaving and entering the alert areas and entering the Corpus Christi Class C airspace.",
+                "Leaving and entering the alert areas, entering the Corpus Christi Class C airspace, and passing through the Cabaniss Field Class D airspace."
+              ],
+              "correctAnswer": 0,
+              "explanation": "On Fig. 69, Area 4 is near the center and Area 1 is in the upper right-hand corner of the chart. A flight from Bishop Airport to McCampbell Airport at 2,000 feet MSL will pass through the Corpus Christi Class C airspace. Two-way radio communications and transponder with encoding altimeter are required when operating within Class C airspace. (ACUG)",
+              "attachment": "nav-08.png"
+            },
+            {
+              "id": 4042,
+              "question": "When are two-way radio communications required on a flight from Gnoss Airport (DVO) (Area 4) to Livermore Airport (LVK) (Area 5) at an altitude of 3,500 ft. MSL? When entering",
+              "type": "multiple-choice",
+              "answers": [
+                "the Class B airspace.",
+                "the Livermore Airport Class D airspace.",
+                "both the Class B airspace and the Livermore Airport Class D airspace."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Area 4 is in the upper left hand-corner, and Area 5 is in the center of the right-hand side of Fig. 70. A flight from Gnoss Airport (DVO) to Livermore Airport (LVK) will pass beneath the sections of Class B airspace extending upward from 4,000 ft. MSL and 6,000 ft. MSL, as indicated by the \"100\" above the \"40\" (separated by a line) and the \"100\" above the \"60\" (separated by a line), respectively. Livermore Airport is encircled by blue dashed lines, indicating Class D airspace extending upward from the surface to a specified altitude (here 2,900 ft. MSL). Two-way radio communications must be established prior to entry and thereafter maintained while in Class D airspace. (ACUG)",
+              "attachment": "nav-09.png"
+            },
+            {
+              "id": 4043,
+              "question": "An aircraft takes off from Gnoss Airport (Area 4) and flies southeast 25.4 NM to Buchanan Airport. What maximum elevation figure would assure obstruction clearance during the flight?",
+              "type": "multiple-choice",
+              "answers": [
+                "6,000 feet MSL.",
+                "4,200 feet MSL.",
+                "3,200 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The maximum elevation figure (MEF) is shown in each quadrangle bounded by latitude and longitude tick marks. The MEF in the quadrangle that is just east of Gnoss Airport consists of a large \"3\" and a somewhat smaller \"2,\" which mean the MEF is 3,200 feet MSL. In the quadrangle that contains Buchanan Airport, the MEF is south of the airport. The large \"2\" and the somewhat smaller \"4\" mean the MEF is 2,400 feet MSL. Thus, on a flight from Gnoss Airport to Buchanan Airport, the MEF that would ensure obstacle clearance is 3,200 feet. (ACUG)",
+              "attachment": "nav-09.png"
+            },
+            {
+              "id": 4044,
+              "question": "(Refer to Area 6.) The Class C airspace at Metropolitan Oakland International (OAK) which extends from the surface upward has a ceiling of",
+              "type": "multiple-choice",
+              "answers": [
+                "both 2,100 feet and 3,000 feet MSL.",
+                "10,000 feet MSL.",
+                "2,100 feet AGL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The Class C airspace at OAK (Area 6) is shown in solid magenta lines. The surface area over the airport indicates the Class C airspace extends from the surface (SFC) upward to T, which means the ceiling ends at the base of the San Francisco Class B airspace. The base of the Class B airspace changes over OAK. To the left of OAK the base is 2,100 feet MSL and to the right of OAK the base is 3,000 feet MSL. (ACUG)",
+              "attachment": "nav-10.png"
+            },
+            {
+              "id": 4045,
+              "question": "(Refer to Area 1.) What minimum altitude is required to avoid the Livermore Airport (LVK) Class D airspace?",
+              "type": "multiple-choice",
+              "answers": [
+                "2,503 feet MSL.",
+                "2,901 feet MSL.",
+                "3,297 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The Class D airspace at Livermore Airport extends from the surface to 2,900 feet MSL, as indicated by the following symbol within the blue segmented circle: 29. Thus, the minimum altitude to fly over and avoid the Livermore Airport Class D airspace is 2,901 feet MSL. (ACUG)",
+              "attachment": "nav-10.png"
+            },
+            {
+              "id": 4046,
+              "question": "The airspace surrounding the Gila Bend AF AUX Airport (GXF) (Area 6) is classified as Class",
+              "type": "multiple-choice",
+              "answers": [
+                "B.",
+                "C.",
+                "D."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The GXF airport is surrounded by a dashed blue line, which indicates it is within Class D airspace. (ACUG)",
+              "attachment": "nav-11.png"
+            },
+            {
+              "id": 4047,
+              "question": "What is the dotted outlined area northeast of Gila Bend Airport, near Area 3?",
+              "type": "multiple-choice",
+              "answers": [
+                "Restricted airspace.",
+                "Military operations area.",
+                "Wilderness area."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The area just to the west of Area 3 represents an area that is a national park, wildlife refuge, primitive and wilderness area, etc. To the northwest of this area is the name, North Maricopa Mountains Wilderness Area. (ACUG)",
+              "attachment": "nav-11.png"
+            },
+            {
+              "id": 4048,
+              "question": "A blue segmented circle on a Sectional Chart depicts which class airspace?",
+              "type": "multiple-choice",
+              "answers": [
+                "Class B.",
+                "Class C.",
+                "Class D."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A blue segmented circle on a sectional chart depicts Class D airspace. (AIM Para 3-2-5)"
+            },
+            {
+              "id": 4049,
+              "question": "Under what condition, if any, may pilots fly through a restricted area?",
+              "type": "multiple-choice",
+              "answers": [
+                "When flying on airways.",
+                "With the controlling agency's authorization.",
+                "Regulations do not allow this."
+              ],
+              "correctAnswer": 1,
+              "explanation": "An aircraft may not be operated within a restricted area unless permission has been obtained from the controlling agency. Frequently, the ATC within the area acts as the controlling agent's authorization; e.g., an approach control in a military restricted area can permit aircraft to enter it when the restricted area is not active. (14 CFR 91.133)"
+            },
+            {
+              "id": 4050,
+              "question": "What are the basic VFR weather minima required to takeoff from the Onawa, IA (K36) airport during the day?",
+              "type": "multiple-choice",
+              "answers": [
+                "3 statute miles visibility, 500 feet below the clouds, 1,000 feet above the clouds, and 2,000 feet horizontally from the clouds.",
+                "0 statute miles, clear of clouds.",
+                "1 statute mile, clear of clouds."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Onawa, IA, (K36) airport is surrounded by Class G airspace. The VFR weather minima in Class G airspace below 1,200 feet AGL (regardless of MSL altitude) is 1 statute mile of visibility and clear of clouds. (AIM Para 3-1-4)",
+              "attachment": "nav-12.png"
+            },
+            {
+              "id": 4051,
+              "question": "(Refer to Area 3.) What is the height of the lighted obstacle approximately 6 nautical miles southwest of Savannah International?",
+              "type": "multiple-choice",
+              "answers": [
+                "1,498 feet MSL.",
+                "1,531 feet AGL.",
+                "1,548 feet MSL."
+              ],
+              "correctAnswer": 2,
+              "explanation": "On Fig. 23, find the lighted obstacle noted by its proximity to Savannah International by being outside the surface area of the Class C airspace, which has a 5-NM radius. It is indicated by the obstacle symbol with arrows or lightning flashes extending from the tip. According to the numbers to the northeast of the symbol, the height of the obstacle is 1,548 ft. MSL or 1,534 ft. AGL. (ACUG)",
+              "attachment": "nav-13.png"
+            },
+            {
+              "id": 4052,
+              "question": "(Refer to Area 3.) What is the floor of the Savannah Class C airspace at the shelf area (outer circle)?",
+              "type": "multiple-choice",
+              "answers": [
+                "1,200 feet AGL.",
+                "1,300 feet MSL.",
+                "1,700 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Class C airspace consists of a surface area and a shelf area. The floor of the shelf area is 1,200 feet above the airport elevation. The Savannah Class C airspace (Fig. 23, Area 3) is depicted by solid magenta circles. For each circle there is a number over a number or SFC. The numbers are in hundreds of feet MSL. The bottom number represents the floor of the airspace. Thus, the floor of the shelf area of the Class C airspace is 1,300 feet MSL (41/13). (ACUG)",
+              "attachment": "nav-13.png"
+            },
+            {
+              "id": 4053,
+              "question": "(Refer to Area 3.) The top of the group obstruction approximately 11 nautical miles from the Savannah VORTAC on the 010° radial is",
+              "type": "multiple-choice",
+              "answers": [
+                "454 feet MSL.",
+                "429 feet AGL.",
+                "417 feet MSL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "To determine the height of the lighted stack, first find it on Fig. 23. Locate the compass rose and look along the 010° radial, knowing that the compass rose has a 10-NM radius. Just outside the compass rose is a group obstruction (stacks). Its height is 454 ft. MSL; AGL height is not shown. (ACUG)",
+              "attachment": "nav-13.png"
+            }
           ]
         }
       }
