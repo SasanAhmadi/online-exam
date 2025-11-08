@@ -831,6 +831,239 @@
               "explanation": "Sky Way Airport (southeast of 6) is a private, i.e., nonpublic-use, airport as indicated by the term \"(Pvt)\" after the airport name. Private airports that are shown on the sectional charts have an emergency or landmark value. (ACUG)",
               "attachment": "nav-14.png"
             }
+          ],
+          "Radio Frequencies": [
+            {
+              "id": 4065,
+              "question": "As standard operating practice, all inbound traffic to an airport without a control tower should continuously monitor the appropriate facility from a distance of",
+              "type": "multiple-choice",
+              "answers": [
+                "25 miles.",
+                "20 miles.",
+                "10 miles."
+              ],
+              "correctAnswer": 2,
+              "explanation": "As a standard operating practice, pilots of inbound traffic to an airport without a control tower should continuously monitor and communicate, as appropriate, on the designated Common Traffic Advisory Frequency (CTAF) from 10 mi. to landing. (AIM Para 4-1-9)"
+            },
+            {
+              "id": 4066,
+              "question": "(Refer to Area 3.) If Dallas Executive Tower is not in operation, which frequency should be used as a Common Traffic Advisory Frequency (CTAF) to monitor airport traffic?",
+              "type": "multiple-choice",
+              "answers": [
+                "127.25 MHz.",
+                "122.95 MHz.",
+                "126.35 MHz."
+              ],
+              "correctAnswer": 0,
+              "explanation": "In Fig. 25, find the Dallas Executive Airport just above Area 3. When the Dallas Executive tower is not in operation, the CTAF is 127.25 because that frequency is marked with a C, which indicates a CTAF. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4067,
+              "question": "(Refer to Area 2.) The control tower frequency for Addison Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "122.95 MHz.",
+                "126.0 MHz.",
+                "133.4 MHz."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Addison Airport (Fig. 25, Area 2) control tower frequency is given as the first item in the second line of the airport data to the right of the airport symbol. The control tower (CT) frequency is 126.0 MHz. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4068,
+              "question": "(Refer to Area 2.) What is the recommended communication procedure when inbound to land at Cooperstown Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "Broadcast intentions when 10 miles out on the CTAF/MULTICOM frequency, 122.9 MHz.",
+                "Contact UNICOM when 10 miles out on 122.8 MHz.",
+                "Circle the airport in a left turn prior to entering traffic."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Find Cooperstown Airport, which is at the top of Fig. 26, just north of 2. You should broadcast your intentions when 10 NM out on the CTAF/MULTICOM frequency, 122.9 MHz. (AIM Para 4-1-9)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4069,
+              "question": "(Refer to Area 4.) The CTAF/UNICOM frequency at Jamestown Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "122.2 MHz.",
+                "123.0 MHz.",
+                "123.6 MHz."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The UNICOM frequency is printed in bold italics in the airport identifier. At Jamestown it is 123.0 MHz. The C next to it indicates it as the CTAF. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4070,
+              "question": "(Refer to Area 5.) What is the CTAF/UNICOM frequency at Barnes County Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "122.2 MHz.",
+                "122.8 MHz.",
+                "123.6 MHz."
+              ],
+              "correctAnswer": 1,
+              "explanation": "In Fig. 26, Barnes County Airport is to the east of Area 5. The CTAF at Barnes County Airport is marked as the UNICOM frequency for the airport, i.e., 122.8. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4071,
+              "question": "(Refer to Area 3.) What is the recommended communications procedure for departure at Currituck County Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "Broadcast intentions prior to taxi and announcing runway of departure.",
+                "Contact Elizabeth City tower on 120.5.",
+                "Radio need not be used."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Find Currituck County Airport, which is northeast of Area 3 in Fig. 20. Currituck County Airport is a non-towered airport with the specified CTAF 122.9. The recommended procedure for departure at a non-towered airport is to self-announce intentions on the CTAF prior to taxi and before taxiing on runway for departure. (AIM Para 4-1-9)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4072,
+              "question": "(Refer to Area 3.) What is the recommended communications procedure for a landing at Currituck County Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "Transmit intentions on 122.9 MHz when 10 miles out and give position reports in the traffic pattern.",
+                "Contact Elizabeth City FSS for airport advisory service.",
+                "Contact New Bern FSS for area traffic information."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Find the symbol for Currituck County Airport, northeast of Area 3 in Fig. 20. Incoming flights should use MULTICOM, 122.9, as the CTAF, because it is marked with a C. The recommended procedure is to report 10 NM out and then give position reports in the airport traffic pattern. (AIM Para 4-1-9)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4073,
+              "question": "(Refer to Area 2 in Figure 22.) At Coeur D'Alene, which frequency should be used as a Common Traffic Advisory Frequency (CTAF) to self-announce position and intentions?",
+              "type": "multiple-choice",
+              "answers": [
+                "122.05 MHz.",
+                "122.1/108.8 MHz.",
+                "122.8 MHz."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Fig. 31 is the Chart Supplement excerpt for Coeur D'Alene Air Terminal. Look for the section titled \"Communications.\" On that same line, it states the CTAF (and UNICOM) frequency is 122.8. (Chart Supplement)",
+              "attachment": "nav-01.png"
+            },
+            {
+              "id": 4074,
+              "question": "(Refer to Area 2 in Figure 22.) At Coeur D'Alene, which frequency should be used as a Common Traffic Advisory Frequency (CTAF) to monitor airport traffic?",
+              "type": "multiple-choice",
+              "answers": [
+                "122.05 MHz.",
+                "135.075 MHz.",
+                "122.8 MHz."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Fig. 31 is the Chart Supplement excerpt for Coeur D'Alene Air Terminal. Look for the section titled \"Communications.\" On that same line, it states that the CTAF (and UNICOM) frequency is 122.8. The CTAF can also be found in the airport information on the sectional chart. (Chart Supplement)",
+              "attachment": "nav-01.png"
+            },
+            {
+              "id": 4075,
+              "question": "(Refer to Area 2 in Figure 22.) What is the correct UNICOM frequency to be used at Coeur D'Alene to request fuel?",
+              "type": "multiple-choice",
+              "answers": [
+                "135.075 MHz.",
+                "122.1/108.8 MHz.",
+                "122.8 MHz."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The correct frequency to request fuel at the Coeur D'Alene Airport is the UNICOM frequency 122.8. It is given in Fig. 22, after \"L74\" in the airport information on the sectional chart. Radio frequencies are also given in Fig. 31, the Chart Supplement, under \"Communications.\" (ACUG)",
+              "attachment": "nav-01.png"
+            },
+            {
+              "id": 4076,
+              "question": "(Refer to Area 2.) The CTAF/MULTICOM frequency for Garrison Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "122.8 MHz.",
+                "122.9 MHz.",
+                "123.0 MHz."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The CTAF for Garrison Municipal Airport (west of Area 2 in Fig. 21) is 122.9, because that frequency is marked with a C. (ACUG)",
+              "attachment": "nav-03.png"
+            },
+            {
+              "id": 4077,
+              "question": "Weather information is available for the Coeur d'Alene (COE) Airport (Area 2)",
+              "type": "multiple-choice",
+              "answers": [
+                "over the VOR frequency 108.8.",
+                "from AWOS 3 135.075.",
+                "from UNICOM (CTAF) on 122.8."
+              ],
+              "correctAnswer": 1,
+              "explanation": "On the sectional chart excerpt, to the right of the airport, you will find in the information for the airport weather in the third line. It states the type of Automated Weather Observation System (AWOS) and the frequency of 135.075. (Chart Supplement)",
+              "attachment": "nav-01.png"
+            },
+            {
+              "id": 4078,
+              "question": "At Sioux Gateway/Col Day (N42°24.16' W96°23.06'), which frequency should be used as a Common Traffic Advisory Frequency (CTAF) to self-announce position and intentions when the control tower is closed?",
+              "type": "multiple-choice",
+              "answers": [
+                "122.95 MHz.",
+                "119.45 MHz.",
+                "118.7 MHz."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Fig. 79 is the Chart Supplement excerpt for Sioux Gateway/Col Day Airport. Look for the section titled \"Communications.\" On that same line, it states that the CTAF frequency is 118.7 MHz. It is also located on Fig. 78 in the Sioux Gateway Airport Data Description, indicated by a \"C\" surrounded by a shaded blue circle. (Chart Supplement)",
+              "attachment": "nav-12.png"
+            }
+          ],
+          "FAA Advisory Circulars": [
+            {
+              "id": 4079,
+              "question": "FAA advisory circulars are available to all pilots and are obtained by",
+              "type": "multiple-choice",
+              "answers": [
+                "distribution from the nearest FAA district office.",
+                "downloading them from the FAA website.",
+                "subscribing to the Federal Register."
+              ],
+              "correctAnswer": 1,
+              "explanation": "FAA Advisory Circulars are issued with the purpose of informing the public of nonregulatory material of interest. Free advisory circulars can be downloaded from the FAA website at www.faa.gov. (www.faa.gov)"
+            },
+            {
+              "id": 4080,
+              "question": "FAA advisory circulars containing subject matter specifically related to Air Traffic and General Operating Rules are issued under which subject number?",
+              "type": "multiple-choice",
+              "answers": [
+                "60",
+                "70",
+                "90"
+              ],
+              "correctAnswer": 2,
+              "explanation": "FAA advisory circulars are numbered based on the numbering system used in the Federal Aviation Regulations:\n   60 -- Airmen\n   70 -- Airspace\n   90 -- Air Traffic and General Operating Rules (www.faa.gov)"
+            },
+            {
+              "id": 4081,
+              "question": "FAA advisory circulars containing subject matter specifically related to Airmen are issued under which subject number?",
+              "type": "multiple-choice",
+              "answers": [
+                "60",
+                "70",
+                "90"
+              ],
+              "correctAnswer": 0,
+              "explanation": "FAA advisory circulars are numbered based on the numbering system used in the Federal Aviation Regulations:\n   60 -- Airmen\n   70 -- Airspace\n   90 -- Air Traffic and General Operating Rules (www.faa.gov)"
+            },
+            {
+              "id": 4082,
+              "question": "FAA advisory circulars containing subject matter specifically related to Airspace are issued under which subject number?",
+              "type": "multiple-choice",
+              "answers": [
+                "60",
+                "70",
+                "90"
+              ],
+              "correctAnswer": 1,
+              "explanation": "FAA advisory circulars are numbered based on the numbering system used in the Federal Aviation Regulations:\n   60 -- Airmen\n   70 -- Airspace\n   90 -- Air Traffic and General Operating Rules (www.faa.gov)"
+            }
           ]
         }
       }
