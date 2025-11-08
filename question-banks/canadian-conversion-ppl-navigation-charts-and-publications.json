@@ -1284,6 +1284,266 @@
               "correctAnswer": 2,
               "explanation": "The latest status of airport conditions can be determined by using the Chart Supplement for items that have been known for some time and (D) NOTAMs, which contain the most up-to-date data. (AIM Para 5-1-3)"
             }
+          ],
+          "Final Quiz": [
+            {
+              "id": 4100,
+              "question": "What depicts a Class E airspace that begins at 700 feet AGL?",
+              "type": "multiple-choice",
+              "answers": [
+                "A solid magenta circle around an airport.",
+                "A dashed blue circle around an airport.",
+                "A magenta vignette around an airport."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Class E airspace floor begins at 700 feet AGL. It is depicted by a magenta vignette circle or area around an airport. (AIM Para 3-2-6)",
+              "attachment": "nav-s8.png"
+            },
+            {
+              "id": 4101,
+              "question": "(Refer to Area 1.) The visibility and cloud clearance requirements to operate VFR during daylight hours over Sandpoint Airport at 1,200 feet AGL are",
+              "type": "multiple-choice",
+              "answers": [
+                "3 miles and 1,000 feet above, 500 feet below, and 2,000 feet horizontally from each cloud.",
+                "1 mile and 1,000 feet above, 500 feet below, and 2,000 feet horizontally from each cloud.",
+                "1 mile and clear of clouds."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The airspace around Sandpoint Airport is Class G airspace from the surface to 700 ft. AGL and Class E airspace from 700 ft. AGL up to, but not including, 18,000 ft. MSL (indicated by the magenta shading). Therefore, 1,200 ft. AGL is within Class E airspace. The VFR visibility and cloud clearance requirements for operations in Class E airspace below 10,000 ft. MSL are 3 miles and a distance of 1,000 ft. above, 500 ft. below, and 2,000 ft. horizontally from each cloud. (ACUG and 14 CFR 91.155)",
+              "attachment": "nav-01.png"
+            },
+            {
+              "id": 4102,
+              "question": "FAA advisory circulars containing subject matter specifically related to Airmen are issued under which subject number?",
+              "type": "multiple-choice",
+              "answers": [
+                "60",
+                "90",
+                "70"
+              ],
+              "correctAnswer": 0,
+              "explanation": "FAA advisory circulars are numbered based on the numbering system used in the Federal Aviation Regulations:\n   60 -- Airmen\n   70 -- Airspace\n   90 -- Air Traffic and General Operating Rules (www.faa.gov)"
+            },
+            {
+              "id": 4103,
+              "question": "A blue segmented circle on a Sectional Chart depicts which class airspace?",
+              "type": "multiple-choice",
+              "answers": [
+                "Class C.",
+                "Class B.",
+                "Class D."
+              ],
+              "correctAnswer": 2,
+              "explanation": "A blue segmented circle on a sectional chart depicts Class D airspace. (AIM Para 3-2-5)"
+            },
+            {
+              "id": 4104,
+              "question": "(Refer to Area 4.) The CTAF/UNICOM frequency at Jamestown Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "123.0 MHz.",
+                "123.6 MHz.",
+                "122.2 MHz."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The UNICOM frequency is printed in bold italics in the airport identifier. At Jamestown it is 123.0 MHz. The C next to it indicates it as the CTAF. (ACUG)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4105,
+              "question": "(Refer to east of Area 5.) The airspace overlying and within 5 miles of Barnes County Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "Class E airspace from the surface to 1,200 feet MSL.",
+                "Class G airspace from the surface to 700 feet AGL.",
+                "Class D airspace from the surface to the floor of the overlying Class E airspace."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The magenta shading surrounding Barnes County Airport indicates that Class E airspace starts at 700 feet AGL. Therefore, Class G airspace exists from the surface to 700 feet AGL. (ACUG)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4106,
+              "question": "You are preflight planning in the morning before an afternoon flight. Where would you find information regarding an \"Airport surface hot spot?\"",
+              "type": "multiple-choice",
+              "answers": [
+                "Call the Automated Flight Service Station.",
+                "In the NOTAMs during your preflight briefing.",
+                "In the Chart Supplements U.S."
+              ],
+              "correctAnswer": 2,
+              "explanation": "An \"airport surface hot spot\" is a runway safety related problem area or intersection on an airport. Information regarding airport surface hot spots can be found in the Chart Supplements U.S. (FAA-H-8083-25C Chap 14)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4107,
+              "question": "Traffic patterns in effect at Lincoln Municipal are",
+              "type": "multiple-choice",
+              "answers": [
+                "to the right on Runway 14 and Runway 32; to the left on Runway 18 and Runway 35.",
+                "to the left on Runway 14 and Runway 32; to the right on Runway 18 and Runway 35.",
+                "to the right on Runways 14 - 32."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Fig. 52 contains the Chart Supplement excerpt for Lincoln Municipal. For this question, you need to locate the runway end data elements, i.e., Rwy 18, Rwy 14, Rwy 32, Rwy 17, Rwy 35, and Rwy 36. Traffic patterns are to the left unless right traffic is noted by the contraction \"Rgt tfc.\" The only runways with right traffic are Rwy 18 and Rwy 35. (Chart Supplement)",
+              "attachment": "nav-s5.png"
+            },
+            {
+              "id": 4108,
+              "question": "(Refer to Area 1.) What minimum radio equipment is required to land and take off at Norfolk International?",
+              "type": "multiple-choice",
+              "answers": [
+                "Mode C transponder and omnireceiver.",
+                "Mode C transponder, omnireceiver, and DME.",
+                "Mode C transponder and two-way radio."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The minimum equipment to land and take off at Norfolk International (Fig. 20), which is within Class C airspace, is a Mode C transponder and a two-way radio. Unless otherwise authorized, a pilot must establish and maintain radio communication with ATC prior to and while operating in the Class C airspace area. Mode C transponders are also required in and above all Class C airspace areas. (AIM Para 3-2-4)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4109,
+              "question": "(Refer to Area 4.) The airspace directly overlying Fort Worth Meacham is",
+              "type": "multiple-choice",
+              "answers": [
+                "Class D airspace to 3,200 feet MSL.",
+                "Class C airspace to 5,000 feet MSL.",
+                "Class B airspace to 10,000 feet MSL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The airspace overlying Fort Worth Meacham (Fig. 25, southeast of 4) is Class D airspace as denoted by the segmented blue lines. The upper limit is depicted in a broken box in hundreds of feet MSL southeast of the airport. Thus, the Class D airspace extends from the surface to 3,200 feet MSL. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4110,
+              "question": "According to the Chart Supplement, what are the operational requirements of a VORTAC?",
+              "type": "multiple-choice",
+              "answers": [
+                "VHF navigational facility with omnidirectional course only.",
+                "Collocated VOR navigational facility and UHF standard distance measuring equipment.",
+                "Collocated VOR and TACAN navigational facilities."
+              ],
+              "correctAnswer": 2,
+              "explanation": "According to the Chart Supplement, a VORTAC has the operational requirements of collocated VOR and TACAN navigational facilities. (Chart Supplement)",
+              "attachment": "nav-s10.png"
+            },
+            {
+              "id": 4111,
+              "question": "(Refer to Area 3.) What is the recommended communications procedure for a landing at Currituck County Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "Contact Elizabeth City FSS for airport advisory service.",
+                "Transmit intentions on 122.9 MHz when 10 miles out and give position reports in the traffic pattern.",
+                "Contact New Bern FSS for area traffic information."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Find the symbol for Currituck County Airport, northeast of Area 3 in Fig. 20. Incoming flights should use MULTICOM, 122.9, as the CTAF, because it is marked with a C. The recommended procedure is to report 10 NM out and then give position reports in the airport traffic pattern. (AIM Para 4-1-9)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4112,
+              "question": "(Refer to Area 1.) The NALF Fentress (NFE) Airport is in what type of airspace?",
+              "type": "multiple-choice",
+              "answers": [
+                "Class E.",
+                "Class C.",
+                "Class G."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The NFE Airport (south of Area 1) is surrounded by a dashed magenta line. This line indicates Class E surface airspace for the NFE Airport. (ACUG)",
+              "attachment": "nav-04.png"
+            },
+            {
+              "id": 4113,
+              "question": "(Refer to Area 5.) The navigation facility at Dallas-Ft. Worth International (DFW) is a",
+              "type": "multiple-choice",
+              "answers": [
+                "VORTAC.",
+                "VOR.",
+                "VOR/DME."
+              ],
+              "correctAnswer": 2,
+              "explanation": "On Fig. 25, DFW is located at the center of the chart and the navigation facility is 1 NM south of the right set of parallel runways. The symbol is a hexagon with a dot in the center within a square. This is the symbol for a VOR/DME navigation facility. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4114,
+              "question": "(Refer to Area 2.) The control tower frequency for Addison Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "133.4 MHz.",
+                "126.0 MHz.",
+                "122.95 MHz."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Addison Airport (Fig. 25, Area 2) control tower frequency is given as the first item in the second line of the airport data to the right of the airport symbol. The control tower (CT) frequency is 126.0 MHz. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4115,
+              "question": "(Refer to Area 2 in Figure 22.) At Coeur D'Alene, which frequency should be used as a Common Traffic Advisory Frequency (CTAF) to self-announce position and intentions?",
+              "type": "multiple-choice",
+              "answers": [
+                "122.8 MHz.",
+                "122.05 MHz.",
+                "122.1/108.8 MHz."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Fig. 31 is the Chart Supplement excerpt for Coeur D'Alene Air Terminal. Look for the section titled \"Communications.\" On that same line, it states the CTAF (and UNICOM) frequency is 122.8. (Chart Supplement)",
+              "attachments": ["nav-01.png", "nav-s2.png"]
+            },
+            {
+              "id": 4116,
+              "question": "The controlled airspace located at the Corpus Christi VORTAC (Area 5) begins at",
+              "type": "multiple-choice",
+              "answers": [
+                "700 feet AGL.",
+                "the surface.",
+                "1,200 feet MSL."
+              ],
+              "correctAnswer": 0,
+              "explanation": "On Fig. 69, Area 5 is 9 NM north of Corpus Christi. The Corpus Christi VORTAC is just inside the magenta-shaded area. This indicates that Class E (controlled) airspace extends upward from 700 feet AGL to the base of the overlying airspace [here Class C airspace at 1,200 feet MSL, as indicated by the magenta solid lines and the \"40\" above the \"12\" (separated by a line), 5 NM west of the VORTAC]. (ACUG)",
+              "attachment": "nav-08.png"
+            },
+            {
+              "id": 4117,
+              "question": "(Refer to Area 2.) What hazards to aircraft may exist in areas such as Devils Lake East MOA?",
+              "type": "multiple-choice",
+              "answers": [
+                "High volume of pilot training or an unusual type of aerial activity.",
+                "Unusual, often invisible, hazards to aircraft such as artillery firing, aerial gunnery, or guided missiles.",
+                "Military training activities that necessitate acrobatic or abrupt flight maneuvers."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Military Operations Areas (MOAs), such as Devils Lake East in Fig. 26 consist of defined lateral and vertical limits that are designated for the purpose of separating military training activities from IFR traffic. Most training activities necessitate acrobatic or abrupt flight maneuvers, i.e., air combat tactics, aerobatics, and formation training. Therefore, the likelihood of a collision is increased inside an MOA. VFR traffic is permitted, but extra vigilance should be exercised in seeing and avoiding military aircraft. (AIM Para 3-4-5)",
+              "attachment": "nav-08.png"
+            },
+            {
+              "id": 4118,
+              "question": "(Refer to Area 3.) The floor of Class B airspace at Dallas Executive Airport is",
+              "type": "multiple-choice",
+              "answers": [
+                "at the surface.",
+                "3,000 feet MSL.",
+                "3,100 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Dallas Executive Airport (Fig. 25, Area 3) has a segmented blue circle around it depicting Class D airspace. Dallas Executive Airport also underlies Class B airspace as depicted by solid blue lines. The altitudes of the Class B airspace are shown to the southeast of the airport. The bottom number denotes the floor of the Class B airspace to be 3,000 feet MSL. (ACUG and 14 CFR 71.9)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 4119,
+              "question": "According to the Chart Supplement, what times can a pilot obtain fuel and services in September at Toledo Express (TOL) Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "0800 – 0000 hr. local time",
+                "0900 – 0100 hr. local time.",
+                "1300 – 0500 hr. local time."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The Airport Remarks of the Toledo Express (TOL) section of the Chart Supplement lists fuel and services as available from 1300-0500Z‡. The ‡ symbol specifies that during daylight saving time, the services are available 1 hr. earlier than shown. During standard time, 5 hr. are subtracted from Zulu time. During daylight saving time, 4 hr. are subtracted from 1200-0400 (1 hr. is already subtracted due to the ‡ symbol). (Chart Supplement)",
+              "attachment": "nav-s4.png"
+            }
           ]
         }
       }
