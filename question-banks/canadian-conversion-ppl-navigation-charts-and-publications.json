@@ -714,7 +714,7 @@
               ],
               "correctAnswer": 1,
               "explanation": "The miniature glider near the Ridgeland Airport (at 3 on Fig. 23) indicates a glider operations area. The Chart Supplement will have information on the glider operations at Ridgeland Airport. (ACUG)",
-              "attachment": "nav-13.png"
+              "attachments": ["nav-13.png", "nav-s1.png"]
             },
             {
               "id": 4056,
@@ -779,7 +779,7 @@
               ],
               "correctAnswer": 1,
               "explanation": "The miniature parachute near the Caddo Mills Airport (at 1 on Fig. 24) indicates a parachute jumping area. In Legend 1, the symbol for a parachute jumping area instructs you to see the Airport/Facility Directory section of the Chart Supplement for more information. (ACUG)",
-              "attachment": "nav-05.png"
+              "attachments": ["nav-05.png", "nav-s1.png"]
             },
             {
               "id": 4061,
@@ -947,7 +947,7 @@
               ],
               "correctAnswer": 2,
               "explanation": "Fig. 31 is the Chart Supplement excerpt for Coeur D'Alene Air Terminal. Look for the section titled \"Communications.\" On that same line, it states the CTAF (and UNICOM) frequency is 122.8. (Chart Supplement)",
-              "attachment": "nav-01.png"
+              "attachments": ["nav-01.png", "nav-s2.png"]
             },
             {
               "id": 4074,
@@ -960,7 +960,7 @@
               ],
               "correctAnswer": 2,
               "explanation": "Fig. 31 is the Chart Supplement excerpt for Coeur D'Alene Air Terminal. Look for the section titled \"Communications.\" On that same line, it states that the CTAF (and UNICOM) frequency is 122.8. The CTAF can also be found in the airport information on the sectional chart. (Chart Supplement)",
-              "attachment": "nav-01.png"
+              "attachments": ["nav-01.png", "nav-s2.png"]
             },
             {
               "id": 4075,
@@ -973,7 +973,7 @@
               ],
               "correctAnswer": 2,
               "explanation": "The correct frequency to request fuel at the Coeur D'Alene Airport is the UNICOM frequency 122.8. It is given in Fig. 22, after \"L74\" in the airport information on the sectional chart. Radio frequencies are also given in Fig. 31, the Chart Supplement, under \"Communications.\" (ACUG)",
-              "attachment": "nav-01.png"
+              "attachments": ["nav-01.png", "nav-s2.png"]
             },
             {
               "id": 4076,
@@ -1012,7 +1012,7 @@
               ],
               "correctAnswer": 2,
               "explanation": "Fig. 79 is the Chart Supplement excerpt for Sioux Gateway/Col Day Airport. Look for the section titled \"Communications.\" On that same line, it states that the CTAF frequency is 118.7 MHz. It is also located on Fig. 78 in the Sioux Gateway Airport Data Description, indicated by a \"C\" surrounded by a shaded blue circle. (Chart Supplement)",
-              "attachment": "nav-12.png"
+              "attachments": ["nav-12.png", "nav-s3.png"]
             }
           ],
           "FAA Advisory Circulars": [
@@ -1155,7 +1155,7 @@
               ],
               "correctAnswer": 2,
               "explanation": "Look at Fig. 81, the Chart Supplement excerpt for Crawford Airport, located at the given coordinates. Locate the Airport Remarks; you will see on the second line that 100LL fuel is available (avbl) for emergency use only. (Chart Supplement)",
-              "attachment": "nav-15.png"
+              "attachments": ["nav-15.png", "nav-s6.png"]
             },
             {
               "id": 4090,
@@ -1168,7 +1168,7 @@
               ],
               "correctAnswer": 0,
               "explanation": "Runway 25 has a right-hand traffic pattern. It is noted on the sectional chart excerpt (Fig. 80). Under the airport information, near Crawford Airport, the third line displays the letters \"RP 25.\" On the Chart Supplement excerpt in Fig. 81, the section titled RWY 25 has \"Rgt tfc\" (right traffic) written to give pilots the pattern direction of the west runway. (Chart Supplement)",
-              "attachment": "nav-15.png"
+              "attachments": ["nav-15.png", "nav-s6.png"]
             },
             {
               "id": 4091,
@@ -1245,6 +1245,44 @@
               ],
               "correctAnswer": 1,
               "explanation": "Chart Supplements are published every 56 days and include the most accurate information about an airport, including runways and lighting. (FAA-H-8083-25C Chap 14)"
+            }
+          ],
+          "Notices to Airmen (NOTAMs)": [
+            {
+              "id": 4097,
+              "question": "When information is disseminated about a taxiway closure, it will be located in",
+              "type": "multiple-choice",
+              "answers": [
+                "FDC NOTAMs.",
+                "NOTAM (D) distribution.",
+                "Pointer NOTAMs."
+              ],
+              "correctAnswer": 1,
+              "explanation": "NOTAMs (D) cover information such as taxiway closures and airport rotating beacon outages as well as more substantial items such as runway closures and issues that affect instrument approach availability. (AIM Para 5-1-3)"
+            },
+            {
+              "id": 4098,
+              "question": "What is the purpose of FDC NOTAMs?",
+              "type": "multiple-choice",
+              "answers": [
+                "To provide the latest information on the status of navigation facilities to all FSS facilities for scheduled broadcasts.",
+                "To issue notices for all airports and navigation facilities in the shortest possible time.",
+                "To advise of changes in flight data which affect instrument approach procedures (IAP), aeronautical charts, and flight restrictions prior to normal publication."
+              ],
+              "correctAnswer": 2,
+              "explanation": "FDC (Flight Data Center) NOTAMs are regulatory in nature and issued to establish restrictions to flight or amend charts or published instrument approach procedures. (AIM Para 5-1-3)"
+            },
+            {
+              "id": 4099,
+              "question": "Which sources of aeronautical information, when used collectively, provide the latest status of airport conditions (e.g., runway closures, runway lighting, snow conditions)?",
+              "type": "multiple-choice",
+              "answers": [
+                "Aeronautical Information Manual, aeronautical charts, and (D) NOTAMs.",
+                "Chart Supplement and FDC NOTAMs.",
+                "Chart Supplement and (D) NOTAMs."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The latest status of airport conditions can be determined by using the Chart Supplement for items that have been known for some time and (D) NOTAMs, which contain the most up-to-date data. (AIM Para 5-1-3)"
             }
           ]
         }
