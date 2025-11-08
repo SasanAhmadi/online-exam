@@ -1,0 +1,257 @@
+{
+  "subjects": {
+    "Canadian Conversion PPL": {
+      "description": "Canadian Conversion PPL Knowledge Test Questions",
+      "categories": {
+        "Stage Tests": {
+          "Test 1": [
+            {
+              "id": 1001,
+              "question": "(Refer to Area 2.) Which airport is located at approximately 47° 41 minutes 00 seconds N latitude and 101° 36 minutes 00 seconds W longitude?",
+              "type": "multiple-choice",
+              "answers": [
+                "Fischer.",
+                "Crooked Lake.",
+                "Johnson."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Referring to the chart, find the longitude (vertical) 101° W line (increases to the west) and the latitude (horizontal) 48° line (decreases to the south). The longitude line to the west of 101° is 101° 30 minutes (each additional crossline is 1 minute). Find 101° 36 minutes by moving west six additional crosslines. The latitude line south of 48° is 47° 30 minutes (each additional crossline is 1 minute). Find 47° 41 minutes by moving north an additional 11 crosslines. These two coordinates (101°36'00\"W and 47°30'00\"N) intersect over Fischer Airfield. (FAA-H-8083-25C Chap 16)",
+              "attachment": "nav-03.png"
+            },
+            {
+              "id": 1002,
+              "question": "(Refer to Area 5.) The navigation facility at Dallas-Ft. Worth International (DFW) is a",
+              "type": "multiple-choice",
+              "answers": [
+                "VOR.",
+                "VORTAC.",
+                "VOR/DME."
+              ],
+              "correctAnswer": 2,
+              "explanation": "On Fig. 25, DFW is located at the center of the chart and the navigation facility is 1 NM south of the right set of parallel runways. The symbol is a hexagon with a dot in the center within a square. This is the symbol for a VOR/DME navigation facility. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 1003,
+              "question": "(Refer to Area 7.) The airspace overlying Mc Kinney (TKI) is controlled from the surface to",
+              "type": "multiple-choice",
+              "answers": [
+                "700 feet AGL.",
+                "2,900 feet MSL.",
+                "2,500 feet MSL."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The airspace overlying Mc Kinney airport (TKI) (Fig. 25, northeast of 7) is Class D airspace as denoted by the segmented blue lines. The upper limit is depicted in a broken box in hundreds of feet MSL to the left of the airport symbol. The box contains the number \"29,\" meaning that the vertical limit of the Class D airspace is 2,900 feet MSL. (ACUG)",
+              "attachment": "nav-06.png"
+            },
+            {
+              "id": 1004,
+              "question": "At what altitude is the freezing level over the middle of Florida on the 12-hour Significant Weather Prognostic Chart?",
+              "type": "multiple-choice",
+              "answers": [
+                "4,000 feet.",
+                "8,000 feet.",
+                "12,000 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Refer to the upper panel of the Significant Weather Prognostic Chart in Fig. 19. On prog charts, the freezing level is indicated by a dashed line, with the height given in hundreds of feet MSL. In Fig. 19, there is a dashed line across the middle of Florida, marked with \"120.\" This signifies that the freezing level is 12,000 ft. MSL. (FAA-H-8083-28 Chap 27)",
+              "attachment": "sig-01.png"
+            },
+            {
+              "id": 1005,
+              "question": "What is the base of the ceiling in the following pilot report?\nKMOB UA /OV APE230010/TM 1515/FL085/TP BE20/SK BKN065/WX FV03SM HZ FU/TA 20/TB LGT",
+              "type": "multiple-choice",
+              "answers": [
+                "There is not a defined ceiling in this report.",
+                "There is a layer reported at 8,500 feet.",
+                "There is a broken layer at 6,500 feet."
+              ],
+              "correctAnswer": 2,
+              "explanation": "The PIREP is reporting a broken layer of 6,500 ft. (SK BKN065). (FAA-H-8083-25C Chap 13, AIM Para 7-1-18)"
+            },
+            {
+              "id": 1006,
+              "question": "When requesting weather information for the following morning, a pilot should request",
+              "type": "multiple-choice",
+              "answers": [
+                "an outlook briefing.",
+                "a standard briefing.",
+                "an abbreviated briefing."
+              ],
+              "correctAnswer": 0,
+              "explanation": "An outlook briefing should be requested when the briefing is 6 or more hours in advance of the proposed departure. (FAA-H-8083-28 Chap 3)"
+            },
+            {
+              "id": 1007,
+              "question": "Which in-flight advisory would contain information on severe icing not associated with thunderstorms?",
+              "type": "multiple-choice",
+              "answers": [
+                "Convective SIGMET.",
+                "SIGMET.",
+                "AIRMET."
+              ],
+              "correctAnswer": 1,
+              "explanation": "SIGMET advisories cover severe icing not associated with thunderstorms; severe or extreme turbulence or clear air turbulence not associated with thunderstorms; duststorms, sandstorms, or volcanic ash that reduce visibility to less than 3 SM; and volcanic eruption. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 1008,
+              "question": "What is indicated when a current CONVECTIVE SIGMET forecasts thunderstorms?",
+              "type": "multiple-choice",
+              "answers": [
+                "Moderate thunderstorms covering 30 percent of the area.",
+                "Moderate or severe turbulence.",
+                "Thunderstorms obscured by massive cloud layers."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Convective SIGMETs are issued for tornadoes, lines of thunderstorms, embedded (i.e., obscured by massive cloud layers) thunderstorms of any intensity level, areas of thunderstorms greater than or equal to VIP level 4 with an area coverage of 40% or more, and hail 3/4 in. or greater. (FAA-H-8083-28 Chap 27)"
+            },
+            {
+              "id": 1009,
+              "question": "Which operation would be described as preventive maintenance?",
+              "type": "multiple-choice",
+              "answers": [
+                "Servicing landing gear wheel bearings.",
+                "Alteration of main seat support brackets.",
+                "Engine adjustments to allow automotive gas to be used."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Appendix A to Part 43 provides a list of work that is considered preventive maintenance. Preventive maintenance means simple or minor preservation operations and the replacement of small standard parts not involving complex assembly operations. Servicing landing gear wheel bearings, such as cleaning and greasing, is considered preventive maintenance. (14 CFR Part 43 App A)"
+            },
+            {
+              "id": 1010,
+              "question": "With certain exceptions, safety belts are required to be secured about passengers during",
+              "type": "multiple-choice",
+              "answers": [
+                "taxi, takeoffs, and landings.",
+                "all flight conditions.",
+                "flight in turbulent air."
+              ],
+              "correctAnswer": 0,
+              "explanation": "During the taxi, takeoff, and landing of U.S.-registered civil aircraft, each person on board that aircraft must occupy a seat or berth with a safety belt and shoulder harness, if installed, properly secured about their person. However, a person who has not reached his or her second birthday may be held by an adult who is occupying a seat or berth, and a person on board for the purpose of engaging in sport parachuting may use the floor of the aircraft as a seat (but is still required to use approved safety belts for takeoff). (14 CFR 91.107)"
+            },
+            {
+              "id": 1011,
+              "question": "The operator of an aircraft that has been involved in an accident is required to file an NTSB accident report within how many days?",
+              "type": "multiple-choice",
+              "answers": [
+                "5",
+                "7",
+                "10"
+              ],
+              "correctAnswer": 2,
+              "explanation": "The operator of an aircraft shall file a report on NTSB Form 6120.1 within 10 days after an accident, or after 7 days if an overdue aircraft is still missing. A report on an incident for which notification is required shall be filed only as required. (NTSB 830.15)"
+            },
+            {
+              "id": 1012,
+              "question": "As Pilot in Command of an aircraft, under which situation can you deviate from an ATC clearance?",
+              "type": "multiple-choice",
+              "answers": [
+                "When operating in Class A airspace at night.",
+                "If an ATC clearance is not understood and in VFR conditions.",
+                "In response to a traffic alert and collision avoidance system resolution advisory."
+              ],
+              "correctAnswer": 2,
+              "explanation": "No pilot may deviate from an ATC clearance unless an amended clearance is obtained, an emergency exists, or the deviation is in response to a traffic alert and collision avoidance system resolution advisory. A written report of the deviation must be sent to the Administrator of the FAA only if requested. (14 CFR 91.123)"
+            },
+            {
+              "id": 1013,
+              "question": "An aircraft had a 100-hour inspection when the tachometer read 1259.6. When is the next 100-hour inspection due?",
+              "type": "multiple-choice",
+              "answers": [
+                "1349.6 hours.",
+                "1359.6 hours.",
+                "1369.6 hours."
+              ],
+              "correctAnswer": 1,
+              "explanation": "The next 100-hour inspection is due within 100 hours of time in service. The 100-hour may be exceeded by 10 hours in order to get to a place where the work can be done. However, this additional time is included in computing the next 100-hour period. Therefore, in this question, add 100 hours to 1259.6 to get the next inspection, due at 1359.6 hours. (14 CFR 91.409)"
+            },
+            {
+              "id": 1014,
+              "question": "When should pilots decline a land and hold short (LAHSO) clearance?",
+              "type": "multiple-choice",
+              "answers": [
+                "When it will compromise safety.",
+                "Pilots cannot decline clearance.",
+                "Only when the tower operator concurs."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Land and hold short operations (LAHSO) take place at some airports with an operating control tower in order to increase the total capacity and improve the flow of traffic. LAHSO requires that a pilot not use the full length of the runway, but rather stop and hold short before reaching an intersecting runway, taxiway, or other specified point on the landing runway. LAHSO requires familiarity with the available landing distance (ALD) for given LAHSO combinations and with the landing performance of the aircraft. Pilots are expected to decline a land and short clearance if they determine that it will compromise safety. (AIM Para 4-3-11)"
+            },
+            {
+              "id": 1015,
+              "question": "What minimum visibility and clearance from clouds are required for VFR operations in Class G airspace at 700 feet AGL or below during daylight hours?",
+              "type": "multiple-choice",
+              "answers": [
+                "1 mile visibility and clear of clouds.",
+                "1 mile visibility, 500 feet below, 1,000 feet above, and 2,000 feet horizontal clearance from clouds.",
+                "3 miles visibility and clear of clouds."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Below 1,200 feet AGL in Class G airspace during daylight hours, the VFR weather minimum is 1 statute mile visibility and clear of clouds. (14 CFR 91.155)"
+            },
+            {
+              "id": 1016,
+              "question": "Unless otherwise authorized, which situation requires Automatic Dependent Surveillance-Broadcast (ADS-B)?",
+              "type": "multiple-choice",
+              "answers": [
+                "Overflying Class C airspace below 10,000 feet MSL.",
+                "Landing at an airport with an operating control tower.",
+                "Flying under the shelf of Class C airspace."
+              ],
+              "correctAnswer": 0,
+              "explanation": "ADS-B equipment that meets the requirements of 14 CFR 91.227 is required above the ceiling and within the lateral boundaries of a Class C airspace area designated for an airport upward to 10,000 ft. MSL. (FAA-H-8083-3C Chap 3)"
+            },
+            {
+              "id": 1017,
+              "question": "Enhanced taxiway centerline markings are enhanced for a maximum of how many feet prior to the runway holding position markings?",
+              "type": "multiple-choice",
+              "answers": [
+                "150",
+                "100",
+                "50"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Enhanced taxiway centerlines will begin 150 ft. prior to the runway holding position markings to draw attention to the approaching runway entrance and holding position and to advise pilots to prepare to stop unless they have been cleared onto or across the runway by ATC. (AIM Para 2-3-4)"
+            },
+            {
+              "id": 1018,
+              "question": "Unless otherwise authorized, if flying a transponder equipped aircraft, a pilot should squawk which VFR code?",
+              "type": "multiple-choice",
+              "answers": [
+                "7700",
+                "7600",
+                "1200"
+              ],
+              "correctAnswer": 2,
+              "explanation": "A pilot flying a transponder-equipped aircraft should set that transponder on code (squawk) 1200, which is the VFR code. (AIM Para 4-1-20)"
+            },
+            {
+              "id": 1019,
+              "question": "Is it legal to fly on the dealer's registration after a buyer purchased an airplane from that dealer?",
+              "type": "multiple-choice",
+              "answers": [
+                "No, the airplane cannot be flown by the buyer and has to be registered.",
+                "Yes, the airplane can be flown by the buyer for 30 days.",
+                "Yes, the airplane can be flown by the buyer for 120 days."
+              ],
+              "correctAnswer": 0,
+              "explanation": "A Dealer's Aircraft Registration Certificate is another form of registration. It is valid only for flights within the United States by the manufacturer or a dealer for flight testing or demonstration for sale and must be removed by the dealer when the aircraft is sold. The back side of the registration is filled out with the appropriate information from the sale as well as the new owner's name. The certificate must then be mailed back to the FAA registry in Oklahoma City. Doing so protects the buyer and seller. This requirement is law under 14 CFR 47.41(b), which became effective March 31, 2008. (14 CFR Part 47)"
+            },
+            {
+              "id": 1020,
+              "question": "Which operation would be described as preventive maintenance?",
+              "type": "multiple-choice",
+              "answers": [
+                "Repair of landing gear brace struts.",
+                "Replenishing hydraulic fluid.",
+                "Repair of portions of skin sheets by making additional seams."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Appendix A to Part 43 provides a list of work that is considered preventive maintenance. Preventive maintenance means simple or minor preservation operations and the replacement of small standard parts not involving complex assembly operations. An example of preventive maintenance is replenishing hydraulic fluid. (14 CFR Part 43 App A)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
