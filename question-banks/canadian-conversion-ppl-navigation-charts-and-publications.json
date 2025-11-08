@@ -1,0 +1,103 @@
+{
+  "subjects": {
+    "Canadian Conversion PPL": {
+      "description": "Canadian Conversion PPL Knowledge Test Questions",
+      "categories": {
+        "Navigation: Charts and Publications": {
+          "Longitude and Latitude": [
+            {
+              "id": 4001,
+              "question": "(Refer to Area 3.) Determine the approximate latitude and longitude of Shoshone County Airport.",
+              "type": "multiple-choice",
+              "answers": [
+                "47°02'N – 116°11'W.",
+                "47°33'N – 116°11'W.",
+                "47°32'N – 116°41'W."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Shoshone County Airport is below 3, just west of the 116° line of longitude. There are 60 min. between the 116° line and the 117° line, depicted in 1-min. tick marks. Shoshone is 11 tick marks (11 min.) past the 116° line. Find the labeled 48° latitude line just northeast of the 116° line. The latitude and longitude lines are presented each 30 min. Since lines of latitude are also divided into 1 min. tick marks, the airport is three tick marks above the 47°30' line or 47°33'N. The correct latitude and longitude is thus 47°33'N – 116°11'W. (FAA-H-8083-25C Chap 16)",
+              "attachment": "nav-01.png"
+            },
+            {
+              "id": 4002,
+              "question": "Which statement about longitude and latitude is true?",
+              "type": "multiple-choice",
+              "answers": [
+                "Lines of longitude are parallel to the Equator.",
+                "Lines of longitude cross the Equator at right angles.",
+                "The 0° line of latitude passes through Greenwich, England."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Lines of longitude are drawn from the north pole to the south pole and cross the equator at right angles. They indicate the number of degrees east and west of the 0° line of longitude, which passes through Greenwich, England. (FAA-H-8083-25C Chap 16)"
+            },
+            {
+              "id": 4003,
+              "question": "(Refer to Area 2.) What is the approximate latitude and longitude of Cooperstown Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "47°25'N – 98°06'W.",
+                "47°25'N – 99°54'W.",
+                "47°55'N – 98°06'W."
+              ],
+              "correctAnswer": 0,
+              "explanation": "First locate the Cooperstown Airport on Fig. 26. It is just above 2, middle right of chart. Note that it is to the left (west) of the 98° line of longitude. The line of longitude on the left side of the chart is 99°. Thus, the longitude is a little bit more than 98°W, but not near 99°W. With respect to latitude, note that Cooperstown Airport is just below a line of latitude that is not marked in terms of degrees. However, the next line of latitude below is 47° (see the left side of the chart, northwest of Jamestown Airport). As with longitude, there are two lines of latitude for every degree of latitude; i.e., each line is 30 min. Thus, latitude of the Cooperstown Airport is almost 47°30'N, but not quite. Accordingly, Cooperstown Airport's latitude is 47°25'N and longitude is 98°06'W. (FAA-H-8083-25C Chap 16)",
+              "attachment": "nav-02.png"
+            },
+            {
+              "id": 4004,
+              "question": "(Refer to Area 2.) Which airport is located at approximately 47° 41 minutes 00 seconds N latitude and 101° 36 minutes 00 seconds W longitude?",
+              "type": "multiple-choice",
+              "answers": [
+                "Fischer.",
+                "Crooked Lake.",
+                "Johnson."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Referring to the chart, find the longitude (vertical) 101° W line (increases to the west) and the latitude (horizontal) 48° line (decreases to the south). The longitude line to the west of 101° is 101° 30 minutes (each additional crossline is 1 minute). Find 101° 36 minutes by moving west six additional crosslines. The latitude line south of 48° is 47° 30 minutes (each additional crossline is 1 minute). Find 47° 41 minutes by moving north an additional 11 crosslines. These two coordinates (101°36'00\"W and 47°30'00\"N) intersect over Fischer Airfield. (FAA-H-8083-25C Chap 16)",
+              "attachment": "nav-03.png"
+            },
+            {
+              "id": 4005,
+              "question": "(Refer to Area 2.) Which airport is located at approximately 47°34'30\"N latitude and 100°43'00\"W longitude?",
+              "type": "multiple-choice",
+              "answers": [
+                "Linrud.",
+                "Makeeff.",
+                "Johnson."
+              ],
+              "correctAnswer": 1,
+              "explanation": "On Fig. 21, you are asked to locate an airport at 47°34'30\"N latitude and 100°43'W longitude. Note that the 101°W longitude line runs down the middle of the figure. Accordingly, the airport you are seeking is 17 min. to the east of that line. Each crossline is 1 min. on the latitude and longitude lines. The 48°N latitude line is approximately two-thirds of the way up the chart. The 47°30'N latitude line is about one-fourth of the way up. One-third up from 47°30'N to 48°N latitude would be 47°34'N. At this spot is Makeeff Airport. (FAA-H-8083-25C Chap 16)",
+              "attachment": "nav-03.png"
+            },
+            {
+              "id": 4006,
+              "question": "(Refer to Area 3.) Which airport is located at approximately 47°21'N latitude and 101°01'W longitude?",
+              "type": "multiple-choice",
+              "answers": [
+                "Underwood.",
+                "Pietsch.",
+                "Washburn."
+              ],
+              "correctAnswer": 2,
+              "explanation": "On Fig. 21, find the 48° line of latitude (2/3 up the figure). Start at the 47°30' line of latitude (the line below the 48° line) and count down nine tick marks to the 47°21'N tick mark and draw a horizontal line on the chart. Next find the 101° line of longitude and go left one tick mark and draw a vertical line. The closest airport is Washburn. (FAA-H-8083-25C Chap 16)",
+              "attachment": "nav-03.png"
+            },
+            {
+              "id": 4007,
+              "question": "(Refer to Area 3.) Determine the approximate latitude and longitude of Currituck County Airport.",
+              "type": "multiple-choice",
+              "answers": [
+                "36°24'N – 76°01'W.",
+                "36°48'N – 76°01'W.",
+                "47°24'N – 75°58'W."
+              ],
+              "correctAnswer": 0,
+              "explanation": "On Fig. 20, find the Currituck County Airport, which is northeast of Area 3. Note that the airport symbol is just to the west of 76° longitude (find 76° just north of Virginia Beach). There are 60 min. between the 76°W and 77°W lines of longitude, with each tick mark depicting 1 min. The airport is one tick mark to the west of the 76° line, or 76°01'W. The latitude is below the 30-min. latitude line across the center of the chart. See the numbered latitude lines at the top (37°) of the chart. Since each tick mark represents 1 min. of latitude, and the airport is approximately six tick marks south of the 36°30'N latitude, the airport is at 36°24'N latitude. Thus, Currituck County Airport is at approximately 36°24'N – 76°01'W. (FAA-H-8083-25C Chap 16)",
+              "attachment": "nav-04.png"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
