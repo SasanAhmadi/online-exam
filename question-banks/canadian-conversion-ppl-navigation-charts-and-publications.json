@@ -1064,6 +1064,188 @@
               "correctAnswer": 1,
               "explanation": "FAA advisory circulars are numbered based on the numbering system used in the Federal Aviation Regulations:\n   60 -- Airmen\n   70 -- Airspace\n   90 -- Air Traffic and General Operating Rules (www.faa.gov)"
             }
+          ],
+          "Chart Supplements": [
+            {
+              "id": 4083,
+              "question": "According to the Chart Supplement, what times can a pilot obtain fuel and services in September at Toledo Express (TOL) Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "0900 – 0100 hr. local time.",
+                "1300 – 0500 hr. local time.",
+                "0800 – 0000 hr. local time"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The Airport Remarks of the Toledo Express (TOL) section of the Chart Supplement lists fuel and services as available from 1300-0500Z‡. The ‡ symbol specifies that during daylight saving time, the services are available 1 hr. earlier than shown. During standard time, 5 hr. are subtracted from Zulu time. During daylight saving time, 4 hr. are subtracted from 1200-0400 (1 hr. is already subtracted due to the ‡ symbol). (Chart Supplement)",
+              "attachment": "nav-s4.png"
+            },
+            {
+              "id": 4084,
+              "question": "When approaching Lincoln Municipal from the west at noon for the purpose of landing, initial communications should be with",
+              "type": "multiple-choice",
+              "answers": [
+                "Lincoln Approach Control on 124.0 MHz.",
+                "Minneapolis Center on 128.75 MHz.",
+                "Lincoln Tower on 118.5 MHz."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Fig. 52 contains the Chart Supplement excerpt for Lincoln Municipal. Locate the section titled Airspace and note that Lincoln Municipal is located in Class C airspace. The Class C airspace is in effect from 0530-0000 local time (1130-0600Z). You should contact approach control (app con) during that time before entering. Move up two lines to App/Dep Con and note that aircraft arriving from the west of Lincoln (i.e., 180° – 359°) at noon should initially contact Lincoln Approach Control on 124.0. (Chart Supplement)",
+              "attachment": "nav-s5.png"
+            },
+            {
+              "id": 4085,
+              "question": "Traffic patterns in effect at Lincoln Municipal are",
+              "type": "multiple-choice",
+              "answers": [
+                "to the right on Runway 14 and Runway 32; to the left on Runway 18 and Runway 35.",
+                "to the left on Runway 14 and Runway 32; to the right on Runway 18 and Runway 35.",
+                "to the right on Runways 14 - 32."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Fig. 52 contains the Chart Supplement excerpt for Lincoln Municipal. For this question, you need to locate the runway end data elements, i.e., Rwy 18, Rwy 14, Rwy 32, Rwy 17, Rwy 35, and Rwy 36. Traffic patterns are to the left unless right traffic is noted by the contraction \"Rgt tfc.\" The only runways with right traffic are Rwy 18 and Rwy 35. (Chart Supplement)",
+              "attachment": "nav-s5.png"
+            },
+            {
+              "id": 4086,
+              "question": "Which type radar service is provided to VFR aircraft at Lincoln Municipal?",
+              "type": "multiple-choice",
+              "answers": [
+                "Sequencing to the primary Class C airport and standard separation.",
+                "Sequencing to the primary Class C airport and conflict resolution so that radar targets do not touch, or 1,000 feet vertical separation.",
+                "Sequencing to the primary Class C airport, traffic advisories, conflict resolution, and safety alerts."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Fig. 52 contains the Chart Supplement excerpt for Lincoln Municipal. Locate the section titled Airspace to determine that Lincoln Municipal is located in Class C airspace. Once communications and radar contact are established, VFR aircraft are provided the following services:\n1. Sequencing to the primary airport\n2. Approved separation between IFR and VFR aircraft\n3. Basic radar services, i.e., safety alerts, limited vectoring, and traffic advisories\nThe FAA should change \"conflict resolution\" to \"limited vectoring\" in the future. (Chart Supplement, AIM Para 4-1-17)",
+              "attachment": "nav-s5.png"
+            },
+            {
+              "id": 4087,
+              "question": "What is the recommended communications procedure for landing at Lincoln Municipal during the hours when the tower is not in operation?",
+              "type": "multiple-choice",
+              "answers": [
+                "Monitor airport traffic and announce your position and intentions on 118.5 MHz.",
+                "Contact UNICOM on 122.95 MHz for traffic advisories.",
+                "Monitor ATIS for airport conditions, then announce your position on 122.95 MHz."
+              ],
+              "correctAnswer": 0,
+              "explanation": "When the Lincoln Municipal tower is closed, you should monitor airport traffic and announce your position and intentions on the CTAF. Fig. 52 contains the Chart Supplement excerpt for Lincoln Municipal. Locate the section titled Communications and note that on that same line the CTAF frequency is 118.5. (Chart Supplement)",
+              "attachment": "nav-s5.png"
+            },
+            {
+              "id": 4088,
+              "question": "Where is Loup City Municipal located with relation to the city?",
+              "type": "multiple-choice",
+              "answers": [
+                "Northwest approximately 4 miles.",
+                "Northwest approximately 1 mile.",
+                "East approximately 7 miles."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Fig. 52 contains the Chart Supplement excerpt for LOUP CITY MUNI (the second airport listed). On the first line, the third item listed is 1 NW, meaning the airport is located approximately 1 NM northwest of the associated city. (Chart Supplement)",
+              "attachment": "nav-s5.png"
+            },
+            {
+              "id": 4089,
+              "question": "Refer to Crawford Airport (N38°42.25' W107°38.62'). Is fuel ever available at Crawford Airport?",
+              "type": "multiple-choice",
+              "answers": [
+                "Yes, whenever the airport is attended by airport personnel.",
+                "No, as there is no \"star\" symbol near the airport on the chart, there is no fuel available at this airport.",
+                "Yes, 100LL fuel is available for emergency use only."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Look at Fig. 81, the Chart Supplement excerpt for Crawford Airport, located at the given coordinates. Locate the Airport Remarks; you will see on the second line that 100LL fuel is available (avbl) for emergency use only. (Chart Supplement)",
+              "attachment": "nav-15.png"
+            },
+            {
+              "id": 4090,
+              "question": "Refer to Crawford Airport (N38°42.25' W107°38.62'). What is the traffic pattern for Runway 25?",
+              "type": "multiple-choice",
+              "answers": [
+                "Right hand traffic pattern.",
+                "Left hand traffic pattern.",
+                "It does not matter because it is an uncontrolled airport."
+              ],
+              "correctAnswer": 0,
+              "explanation": "Runway 25 has a right-hand traffic pattern. It is noted on the sectional chart excerpt (Fig. 80). Under the airport information, near Crawford Airport, the third line displays the letters \"RP 25.\" On the Chart Supplement excerpt in Fig. 81, the section titled RWY 25 has \"Rgt tfc\" (right traffic) written to give pilots the pattern direction of the west runway. (Chart Supplement)",
+              "attachment": "nav-15.png"
+            },
+            {
+              "id": 4091,
+              "question": "The acronym for a computerized command response system that provides automated weather, radio check capability, and airport advisory information selected from an automated menu by microphone clicks is",
+              "type": "multiple-choice",
+              "answers": [
+                "GCA.",
+                "AUNICOM.",
+                "UNICOM"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The AUNICOM provides automated weather, radio check capability, and airport advisory information selected from an automated menu by microphone clicks. (Chart Supplement)",
+              "attachment": "nav-s7.png"
+            },
+            {
+              "id": 4092,
+              "question": "What depicts a Class E airspace that begins at 700 feet AGL?",
+              "type": "multiple-choice",
+              "answers": [
+                "A dashed blue circle around an airport.",
+                "A solid magenta circle around an airport.",
+                "A magenta vignette around an airport."
+              ],
+              "correctAnswer": 2,
+              "explanation": "Class E airspace floor begins at 700 feet AGL. It is depicted by a magenta vignette circle or area around an airport. (AIM Para 3-2-6)",
+              "attachment": "nav-s8.png"
+            },
+            {
+              "id": 4093,
+              "question": "If the SSV Class of VORTAC is listed as a Terminal Class, the altitudes and distance to adequately receive the signal of the VORTAC is",
+              "type": "multiple-choice",
+              "answers": [
+                "1,000 feet to 12,000 feet and 25 NM.",
+                "1,000 feet to 18,000 feet and 40 NM.",
+                "1,000 feet up to 60,000 feet and up to 130 NM."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The (T) or Terminal Class VORTAC can be received at 1,000 ft. to 12,000 ft. and 25 NM. (Chart Supplement)",
+              "attachment": "nav-s9.png"
+            },
+            {
+              "id": 4094,
+              "question": "According to the Chart Supplement, what are the operational requirements of a VORTAC?",
+              "type": "multiple-choice",
+              "answers": [
+                "VHF navigational facility with omnidirectional course only.",
+                "Collocated VOR navigational facility and UHF standard distance measuring equipment.",
+                "Collocated VOR and TACAN navigational facilities."
+              ],
+              "correctAnswer": 2,
+              "explanation": "According to the Chart Supplement, a VORTAC has the operational requirements of collocated VOR and TACAN navigational facilities. (Chart Supplement)",
+              "attachment": "nav-s10.png"
+            },
+            {
+              "id": 4095,
+              "question": "You are preflight planning in the morning before an afternoon flight. Where would you find information regarding an \"Airport surface hot spot?\"",
+              "type": "multiple-choice",
+              "answers": [
+                "Call the Automated Flight Service Station.",
+                "In the Chart Supplements U.S.",
+                "In the NOTAMs during your preflight briefing."
+              ],
+              "correctAnswer": 1,
+              "explanation": "An \"airport surface hot spot\" is a runway safety related problem area or intersection on an airport. Information regarding airport surface hot spots can be found in the Chart Supplements U.S. (FAA-H-8083-25C Chap 14)"
+            },
+            {
+              "id": 4096,
+              "question": "To avoid landing at the wrong airport or runway, pilots should",
+              "type": "multiple-choice",
+              "answers": [
+                "consult the Aeronautical Information Manual.",
+                "consult airport diagrams and Chart Supplements.",
+                "contact the airport UNICOM frequency for runway advisory."
+              ],
+              "correctAnswer": 1,
+              "explanation": "Chart Supplements are published every 56 days and include the most accurate information about an airport, including runways and lighting. (FAA-H-8083-25C Chap 14)"
+            }
           ]
         }
       }
